@@ -22,6 +22,7 @@ class WikidotToMarkdown(object):
                                     r'([^:])//([\s\S ]*?)//': r'\1*\2*', # italics
                                     r'([^:])__([\s\S ]*?)__': r'\1**\2**', # underlining → bold
                                     r'([^:]){{([\s\S ]*?)}}': r'\1`\2`', # inline monospaced text
+                                    r'\[\[\[(.*)\]\]\]': r'[\1](\1)', # inline monospaced text
                                   }
         self.regex_split_condition = r"^\+ ([^\n]*)$"
 
@@ -33,11 +34,11 @@ class WikidotToMarkdown(object):
         for code_block_found in code_blocks_found:
             tmp_hash = str(uuid.uuid4())
             text = text.replace(code_block_found[0],tmp_hash,1) # replace code block with a hash - to fill it in later
-            code_blocks[tmp_hash] = "\n"+string.join(["    " + l for l in code_block_found[-1].strip().split("\n") ],"\n")+"\n"
-        for search, replacement in self.static_replacements.items():
+            code_blocks[tmp_hash] = "\n"+"\n".join(["    " + l for l in code_block_found[-1].strip().split("\n") ])+"\n"
+        for search, replacement in list(self.static_replacements.items()):
             text = text.replace(search,replacement,1)
         # search for any of the simpler replacements in the dictionary regex_replacements
-        for s_reg, r_reg in self.regex_replacements.items():
+        for s_reg, r_reg in list(self.regex_replacements.items()):
             text = re.sub(re.compile(s_reg,re.MULTILINE),r_reg,text)
         # search for simple http://www.google.com links:
         for link in re.finditer(r"[\s\S\n ]("+self.url_regex+r")", text):
@@ -49,9 +50,9 @@ class WikidotToMarkdown(object):
             text = text.replace(link.group(0),"[%s](%s)" % (link.groups()[-1],link.group(1)),1)
         # search for unhandled tags and state them
         for unhandled_tag in re.finditer(r"\[\[/([\s\S ]*?)\]\]", text):
-            print("Found an unhandled tag: %s" % unhandled_tag.group(1))
+            print(("Found an unhandled tag: %s" % unhandled_tag.group(1)))
         # now we substitute back our code blocks
-        for tmp_hash, code in code_blocks.items():
+        for tmp_hash, code in list(code_blocks.items()):
             text = text.replace(tmp_hash, code, 1)
         return text[1:-1]
 
@@ -60,6 +61,9 @@ class WikidotToMarkdown(object):
         split_regex = re.compile(self.regex_split_condition)
         for line in text.split("\n"):
             line += "\n"
-            if len(output_parts) > 0 and (re.match(split_regex,line) == None): output_parts[-1] += line
-            else: output_parts.append(line)
+            if len(output_parts) > 0 and (re.match(split_regex,line) == None):
+                output_parts[-1] += line
+            else:
+                output_parts.append(line)
+
         return output_parts
