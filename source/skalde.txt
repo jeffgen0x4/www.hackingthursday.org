@@ -1,0 +1,70 @@
++ 取得程式碼:
+  http://code.google.com/p/skalde-yhd/source/checkout  ( 這次活動先暫時用這個，作好之後再 merge )
+
+[[code]]
+hg clone https://skalde-yhd.googlecode.com/hg/ skalde-yhd 
+[[/code]]
+
++ UI 介面的概念源起:
+http://demos111.mootools.net/Fx.Scroll
+
+
++ 程式架構簡介:
+  UI 在 /ui ，可以直接用瀏覽器開 /ui/index.html
+  Database 是 /cgi-src , 由 Thinker 用 c 所寫的 sqlite 查詢 CGI 程式
+
+ 
++ 行前準備:
+  * 需要學一下 hg  [http://mercurial.selenic.com/wiki/Download 下載安裝]
+  * 裝一下 firebug [https://addons.mozilla.org/zh-TW/firefox/addon/1843 下載安裝]
+
+
++ 原始專案的 Repository:
+  hg clone http://hg.assembla.com/skalde
+
++ 線上實驗站:
+目前已經設定 http://deep.tw:8080/ 每 10 分鐘 hg pull && hg update 一次，所以如果各位有想看到最新進度，可以前往查看。
+( 感謝 pct's 熱血設定 )
+
++ GAE 的開發設定:
+主頁面仍放在 assets 的 index.html
+這是因為 app.yaml 有特別指定 / 會指向 assets/index.html
+
+另外補充，要讓這個程式可以 work, 請在 http://code.google.com/intl/zh-TW/appengine/downloads.html 下載 GAE SDK
+然後解壓縮 SDK，並將自己的 $PATH 加入 SDK 目錄，例如我是放在 ~/bin/google_appengine
+
+接著，就是 cd skalde && dev_appserver.py .
+
+這樣就可以將 server 跑在 http://localhost:8080
+更詳細的執行方式，如 dev_appserver.py . -a deep.tw -p 8080 就是執行在 deep.tw 的 8080 port
+這些都可以直接執行 dev_appserver.py 來查看。
+
+以上是標準 GAE SDK 執行的方式。 
+
++ 協同作業頁面:
+http://deep.tw:8080/idx.html 
+
+
++ Q&A:
+
+Q: message 的資料欄位跟資料結構在那裡
+A: 在 /ui/js/types.js 有 Message 跟 Postit 的資料欄位，然後 /ui/js/Skalde.js 則是與 cgi 存取 list/add/del/up 的 api.
+
+Q: 上傳失敗，出現下述的訊息 
+pushing to https://skalde-yhd.googlecode.com/hg/
+searching for changes
+http authorization required
+realm: Google Code Mercurial Repository
+user: xxxx@gmail.com
+password: 
+abort: authorization failed
+
+A: 使用者名稱不用加 "@gmail.com"，然後密碼請用google code 為每個人展開的密碼，
+http://code.google.com/hosting/settings
+
+Q: 每次都要打密碼很麻煩，有沒有存密碼的方法?
+A: 有，請直接編輯 YOUR_PROJECT/.hg/hgrc ，加上 username 及 password 就可以了
+[[code]]
+[paths]
+default = https://登入名稱:密碼@skalde-yhd.googlecode.com/hg/
+[[/code]]
