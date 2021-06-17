@@ -1,0 +1,31 @@
+[[[ 2012-09-06 |上一週]]] || [[[ 2012-09-20 |下一週]]]
+
+[[toc]]
+
++ yuren
+http://yurenju.wufoo.com/reports/tshirt/
+
++ dlin
+dlin: 拿到 MK802 II 覺得手冊很傷眼的朋友，我將手冊電子檔放到 google doc, 網址放在底下的 manual 裏
+http://www.twpda.com/2012/09/mk802-ii-my-first-mini-android-pc.html
+
++ hanamizuki
+Login Failure Daemon
+LFD is a process that periodically checks for potential threats to a server such as brute-force login attempts and if  found blocks the IP address attempting to attack that server. 
+監視網絡交通, 紀錄錯誤的密碼嘗試並阻擋 (支持多種協議)
+http://configserver.com/cp/csf.html
+http://www.computerhope.com/jargon/l/lfd.htm
+
++ benlin
+Adminer - Database management in single PHP file
+
++ Mat
+http://www.thewebhostinghero.com/articles/simple-apache-optimization-tip.html
+
++ yan
+windows get current user SID from command line
+
+[[code]]
+For /F %I in ('wmic useraccount where name^="%username%" get sid ^| findstr ^2') Do Set SID=%I
+echo %SID%
+[[/code]]

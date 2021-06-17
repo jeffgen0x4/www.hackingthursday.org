@@ -1,0 +1,11 @@
+[[[ 2016-04-07 |上一週]]] || [[[ 2016-04-21 |下一週]]]
+
+[[toc]]
+
++ greg
+SICP -Structure and Interpretation of Computer Programs. One of the bibles of the LISP/Scheme world
+https://mitpress.mit.edu/sicp/
+
++ yan
+STF - Smartphone Test Farm
+http://openstf.io/

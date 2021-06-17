@@ -1,0 +1,29 @@
+[[[ 2014-01-30 |上一週]]] || [[[ 2014-02-13 |下一週]]]
+
+[[toc]]
+
++ hab
+LoNote - Personal Notebook
+https://bitbucket.org/civalin/lonote
+
++ peter 
+XBRL - eXtensible Business Reporting Language
+
+Arelle -  open source XBRL platform
+https://github.com/Arelle/Arelle‎
+
+
++ Carl 
+
+ libghc-pandoc-types-dev
+ 
++ yan
+
+
+retext - Simple text editor for Markdown and reStructuredText
+
+[[code]]
+# apt-get install python3-docutils python3-markdown retext
+[[/code]]
+
+gourmet - Recipe organizer and shopping list generator.

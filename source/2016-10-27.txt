@@ -1,0 +1,20 @@
+[[[ 2016-10-20 |上一週]]] || [[[ 2016-11-03 |下一週]]]
+
+[[toc]]
+
++ DreamerC (Shan-Bin Chen)
+香港 無線電 偵測落雷
+
++ qerter
+Application Container: Docker
+Full OS Container: LXD
+
+bytefish/facerec - Implements face recognition algorithms for MATLAB/GNU Octave and Python.
+https://github.com/bytefish/facerec
+
++yan
+jheising/HAPI: A spec for Humanized web APIs
+https://github.com/jheising/HAPI
+
+cmusatyalab/openface - Face recognition with deep neural networks.
+https://github.com/cmusatyalab/openface

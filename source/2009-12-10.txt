@@ -1,0 +1,166 @@
+[[[2009-12-03 |上一週]]] || [[[2009-12-17 |下一週]]]
+
+[[toc]]
+
++ 前情提要
+這一頁會固定於前一天週三中午附加在聚會通告的 Email 裡
+若你也有想要分享的內容，也隨時歡迎你自助編輯加上你想分享的消息嘍 :-)
+
+
+最近的熱門討論:
+# Hacking Thursday 跨年的去處  http://groups.google.com/group/hackingthursday/browse_thread/thread/a48b18726a9d6bba
+
+ 
+這陣子有分享到的經典文章:
+* Tsung: Vim session 與 狀態列 修改 http://plog.longwin.com.tw/my_note-unix/2009/10/23/vim-session-status-bar-2009
+* Fourdollars: vim mksession 技 五分鐘快講  http://groups.google.com/group/hackingthursday/browse_thread/thread/775f461351551a4a
+* Fourdollars: 
+  * GCC C++ Compiler 會聰明地幫你還原 const 變數的數值 http://fourdollars.blogspot.com/2009/11/gcc-c-compiler-const.html
+  * GCC C++ Compiler 對於 const 變數的處理到底會有多聰明呢？ http://fourdollars.blogspot.com/2009/11/gcc-c-compiler-const_15.html
+  * GCC C++ Compiler 根本沒有還原 const 變數的數值，只不過先行代換掉使用 const 變數的地方。 http://fourdollars.blogspot.com/2009/11/gcc-c-compiler-const-const.html
+
+其他有趣的新聞跟連結:
+//Hacking Thursday 最近有了 facebook group! 歡迎大家加入～～//
+http://groups.google.com/group/hackingthursday/browse_thread/thread/b61f64dcf395e784
+http://www.facebook.com/group.php?gid=173053565674
+
+ 大家最近在作的東西:
+
++ Fourdollars:
+Callback function
+可變長度的參數
+作一個通用的 callback 跟回傳參數的方法
+Scons 很適合測試小程式
+
+
++ Tsung:
+vimdiff
+到相對應的行數，然後按 dp ，就會自動 copy 到另一邊; 用 do 另一邊的丟回來; 按 Ctrl+w [left|reght] 可以切換到 [左邊|右邊]
+按 gf 可以直接開那個檔名
+
++ AceLan:
+提到一個筆記的軟體叫作 BasKet Note Pads
+
+software suspend 2  => TuxOnIce , user space 
+swsuspend2 在 kernel 沒有了
+
+Rex: 我不用 suspend 的原因是，我的 swap 有加密 
+sudo hibernates
+AceLan v.s. Fourdollars ( AceLan 大勝! )
+swap 之前，會先將 cache 清掉
+echo 1,2,3 > /proc/sys/vm/drop_caches
+
+http://www.tuxonice.net/features.html
+
+
++ Rex:
+備份工具 duplicity
+
++ yan:
+http://www.flickr.com/photos/7193204@N06/4173860527/
+使用 tftpd-hpa、dhcp3-server 和 alternate/server (或下載網路安裝版)光碟中 install/netboot/ 取出所需檔案, 完成 PXE 安裝 ubuntu
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 8.04.3 LTS
+Release:		8.04
+Codename:		hardy
+
+># apt-get install tftpd-hpa dhcp3-server openbsd-inetd
+
+
+## 設定 tftpd
+> # vi /etc/default/tftpd-hpa
+[[code]]
+RUN_DAEMON="yes"
+[[/code]]
+
+
+> # mkdir -p /var/lib/tftpboot
+
+> # /etc/init.d/tftpd-hpa restart
+
+
+## 設定 dhcp server
+> # vi /etc/default/dhcp3-server
+
+[[code]]
+#設定為服務的網卡介面
+INTERFACES="eth0"
+[[/code]]
+
+> # vi /etc/dhcp3/dhcpd.conf
+[[code]]
+subnet 192.168.4.0 netmask 255.255.255.0 {
+        range 192.168.4.1 192.168.4.20;
+        option domain-name-servers 168.95.1.1;
+        option subnet-mask 255.255.255.0;
+        option broadcast-address 192.168.4.255;
+        option routers 192.168.4.254;
+        filename "pxelinux.0";
+        next-server 192.168.4.254;
+    }
+[[/code]]
+
+
+> # ifconfig eth0 192.168.4.254
+> # /etc/init.d/dhcp3-server restart
+        
+
+## 從光碟取出 netboot 所需檔案
+> # mount -o loop /media/sda6/backup/ubuntu-9.10-server-i386.iso /mnt/
+> # mkdir -p /var/lib/tftpboot/ubuntu-9.10-server-i386
+> # cp /mnt/install/netboot/ubuntu-installer/i386/linux /var/lib/tftpboot/ubuntu-9.10-server-i386/
+> # cp /mnt/install/netboot/ubuntu-installer/i386/initrd.gz /var/lib/tftpboot/ubuntu-9.10-server-i386/
+> # cp /mnt/install/netboot/ubuntu-installer/i386/pxelinux.0 /var/lib/tftpboot/
+> # cp /mnt/install/netboot/ubuntu-installer/i386/pxelinux.cfg/ /var/lib/tftpboot/
+
+
+## 或從網路下載
+> # cd /var/lib/tftpboot/
+> # lftp -c "open http://archive.ubuntu.com/ubuntu/dists/karmic/main/installer-i386/current/images/netboot/netboot.tar.gz"
+> # tar zxf pxeboot.tar.gz
+
+
+> # vi /var/lib/tftpboot/pxelinux.cfg/default
+
+[[code]]
+default 0
+prompt 1
+display msgs/boot.msg
+#label 0
+#localboot 1
+label 1
+kernel ubuntu-8.04-server-i386/linux
+append initrd=ubuntu-8.04-server-i386/initrd.gz
+label 2
+kernel ubuntu-9.10-server-i386/linux
+append initrd=ubuntu-9.10-server-i386/initrd.gz
+[[/code]]
+
+
+> # vi /var/lib/tftpboot/msgs/boot.msg
+
+[[code]]
+1.ubuntu-8.04-server-i386
+2.ubuntu-9.10-server-i386
+[[/code]]
+
+## 檔案目錄結構
+/var/lib/tftpboot/
+|-- msgs
+|   `-- boot.msg
+|-- pxelinux.0
+|-- pxelinux.cfg
+|   |-- default
+|   `-- default.change
+|-- ubuntu-8.04-server-i386
+|   |-- initrd.gz
+|   `-- linux
+`-- ubuntu-9.10-server-i386
+    |-- initrd.gz
+    `-- linux
+
+## 主機端還要做 NAT 才能讓 client 從網路上下載所需套件
+
+## 接著希望能讓光碟內容直接放在硬碟上, 這樣在沒網路的環境也可以安裝
+## 還有能用 grub 的開機選單方式

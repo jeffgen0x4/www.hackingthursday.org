@@ -1,0 +1,25 @@
+[[[2010-04-29 |上一週]]] || [[[2010-05-13|下一週]]]
+
+[[toc]]
+
++ blue119:
+安裝好了 openframework (請把連結放在這邊  m(_ _)m)
+
++ 4$:
+做了一個可以多重開機的 Live USB
+Grub2 可以引導 iso file
+grub command(press c) : ls
+詳情請看 [http://fourdollars.blogspot.com/2010/05/ubuntu-1004-desktopserveralternatedvd.html blog] ..
+
++ honki:
+投了 ubuntu 的 T_shirt 圖 !
+做了 COSCUP 桌布 !
+做了 COSCUP 貼紙 !
+kcliu : 我們想要馬克杯、徽章 !!!
+
++ yurenju:
+vim plugin - zen coding (an editor plugin for high-speed HTML, XML, XSL (or any other structured code format) coding and editing)
+
+Q (honki): 有沒有 command line 下的獲取滑鼠座標的工具
+A (yurenju): xdotool
+( 網址: http://www.semicomplete.com/projects/xdotool/#id54230 )

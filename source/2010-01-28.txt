@@ -1,0 +1,55 @@
+[[[2010-01-21 |上一週]]] || [[[2010-02-04|下一週]]]
+
+[[toc]]
+
++ 前情提要
+這一頁會固定於前一天週三中午附加在聚會通告的 Email 裡
+若你也有想要分享的內容，也隨時歡迎你自助編輯加上你想分享的消息嘍 :-)
+
+
++ 近期討論
+
+# 大食團開跑！！！ 雖然大家期待大食團, 由於時間、人數還不是很確定, 以這週參與聚會者來決定出時間和地點, 之後會另行公告讓大家 follow
+
+http://groups.google.com/group/hackingthursday/t/21149d65222d5bd5
+
++ yuren :
+
+[[code]]
+ 180 static struct key_entry eeepc_keymap[] = {
+ 181         /* Sleep already handled via generic ACPI code */
+ 182         {KE_KEY, 0x10, KEY_WLAN },
+ 183         {KE_KEY, 0x11, KEY_WLAN },
+ 184         {KE_KEY, 0x12, KEY_PROG1 },
+ 185         {KE_KEY, 0x13, KEY_MUTE },
+ 186         {KE_KEY, 0x14, KEY_VOLUMEDOWN },
+ 187         {KE_KEY, 0x15, KEY_VOLUMEUP },
+ 188         {KE_KEY, 0x1a, KEY_COFFEE },
+ 189         {KE_KEY, 0x1b, KEY_ZOOM },                                                              
+ 190         {KE_KEY, 0x1c, KEY_PROG2 },
+ 191         {KE_KEY, 0x1d, KEY_PROG3 },
+ 192         {KE_KEY, NOTIFY_BRN_MIN,     KEY_BRIGHTNESSDOWN },
+ 193         {KE_KEY, NOTIFY_BRN_MIN + 2, KEY_BRIGHTNESSUP },
+ 194         {KE_KEY, 0x30, KEY_SWITCHVIDEOMODE },
+ 195         {KE_KEY, 0x31, KEY_SWITCHVIDEOMODE },
+ 196         {KE_KEY, 0x32, KEY_SWITCHVIDEOMODE },
+ 197         {KE_END, 0},
+ 198 };
+[[/code]]
+
+[[code]]
+acpi_listen
+[[/code]]
+
++ Fourdollars :
+Google chrome extension 的 icon 尺寸大小: 19, 32, 48, 128
+
++ kcliu:
+$(info text...)
+[[code]]
+all:
+	$(info Hello world)
+[[/code]]
+
+www-apps/lxr
+dxr

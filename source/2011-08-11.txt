@@ -1,0 +1,138 @@
+[[[ 2011-08-04 |上一週]]] || [[[ 2011-08-18 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.hackingthursday.org
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
++ Ben:
+
+nodejs 很新
+除了官方的文件比較齊全
+其他第三方的 package 文件都不是很夠
+常常要自己試試看他有什麼 api 
+nodejs 本身所做的事非常的底層
+可以說很簡單但說難聽一點就是什麼功能都沒有
+cookie, session, routs, vhost, gzip, static server .... 等等
+以上通通都沒有
+甚至連吐 404, 500 之類的功能都要自己寫
+雖然都有現成的第三方 package ( express middleware )
+但是看完他的設計模式後發掘效能不是很好
+
+
+另外開發過程中每個 package 或是 nodejs 本身更新的非常快
+一個星期可以跳個 3 個版本號而文件常常趕不上
+甚至 google 搜尋到的資料也常常是舊的
+也有愈過已經 publish 得版本被作者又整個砍掉
+導致一票有用到的 package 也一併爛掉
+
+
+而 nodejs 的 framework 不管是不是 mvc 現成的有非常多
+大部分都沒有太完整的文件
+而最多人用的有兩個 connect 和 express
+其中又以 express 最多人用
+因為他的設計簡單文件齊全
+但是效能不是很好
+因為他的設計模式是把所有的 middleware push 進去一個大的 array
+然後在每個 request 進來的時候用 if else 去判別有沒有符合這些 middleware 要執行的工作
+符合的話就執行不符合就 pass 給下一個 middleware 所以當你功能越來越多
+整個網站就越來越慢 
+甚至只要你 routes 設計麻煩一點比如 rest,( 因為有 get, put, post, delete 有人就用 switch 去實現 )
+整個就慢到不行
+我用 macbook pro 13 跑 hello world ab test
+nginx 差不多是 22000 request/s
+純 nodejs 5600 request/s
+express 不開 cache 280 request/s ( version 2.4.3 )
+開 cache 約 2600 request/s
+舊的版本不開 cache 約 480 request/s 不過我已經忘記是哪一個版號了
+而我自己的簡易 framework ( 有 model, controller 但是吐 json ) 約 4000 request/s
+主要的差異是在 express 的 view parser 很慢 
+及 middleware 的 implement 方式不佳
+
+
+我個人是在一開始啟動 nodejs server 的時候去掃所有 controller dir 底下的檔案
+把裡面所有的 method 都組成一個大的 hash table( array )
+ex. controllers[ 'get/home/index' ] = handler;
+然後當 request 近來的時候只要這個 handler 不存在就吐 404
+在執行 handler 的外層包一層 try catch
+一旦有 error 就吐 500
+這樣整個執行效能就變得非常好
+
+
+另外在這中間遇到的一些小問題但是 google 搜不到的像是要傳 array 的 param
+不是 msg[0]=xxx&msg[1]=yyy
+而是 msg=xxx&msg=yyy
+沒錯
+就只要重複 param key 本身一次就好
+因為找不到文件這個問題卡了我三天
+
+
+db 的部份是用 mongodb
+使用的 ORM 是 mongoose ( 這也是最多人用的 mongodb ORM )
+而他的 nodejs driver 是 mongo native dirver 
+( 剛剛前面提到的已經 publish 得版本被作者又整個砍掉的就是這個 package,
+但幾乎所有有關 mongodb 的 ORM 或是用 mongodb 的 mvc framework 都是用這個 driver,
+所以那兩天只要不小心更新 package 的人都是哀號一片  )
+他的文件非常的不夠
+連基本的 crud 都沒有
+api 文件也是用程式轉出來的
+不如直接看原始碼快的多
+在這個部分浪費了我非常非常多的時間在試它的 api
+
+
+最後題一下我覺得 nodejs 第三方 package 的 code quality 非常的參差不齊
+使用上請小心服用
+我自己除了寫一個以效能為優先考量的 json server
+也用 express 寫了一個 mvc framework 拿來寫後台( 因為後台沒幾個人用效能不重要 )
+寫完後才找到了一個寫的非常完整的 mvc framework 叫做 railway https://github.com/1602/express-on-railway
+有 mvc, generator, model view cache, rest routes ... 一堆東西
+但是因為他是用 express 寫出來的
+所以對效能還是不用太期待
+但它裡面有很多 code 是值得參考的
+
+
+雖然說 express 的效能看似很差
+但我拿一個 rails 的數據給大家參考一下
+rails 3.0.9 不開 cache 是 30 多 request/s
+所以其實還是很快啦...
+
+
+用 nodejs 寫 server side 的 service。寫了一個 chat 的 demo。
+keyword: express, long polling, nodejs,...
+因為一個小錯誤就會整個 crash, 所以在最上層用 try..catch 包起來，再加上 upstart 自動重啟。
+server 是用 event-driven 的方式實作的，但和 socket server 還是不一樣。
+nodejs 相關的模組成熟度還不是很夠，文件也沒有很齊全。常常需要直接對照源始碼才知道程式的用法 ( sample code + 文件很重要 )。像有個作 database 的模組, 連最基本的 CRUD 的用法都沒有寫。
+目前用 nodejs 作的 server 大都是實驗性質的，比較少用到 production 的 service 上。
+nodejs 所提供的都是很底層的東西，一些像是 http server library 之類的，都是別的套件很是模組提供的。
+
++ mosky:
+開始用 vim 的 plugin 也還不滿兩個禮拜，ctags 更是用不到一個禮拜，
+只是覺得預設的情況不太好用，所以就做了這個 plugin，真的是野人獻曝了 :P。
+
+http://j.mp/pINvx0
+
++ Mat:
+需要將 html 轉成 structured text. 但是 html2text ( CLI ) 有編碼的問題，改成用 python 的模組來作:
+
+http://www.aaronsw.com/2002/html2text/
+
+[[code]]
+def html2txt( the_html ):
+    result = html2text.html2text( the_html.decode('utf-8'), '' ).encode('utf-8')
+    return result
+[[/code]]
+
+此外，用 python mail 模組發信時，要指定 MIMEText 的 encoding 為 UTF-8
+[[code]]
+msg.attach( MIMEText(text,"plain") )
+[[/code]]
+=>
+[[code]]
+msg.attach( MIMEText(text,"plain", "utf-8") )
+[[/code]]
+
+註: 加上 encode('utf-8') 跟 decode('utf-8) 可以避免中文字問題。

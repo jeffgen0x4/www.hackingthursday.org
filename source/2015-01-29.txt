@@ -1,0 +1,32 @@
+[[[ 2015-01-22 |上一週]]] || [[[ 2015-02-05 |下一週]]]
+
++ * * 2015/2/5 尾牙聚餐報名 * *
+http://hackingthursday.kktix.cc/events/2484fe2e
+
+[[toc]]
+
++ Vicky
+Weka 3 - Data Mining with Open Source Machine Learning Software in Java
+http://www.cs.waikato.ac.nz/ml/weka/
+
++ frank
+StumpWM - tiling, keyboard driven X11 Window Manager written entirely in Common Lisp.
+https://stumpwm.github.io/screenshots.html
+
++ yan
+Activity Streams - a format for syndicating social activities around the web
+http://activitystrea.ms/
+
+--------
+
+Python distribute到底使用package_data还是MANIFEST.in？ - numbbbbb - 博客园
+http://www.cnblogs.com/numbbbbb/p/3615155.html
+
+--------
+
+Xen 4.1 以上工具集改成 xl
+
+|| Toolstack || xl || XAPI || libvirt || xend ||
+|| CLI tool    || xl || xe    || virsh  || xm ||
+
+http://wiki.xen.org/wiki/Choice_of_Toolstacks#libvirt_.2F_VIRSH

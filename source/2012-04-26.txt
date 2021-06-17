@@ -1,0 +1,85 @@
+[[[ 2012-04-19 |上一週]]] || [[[ 2012-05-03 |下一週]]]
+
+[[toc]]
+
+ H4 聚會共筆 http://pad.hackingthursday.org
+固定於週四聚會期間，紀錄聊天內容，於隔天儲存至 wiki 主站，並發送聚會手記。
+
++ czchen
+7z 在壓縮某些特別 unicode 檔名會當掉
+http://en.wikipedia.org/wiki/Unicode
+中的 Supplementary Multilingual Plane 的部分
+http://en.wikibooks.org/wiki/Unicode/Character_reference/10000-10FFF
+
+[[code]]
+#!/usr/bin/env python
+# encoding:utf8
+
+with open(u"\U00100101", "w") as f:
+    f.write("yrdy")
+[[/code]]
+
++ wayling
+SD卡可以開機了，但開機過程 rootfs 掛載沒成功
+=> 應該是 SD 卡要照某個格式作磁區分割
+=> 找 pandaboard 指定的分割方式
+
++ peter
+WebGL Bookcase
+http://www.chromeexperiments.com/detail/webgl-bookcase/
+
++ kanru
+uim-chewing for ubuntu oneiric (11.10)
+https://launchpad.net/~kanru/+archive/ppa/+build/3432947
+
++ honkia
+http://code.google.com/p/svg-edit/
+
++ AL
+[[code]]
+gunzip -c ubuntu-11.10-preinstalled-server-armel+<omap image>.img.gz | sudo dd bs=1M of=/dev/<device name>sync
+[[/code]]
+https://wiki.ubuntu.com/ARM/Server/Install?action=show&redirect=ARM%2FOMAPHeadlessInstall
+
+
++ amos
+加快linux開機速度：
+這個算是舊文不過很有用
+http://blog.longwin.com.tw/2006/01/ram_disk_build_method/
+
+ssh-copy-id可以簡化以下步驟：
+[[code]]
+sudo ssh-keygen -t rsa
+scp id_rsa.pub your-id@other-server-ip:.ssh
+ssh your-id@other-server-ip
+cd .ssh
+cat id_rsa.pub >> authorized_keys
+[[/code]]
+
+改為ssh-copy-id your-id@other-server-ip一行就可以了
+
++ Mat
+主機板元件圖
+http://zh.wikipedia.org/wiki/File:PandaBoard_described.png
+
+一則 blog 安裝經驗分享
+http://changyy.pixnet.net/blog/post/30361339-pandaboard-%E6%95%99%E5%AD%B8%E7%AD%86%E8%A8%98---%E5%AE%89%E8%A3%9D-android-4.0-ics-via-virtual
+
+使用預先編好的 ubuntu image 作  SD 卡開機
+http://omappedia.org/wiki/PandaBoard_Ubuntu_Pre-built_Binaries_Guide
+
+用 validation 版本來檢查是否能正確運作
+http://omappedia.org/wiki/PandaBoard_minimal-FS_Download
+
+SD 卡的分割方式會影響開機，要用進階分割模式才行
+http://processors.wiki.ti.com/index.php/MMC_Boot_Format
+
+週邊裝置規格
+http://www.omappedia.org/wiki/PandaBoard_Accessories_%26_Peripherals#Power_supply
+電源線可以用 5V-2A 的
+
+用 screen 來取代 minicom 讀取 RS-232 I/O 訊息
+
+[[code]]
+screen /dev/ttyACM0 115200
+[[/code]]

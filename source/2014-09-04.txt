@@ -1,0 +1,43 @@
+[[[ 2014-08-28 |上一週]]] || [[[ 2014-09-11 |下一週]]]
+
+[[toc]]
+
+
++ asura
+室內街景
+1坪 $400
+http://biz.localking.com.tw/service_02.aspxhttp://biz.localking.com.tw/service_02.aspx
+
+http://www.yiezi.com/
+
+BuildNGO - WIFI  室內定位測試
+帆船科技 - 佈道狗
+
++ carl
+Emacs PO-mode
+https://tonghuix.io/2014/09/l10n-with-emacs-po-mode/
+
+vim po plugin
+https://github.com/vim-scripts/po.vim
+
++ ghost
+常用 .gitignore 收集 
+github/gitignore - A collection of useful .gitignore templates
+https://github.com/github/gitignore
+
+
++ yan
+pygeocoder - 地址轉坐標
+http://code.xster.net/pygeocoder/wiki/Home
+
+OpenStreetMap poi type and alias name list
+http://poi-osm.tucristal.es/
+
+兩座標距離計算
+http://geokoder.com/distances
+
+HTML5 Input Types
+http://www.w3schools.com/html/html5_form_input_types.asp
+
+
+[https://www.facebook.com/notes/facebook-%E8%A1%8C%E9%8A%B7%E7%AD%96%E7%95%A5/facebook-%E9%9B%86%E5%AE%A2%E5%BF%85%E5%AD%B8%E6%95%B4%E5%90%88%E5%9C%B0%E6%A8%99%E5%92%8C%E5%B0%88%E9%A0%81%E8%BC%95%E9%AC%86%E6%89%93%E5%8D%A1%E8%B6%A3/337193939698363 Facebook 合並重復打卡地點]

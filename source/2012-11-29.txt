@@ -1,0 +1,17 @@
+[[[ 2012-11-22 |上一週]]] || [[[ 2012-12-06 |下一週]]]
+
+[[toc]]
+
+
++ Mat
+https://github.com/AgoristRadio/bmosh/blob/master/bmosh
+
+
++ 宏任
+http://aws101dec11.peatix.com
+
++ peter
+sparkleshare 用來架 dropbox 服務
+
+SparkleShare - Self hosted, instant, secure file sync
+http://sparkleshare.org/

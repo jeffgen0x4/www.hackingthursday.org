@@ -1,0 +1,46 @@
+[[[ 2011-06-30 |上一週]]] || [[[ 2011-07-14 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.hackingthursday.org
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
++ chihchun:
+
+    3D/2D Graphics SoC IP and Multiedamedia Accelerators in embedded world (arm)
+
+    Extracts from "Android Protips: Advanced Topics for Expert Android App Developers" by wuman http://www.slideshare.net/wuman/extracts-from-android-protips-advanced-topics-for-expert-android-app-developers
+
+    http://www.getontracks.org/
+
+    Dot It tomorrow
+
+    duplicity http://people.debian.org.tw/~chihchun/2010/07/19/backup-with-duplicity/
+
++ hychen:
+
+中文輸入法 - 謝東翰
+http://b2d-linux.com/xcin/i18n/slat/im.html
+Chinese Input Method
+http://b2d-linux.com/xcin/i18n/index.html
+Xi18n 程式簡介
+http://b2d-linux.com/xcin/i18n/pc2000/p7/index.html
+
++ Peter:
+Nice article: http://feedproxy.google.com/~r/webupd8/~3/sVUQL78PKjs/linux-kernel-power-issue-fix.html
+
+在開機參數加上 pcie_aspm=force" 可以啟用省電功能。
+[[code]]
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash pcie_aspm=force"
+[[/code]]
+
++ Mat:
+[[code]]
+import sys
+sys.path.append( '/home/USER/' ) # 新增 /home/USER/ 為 *.py 的搜尋路徑
+import hello  # hello.py 在 /home/USER/下
+[[/code]]

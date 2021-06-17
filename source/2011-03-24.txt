@@ -1,0 +1,41 @@
+[[[ 2011-03-17 |上一週]]] || [[[ 2011-03-31 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.hackingthursday.org
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
++ ypwang:
+juniper, 僅次於 cisco 的 switch   廠商
+(Mark: F5也蠻大的)
+
++ yurenju:
+jira, apache 也在用 Issue tracker 軟體
+http://www.atlassian.com/software/jira/
+http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=35654
+
++ hychen:
+LC_MESSAGE > LC_AL > LANG
+
+Message for Honki
+http://blog.got7.org/2009/06/q1tk.html
+From Minyen
+
++ Rex:
+Linux Virtual Server ( will be deprecated ) => Linux container ( new )
+一般是用硬體的 load balencer 效能跟穩定度都高很多
+
++ Max:
+GTD(Get Things Done) 時間管理
+Remember The Milk：http://www.rememberthemilk.com/
+Remember The Milk v.s. 我的GTD工作流程, http://timeimprint.blogspot.com/2008/11/remember-milk-vs-hardwaregtd.html
+
++ Mark:
+sheepdog, ceph: distributed clustered filesystems (ceph has better design but sucks at implementation) (* ceph is in linux kernel tree now so it's getting better and better)
+libvert: an universal virtualization api
+xaitment (AI middleware on GPU) is probably acquired by gamebase.co.kr (who acquired gamebryo a while ago)
+distcc is not working very well in our environment (latest release: 2008), Incredibuild or ElectricAccelerator is more preferred

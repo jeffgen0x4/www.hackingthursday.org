@@ -1,0 +1,19 @@
+[[[ 2013-11-28 |上一週]]] || [[[ 2013-12-12 |下一週]]]
+
+[[toc]]
+
+
++ peter
+tail monitor file
+$ tail -f filename
+
++ Carl
+WOT - Web of Trust
+https://en.wikipedia.org/wiki/WOT_Services
+
++ BestSteve
+Kivi native ui for python
+http://kivy.org/#home
+
+Android like UI in html css javascript
+http://getfri.es

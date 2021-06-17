@@ -1,0 +1,28 @@
+[[[ 2014-05-15 |上一週]]] || [[[ 2014-05-29 |下一週]]]
+
+[[toc]]
+
+
++ H4Sprint
+第 0 次討論記錄
+https://hackingthursday.hackpad.com/H4-Sprint-0-djJHLRk4nRu
+
+
++ DreamerC
+RTL2838 Dongle 
+http://www.plurk.com/p/k1juda
+
++ blex
+Wireshark enable tcp checksum
+http://wiki.wireshark.org/TCP_Checksum_Verification
+
+
++ yan
+veox/sgminer
+https://github.com/veox/sgminer
+
++ ben6
+ECC Error Correction Code
+ http://w3.math.sinica.edu.tw/math_media/d184/18404.pdf
+FEC Forward Error Correction
+ http://stackoverflow.com/questions/2876525/does-wifi-have-any-form-of-forward-error-correction

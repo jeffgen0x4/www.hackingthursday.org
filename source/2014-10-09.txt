@@ -1,0 +1,57 @@
+[[[ 2014-10-02 |上一週]]] || [[[ 2014-10-16 |下一週]]]
+
+[[toc]]
+
++ roy
+可以線上繪製ER Diagram的工具
+https://www.draw.io
+
++ tsaikd
+LiteIDE - golang 的 IDE, save 的時候會自動跑 gofmt
+
+godep , 可以把專案的相依性固定在特定版本
+https://github.com/tools/godep
+
+stretchr/testify - A sacred extension to the standard go testing package
+go 好用的 unittest 函式庫
+https://github.com/stretchr/testify
+
++ yan
+Visitors - fast web log analyzer
+http://www.hping.org/visitors/
+
+Pathalizer: Visual website usage analysis
+http://pathalizer.sourceforge.net/
+
+[[code]]
+$ go test
+[[/code]]
+ 
+math.go
+[[code]]
+package modules                                                                                                  
+// Sqrt returns an approximation to the square root of x.
+func Sqrt(x float64) float64 {
+    z := 1.0 
+    for i := 0; i < 1000; i++ {
+        z -= (z*z - x) / (2 * z)
+    }   
+    return z
+}
+[[/code]]
+
+math_test.go
+[[code]]
+package modules                                                                                                  
+import (
+    "testing"
+)   
+    
+func TestSqrt(t *testing.T) { 
+    if(Sqrt(4) != 2) {
+        t.Error("error")
+    } else {
+        t.Log("success")
+    }
+}
+[[/code]]

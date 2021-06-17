@@ -1,0 +1,29 @@
+[[[ 2013-02-21 |上一週]]] || [[[ 2013-03-07 |下一週]]]
+
+[[toc]]
+
++ Shih-En
+Qsearch - Facebook timeline instant search
+http://qsearch.feedtree.cc/
+http://www.facebook.com/QSearch2012
++ yan
+javascript sprintf
+http://www.webtoolkit.info/javascript-sprintf.html
+
+[[code]]
+<html>
+<head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>                                                         
+    <script type='text/javascript' src='webtoolkit.sprintf.js'></script>
+</head>
+<body>
+    <script>
+        alert(sprintf('%s %d %.2f', 'testttt', 123, 456)); 
+    </script>
+</body>
+</html>
+[[/code]]
+
++ peter
+免費日本 VPN - [http://tsunagarumon.com/entry/ Tsunagarumon]
+[http://www.kocpc.com.tw/archives/1693 Tsunagarumon 教學]

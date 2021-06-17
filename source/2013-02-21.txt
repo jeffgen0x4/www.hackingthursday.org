@@ -1,0 +1,16 @@
+[[[ 2013-02-14 |上一週]]] || [[[ 2013-02-28 |下一週]]]
+
+[[toc]]
+
++ honkia:
+想要找 sublime 的替代品 => 找到 http://foicica.com/textadept/
+2/23(六) 晚上開始
+
++ peter
+vimdiff a.txt b.txt
+:diffupdate  重新 refresh diff 的結果
+:diffput 放去另一邊
+:diffget 拿另一邊
+
++ Samuel
+http://www.celeryproject.org/

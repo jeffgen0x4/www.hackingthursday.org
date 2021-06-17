@@ -1,0 +1,26 @@
+[[[ 2016-03-31 |上一週]]] || [[[ 2016-04-14 |下一週]]]
+
+[[toc]]
+
++ blue119
+Building MirrorMirror
+http://blog.dylanjpierce.com/raspberrypi/magicmirror/tutorial/2015/12/27/build-a-magic-mirror.html
+
++ BestSteve
+致動器 + 放大力矩
+電子秤
+
++ yan
+Arduino 睡眠函式庫
+Enerlib - Energy Library
+http://playground.arduino.cc/Code/Enerlib
+
+rocketscream/Low-Power - Low Power Library for Arduino
+https://github.com/rocketscream/Low-Power
+
+jcw/jeelib
+https://github.com/jcw/jeelib
+
+Arduino Interrupt
+attachInterrupt()
+https://www.arduino.cc/en/Reference/AttachInterrupt

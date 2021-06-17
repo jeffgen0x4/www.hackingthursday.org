@@ -1,0 +1,16 @@
+[[[ 2016-08-25 |上一週]]] || [[[ 2016-09-08 |下一週]]]
+
+[[toc]]
+
++ yan
+Firefox Profile Manager
+
+[[code]]
+$ firefox -P
+[[/code]]
+
+or 
+
+[[code]]
+$ firefox -ProfileManager
+[[/code]]

@@ -1,0 +1,26 @@
+[[[ 2012-11-01 |上一週]]] || [[[ 2012-11-15 |下一週]]]
+
+[[toc]]
+
++ yan
+Metasploitable
+http://sourceforge.net/projects/metasploitable/
+
++ Rex
+地圖產生器
+http://map.happyman.idv.tw/twmap/login.php
+
+EveryTrail
+http://www.everytrail.com/
+
+@trip
+http://www.a-trip.com/ 
+
+GPSies
+http://http://www.gpsies.com/
+
+http://runkeeper.com
+
++ Amos
+方便的訊息產生器 Pines Notify
+http://pinesframework.org/pnotify/#page

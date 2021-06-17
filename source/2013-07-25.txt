@@ -1,0 +1,27 @@
+[[[ 2013-07-18 |上一週]]] || [[[ 2013-08-01 |下一週]]]
+
+[[toc]]
+
++ Mat
+
+VIM 快速切換註解的方式
+[[code]]
+function! CommentToggle()
+    execute ':silent! s/\([^ ]\)/\/\/ \1/'
+    execute ':silent! s/^\( *\)\/\/ \/\/ /\1/'
+endfunction
+map <F7> :call CommentToggle()<CR>
+[[/code]]
+
++ honki
+
+Arduino 從義大利的學校出來的
+
+兒童藝術節 .@剝皮寮
+
++ Yahsin
+8月的 ComputerArts 雜志有 honki 的報導
+
++ ycchen
+
+用 IEEE 802.15.4 做火車的溝通

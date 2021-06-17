@@ -1,0 +1,35 @@
+[[[ 2011-08-25 |上一週]]] || [[[ 2011-09-08 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+[[/code]]
+
+
++ Peter:
+vim 垂直和水平游標
+:set cuc
+:set cul
+
+Ubuntu 在 bash 找不到命令時呼叫的機制 command not found, 你也可以直接呼叫 /usr/lib/command-not-found 指令
+   例如: 
+[[code]]
+$/usr/lib/command-not-found mysql
+[[/code]]
+會顯示
+[[code]]
+程式 'mysql' 可在下列的套件中被找到：
+ * mysql-client-core-5.1
+ * mysql-cluster-client-5.1
+嘗試: sudo apt-get install <selected package>
+[[/code]]
+
++ Alex Lin:
+對外商來說幾個考量:
+* 如何找人
+* 找辦公室
+台灣軟體從事人員一般的從業人員說英語的能力。
+
++ wuman:
+彩蛋

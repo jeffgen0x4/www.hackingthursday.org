@@ -1,0 +1,60 @@
+[[[ 2013-08-15 |上一週]]] || [[[ 2013-08-29 |下一週]]]
+
+projector+
+
+[[toc]]
+
++ rocfatcat
+Linux 上的 camera driver 大都是由德國的一位開發者維護的
+Linux UVC driver & tools
+http://www.ideasonboard.org/uvc/#devices
+
++ $4
+Microsoft Skype 與 Google hangouts 的 Open Source 取代方案，已經進 Debian 官方套件庫囉
+[https://jitsi.org/ jitsi.org | Jitsi]
+
++ Carl
+
+++ Xpra is 'screen for X'
+簡報連結：http://slid.es/carl_tw/xpra
+Source: https://www.xpra.org/trac/wiki/Source
+Building: https://www.xpra.org/trac/wiki/Building
+Front End: http://winswitch.org/about/screenshots/
+
+++ Powerline - The ultimate statusline/prompt utility.
+Powerline 最初是 Vim 的狀態列外掛，
+現已支援眾多程式如 Zsh, Bash, tmux, IPython, awesome 和 Qtile。
+
+++ Google+ Events: Share event photos instantly with Party Mode
+Google+ 有個派對模式，將來相簿也許不用辛苦整理，
+即時上傳最新相片，可以減少會後整理相片的負擔：
+http://www.youtube.com/watch?v=uwMdqxJznMs
+
++ zeroplex
+AppFog - PaaS for public and private clouds
+https://www.appfog.com/
+
+playonlinux - front-end for Wine
+
++ czchen
+https://code.launchpad.net/~chewing/+recipe/libchewing-daily
+lp:~chewing/scim-chewing/debianize
+
+WebPG | Bringing GnuPG/PGP to the web browser
+http://webpg.org/
+gmail integration 要用 development 版
+https://github.com/kylehuff/webpg-chrome/wiki#chrome
+
++ Amos
+使用 GPG 加密郵件內容, 還不能加密附件
+chrome : mailvelope
+
++ 果凍
+Python Sprint
+2013/10 試辦
+Sprit! 大家聚在一起，為一個 project 作出貢獻
+
++ Travor
+新上架一個 APP
+YoGoSong -Social Network Music Player
+https://play.google.com/store/apps/details?id=com.yogosong

@@ -1,0 +1,28 @@
+[[[ 2014-03-13 |上一週]]] || [[[ 2014-03-27 |下一週]]]
+
+[[toc]]
+
+
++ peter
+dbext.vim - Provides database access to many DBMS (Oracle, Sybase, Microsoft, MySQL, DBI,..) : vim online
+http://vim.sourceforge.net/scripts/script.php?script_id=356
+
++ carl
+CSS Load.net - Loading CSS spinners and bars generator for AJAX & JQuery
+http://cssload.net/
+
+網設必備－《SVG Loading》線上Loading動態圖示產生器 | ♣梅問題‧教學網【Minwt】♣
+http://www.minwt.com/html/10261.html
+
++ yan
+
+[[code]]
+$ ssh -D 1234 user@myhost.com
+# apt-get install proxychains
+# vi /etc/proxychains.conf
+socks5 127.0.0.1 1234
+$ proxychains curl icanhazip.com
+[[/code]]
+
+Kali | VSLA - Virtual Security Labs Anywhere
+https://firebitsbr.wordpress.com/category/kali/

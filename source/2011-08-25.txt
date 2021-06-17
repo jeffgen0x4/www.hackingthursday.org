@@ -1,0 +1,107 @@
+[[[ 2011-08-18 |上一週]]] || [[[ 2011-09-01 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.hackingthursday.org
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
+
+
+
+
++ blue119:
+http://www.daniweb.com/software-development/python/code/278635
+
++ 小迪克:
+http://202.133.245.28/thorscript
+http://typesafe.com/
+cmake
+cpack # make dist tools, 用來作 tgz, rpm,... 的工具
+cmake + cpack + ctest + ccmake => cmake toolset
+某大大提到 bluepill(?) <-- 問:這那裡有source啊?
+
++ ben:
+@小迪克
+我也沒找到程式碼，但你可以參考下列資訊來瞭解原理。
+http://en.wikipedia.org/wiki/Blue_Pill_(malware)
+
++ ypchen, ben:
+ypchen: used 3096 bit rsa key for ssh login.
+ As his experience to use 4096 bit, it encountered to login slowly.
+ben: I still used 2048 bit, time to change.
+
++ yuren:
+BeautifulSoup 可以用來模擬 browser 的瀏覽
+
+弄出可以網路連線的 JsLinux
+
+JSModem for JSLinux - Ben 提到, Yuren 架起來
+https://github.com/ewiger/jsmodem
+https://plus.google.com/118313872024612853681/posts/6hBvFpS4Xhh
+後續心得
+    http://yurinfore.blogspot.com/2011/08/jsmodem-jslinux.html
+
++ fourdollars:
+Debian version -> autotools -> vala project -> ... 其實要是講 vala plurk api lib.
+
+Debian versioning
+http://www.slideshare.net/FourDollars/debian-policy-5612-version
+http://www.debian.org/doc/manuals/developers-reference/pkgs.html#nmu-changelog
+http://www.debian.org/doc/debian-policy/ch-controlfields.html#s-f-Version
+[[code]]
+man deb-version
+[[/code]]
+
++ Mat:
+昨天聊到的 error/log handling
+[[code]]
+void caller(){
+    //....
+    int ret = callee( 99 );
+    if ( ret!=0 ){
+        ; // error handling...
+    }
+    //....
+}
+
+int callee( int input ){
+    // 先用 assert 檢查輸入值, sometimes
+
+    //.... 
+    try{
+		foo1();
+		foo2();
+		foo3();
+		foo4();
+		foo5();
+    }
+    catch( ErrorA ){
+		log( "Error 1");
+		return -2;
+    }
+    catch( ErrorB ){
+		log( "Error 1" );
+		return -3;
+    }
+    catch( ... ){
+		log( "Error 1");
+		return -1;
+    }
+
+    // normal routine ...
+
+    return 0;
+}
+[[/code]]
+
+如何用 MinGW 作出 Visual C 可以使用的函式庫
+* 編成 *.a + *.dll
+* 分開用 --output-def 跟 --kill-at 製作 .def 跟 .dll 檔
+* .def 有些部分需要手動改，或另外用 dumpbin 的程式來作
+* 避免用 C++ 的 interface, 因為 ABI 各 compiler x version 都不盡相容
+* 用 __cdecl  + extern "C" 宣告 call convention 
+* 若用 __stdcall 的話， VC 在用的時候要修改，但 COM/VB/... 外部使用的 binary library 大都是走 __stdcall

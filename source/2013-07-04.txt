@@ -1,0 +1,86 @@
+[[[ 2013-06-27 |上一週]]] || [[[ 2013-07-11 |下一週]]]
+
+[[toc]]
+
++ Gary
+XenServer is now fully open source. 
+http://xenserver.org/
+http://www.xenserver.org/overview-xenserver-open-source-virtualization/open-source-virtualization-features.html
+
++ Yuren
+
+Coveralls - Code Coverage History and Statistics
+https://coveralls.io/
+
+免費而且由 Microsoft 提供的 Windows VMs,
+- http://www.modern.ie/zh-tw/virtualization-tools
+- https://github.com/xdissent/ievms
+
++ peter 
+
+[[code]]
+$ git log -- filename
+$ git blame filename
+[[/code]]
+
+文字版 git tree graph
+
+[[code]]
+$ git config --global alias.l "log --graph --full-history --all --color --date=short --pretty=format:'%Cred%x09%h %Creset%ad%Cblue%d %Creset'"
+[[/code]]
+[[code]]
+$ vi ~/.gitconfig
+[alias]
+    l = log --graph --full-history --all --color --date=short --pretty=format:'%Cred%x09%h %Creset%ad%Cblue%d %Creset %s %C(bold)(%an)%Creset'
+[[/code]]
+
++ yan
+
+社群資源圖
+http://www.mindmeister.com/303031964
+
+政府推動中小企資科應用徵建議書
+http://www.bqjournal.com/ict-fund-invites-proposals
+
+Breadcrumbs In Web Design
+http://www.smashingmagazine.com/2009/03/17/breadcrumbs-in-web-design-examples-and-best-practices-2/
+
+from iCoding.co :
+AlloyUI
+http://alloyui.com/
+
+
+[[code]]
+// nodejs_jquery.js
+require("node-jquery");
+a = ['aaa', 'bbb', 'ccc', 'ddd'];
+$.each(a, function(key, val) { console.log(key + " => " + val); });
+[[/code]]
+
+
+
++ czchen
+
+[[code]]
+$ git clone --depth 1 --no-hardlinks /path/to/repo.git.
+[[/code]]
+
+ 
+
++ johnsonkuo
+Debian 7.0 , 要下 locate 指令的 user, 要加入 mlocate 群組
+sshfs, 在 debian/ centos 的 remote machine 中，要把 user 加到 fuse 的群組
+ centos 裝好第一次要下 updatedb 的指令才能使用 locate
+
++ Ricky
+TSOC
+
++ IKARI
+Raspberry Pi + Face detection <= Python
+
+四軸飛行器 + WebCam 臉部偵測
+
++ motephyr
+
+最近研究的技術
+http://motephyr.github.io/blog/2013/07/04/easygo/

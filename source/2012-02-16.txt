@@ -1,0 +1,10 @@
+[[[ 2012-02-09 |上一週]]] || [[[ 2012-02-23 |下一週]]]
+
+[[toc]]
+
+[[html]]
+<iframe src='http://pad.hackingthursday.org?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=675 height=400></iframe>
+[[/html]]
+
+@aki:
+Nokia stopped the development of Symbian.

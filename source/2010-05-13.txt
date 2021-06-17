@@ -1,0 +1,47 @@
+[[[2010-05-06 |上一週]]] || [[[2010-05-20|下一週]]]
+
+[[toc]]
+
++ pct:
+http://dreampie.sourceforge.net/
+
+pot 的 irc 最近比較多人...
+
+( 記得要補 plurk bot 的參考連結給 honkia... )
+
++ honkia:
+youtube nike music shoe
+http://www.youtube.com/watch?v=uS1exujG3cY
+這個是在日本玩數位互動音樂很棒的一群人
+
+openframeworks
+類似 processing 一樣，開發給藝術家來玩數位。
+
+想寫一個機器人，可以將一些數位藝術相關的消息推到 micro blog 上。
+
++ blue119:
+Real-Time Concepts for embedded systems
+isbn: 1578201241
+( jserv 介紹的 ) 
+uCOS-II The Real-Time Kernel.pdf
+
+正在和 honkia 寫 OpenFrameworks 的說明文件
+http://docs.google.com/Doc?docid=0AWkKBWufoi8CZGc2OWI2cHpfMzE0ZGJwZDRwZjM&hl=zh_TW
+
++ Rex:
+可以用 javascript 寫程式的 framework , for iphone, android, windows mobile 同時可以用。
+
+[1] http://en.wikipedia.org/wiki/PhoneGap
+[2] http://en.wikipedia.org/wiki/Appcelerator_Titanium
+[3] http://en.wikipedia.org/wiki/Rhomobile
+
++ Thinker:
+<別被 kernel 嚇到了>
+http://heaven.branda.to/~thinker/GinGin_CGI.py/show_id_doc/414
+
+( 聽說一個星期就寫完了，驚 :-o )
+
++ Mat:
+寫了一個 for gentoo 的 binhost server, 可以接受 gentoo binary package 上傳，同時上架成 Packages repository。以初步達成 portage 相容使用！！！
+
+( 資料集成 => rss => planet ( web ) + rss reader => irc, micro blogs... )

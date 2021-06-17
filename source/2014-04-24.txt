@@ -1,0 +1,54 @@
+[[[ 2014-04-17 |上一週]]] || [[[ 2014-05-01 |下一週]]]
+
+[[toc]]
+
++ 瑞明
+Fanpage Karma: Monitor Facebook Marketing - Statistics & Reports Tool
+http://www.fanpagekarma.com/
+
++ lcamel
+PocketDuino
+https://www.indiegogo.com/projects/pocketduino-innovation-from-your-pocket#home
+
++ philipz
+Docker Ecosystem - MindMeister Mind Map
+http://www.mindmeister.com/389671722/docker-ecosystem
+
+The Face Recognition Algorithm That Finally Outperforms Humans — The Physics arXiv Blog — Medium" https://medium.com/the-physics-arxiv-blog/2c567adbf7fc
+
++ pct
+Ruby CMS - Nesta
+http://nestacms.com/
+
++ Carl
+sstephenson/bats - Bash Automated Testing System
+https://github.com/sstephenson/bats
+
+riywo/ndenv - another node.js version manager
+https://github.com/riywo/ndenv
+
++ yan
+
+[[code]]
+$ modpoll -m tcp 172.16.46.204 -p 1000 -a 5 -r 4 -c 5
+[[/code]]
+
+http://www.modbusdriver.com/modpoll.html
+
+sole/aafm - Android ADB file manager
+https://github.com/sole/aafm
+
+osmino Wi-Fi: free WiFi - Android Apps on Google Play
+https://play.google.com/store/apps/details?id=com.osmino.wifil
+
++ Mat
+https://wiki.openstack.org/wiki/UnifiedInstrumentationMetering
+http://imansson.wordpress.com/2012/10/05/graphite-and-sensu/
+http://www.postplanner.com/6-facebook-reporting-tools-in-depth-analysis-fan-pages/
+
++ Vincent
+CJDNS (secure friend-to-friend IPv6 routing network) install party: I can assist people to install the software on their computer (Linux & MacOSX).
+
++ ben6
+
+https://github.com/victorjonsson/jquery-editable

@@ -1,0 +1,7 @@
+[[[ 2017-12-07 |上一週]]] || [[[ 2017-12-21 |下一週]]]
+
+[[toc]]
+
+[[html]]
+<iframe src='http://pad.hackingthursday.org?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=675 height=400></iframe>
+[[/html]]

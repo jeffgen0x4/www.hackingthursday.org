@@ -1,0 +1,85 @@
+[[[2010-05-20 |上一週]]] || [[[2010-06-03|下一週]]]
+
+[[toc]]
+
+[[code]]
+不用註冊也可以直接編輯 wiki 的內容喔
+[[/code]]
+
++ $4:
+qemu的 ctrl-alt-f1會被 Xwindow先截掉
+=>按右邊的 ctrl-alt-f1就可以了！
+( Mat:我的作法是先用 ctrl-alt-1，然後再打 "sendkeys ctrl-alt-f1"的指令 )
+
++ Mat:
+kde-windows' emerge
+這個是我目前看到最屌的 win32 porting toolchain
+http://techbase.kde.org/Getting_Started/Build/KDE4/Windows/emerge
+
+[[code]]
+ 1 #!/bin/bash
+ 2 
+ 3 output=${output:=/dev/stdout }                                                                   
+ 4 
+ 5 ls &> $file
+[[/code]]
+
+[[code]]
+gitk --all 
+[[/code]]
+
+(這樣子就可以看到所有 branch的分支圖了~~ )
+
+To kcliu:下面這個可以看到 javascript用 regexp的寫法
+http://www.javascriptkit.com/jsref/regexp.shtml
+
+
++ yan:
+OVIMGeneric 吃 .cin表格時，單字結尾有空白會失常。
+記得將空白去掉 
+
+( Mat:下載程式碼 hg clone http://hg.suckless.org/wmii/ )
+( Mat:在 include/stuff/x11.h有 Font的結構，還有一個 drawstring()的函式 )
+( Mat:猜測應該是 font rendering的一個 hook point...)
+
++ sinsun:
+最近 Tossug在找 html5 讀書會，若大家有興趣的話，歡迎和我聯絡...
+在 6月份開始，已經有 4,5 個題目了，正確時間還不確定，大概是第二個禮拜吧...
+
++ blue119:
+今天的經典 demo code,將 python的語法嵌在 shell script裡，然後接到 shell script用
+[[code]]
+ 1 #!/bin/bash
+ 2 
+ 3 
+ 4 result=$(python << EOF
+ 5 def hello():
+ 6     print "hello python"
+ 7 
+ 8 hello()                                                                                          
+ 9 
+10 EOF
+11 )
+12 
+13 echo $result
+[[/code]]
+
+git log 的 alias <- 好像是從 c9s 那抄來的 :P
+[[code]]
+lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+[[/code]]
+
+blender 一個 opne source 的 3D 特效軟體
+
++ honki:
+Realtek Wireless Driver on Ubuntu 10.04 - Lenovo X200 TYPE 7458-PJ9
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/567016
+Update Ubuntu 10.04 linux kernel, then this problem should be solved.
+
+
++ Thinker:
+v8是用 scons作 build system
+會自動把 header抽出來,用 timestame, md5來檢查
+ compile過的東西會存到 cache，可以共用
+ 重點是語法簡單，裡面直接支援 python 
+ 最主要是在 build產生的過程， dependency的檢查

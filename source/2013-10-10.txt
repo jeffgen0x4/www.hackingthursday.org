@@ -1,0 +1,52 @@
+[[[ 2013-10-03 |上一週]]] || [[[ 2013-10-17 |下一週]]]
+
+projector+
+
+[[toc]]
+
+projector: yes
+
++ peter
+git 回復 rebase 操作
+
+[[code]]
+$ git reset --hard ORIG_HEAD
+[[/code]]
+
++ Carl
+Using tmux to share a terminal | Richard WM Jones
+http://rwmj.wordpress.com/2011/11/23/using-tmux-to-share-a-terminal/
+
+tmate • Instant terminal sharing
+http://tmate.io/
+
+tmate also allow you to share a read-only view of your terminal. The read-only connection string can be retreived with tmate show-messages.
+
++ czchen
+python 將 library 安裝在使用者目錄下
+
+[[code]]
+$ export PIP_USER=true
+[[/code]]
+
+https://github.com/czchen/dotfiles/commit/b4df1af19e0b524f50a18980a76983ea201fa083 
+
+但 virtualenv 不支援使用使用者家目錄下的函式庫，要做此設定
+https://github.com/czchen/dotfiles/commit/c08e326b53a3ec6b21eae7ba35944a1b88dfc3e4
+
++ $4
+官方推薦的非官方 Autotools Tutorial
+http://www.lrde.epita.fr/~adl/autotools.html
+
++ yan
+Gearman
+http://www.slideshare.net/magentodev/gearman-jobqueue
+
+GearmanManager
+https://github.com/brianlmoon/GearmanManager
+
+Gearman-Monitor
+https://github.com/yugene/Gearman-Monitor
+
+Gearman 使用 Mysql 作 Job Queue
+http://atan.cn/gearman-installation/

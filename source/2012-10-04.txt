@@ -1,0 +1,70 @@
+[[[ 2012-09-27 |上一週]]] || [[[ 2012-10-11 |下一週]]]
+
+[[toc]]
+
+[[html]]
+<iframe src='http://pad.hackingthursday.org?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=675 height=400></iframe>
+[[/html]]
+
+
++ yuren
+
+2012 H4 T-shirt 開票
+ 1. Mat (10)
+ 2. John (6)
+ 3. Muka (5)
+ 4. Honki (3)
+ 
+
++ yan
+
+[[code]]
+$ **(** time ls **)** **2>&1** | grep user
+[[/code]]
+
+[[code]]
+$ uptime | grep **-o** '[0-9]\+ users'
+[[/code]]
+
+[[code]]
+$ xgettext -d messages ./APP/View/*.html --from-code=UTF-8 **--language=PHP**
+[[/code]]
+
+joonty/vim-phpqa
+https://github.com/joonty/vim-phpqa
+
+http://www.wikimatrix.org/compare/Wikidot+Zim
+
+
++ honki
+
+(感謝 Thinker 大大正解)
+
+[[code]]
+document.createElement**NS**
+
+img.setAttribute**NS**
+[[/code]]
+
+[http://stackoverflow.com/questions/10261731/can-not-add-image-inside-svg-via-jquery-image-tag-becomes-img Can not add image inside SVG via jQuery: <image /> tag becomes <img /> - Stack Overflow]
+
+
++ ben
+
+Windows 防止程式被中止
+1. DACL
+2. 從 tasklist、taskmgr 的輸出隱藏
+3. 多個行程互相監視，他方被關閉後重新啓動
+4. 使系統調用此程式的函數庫，程式關閉時系統異常
+
+
++ Mat
+
+我的 PyQt 啟蒙教材:
+http://gumuz.nl/weblog/pyqt-designer-video-tutorial/
+
+
++ DanielLin
+
+網樂通改機線
+http://www.oneping.com.tw/p_usb2ttl_16.htm

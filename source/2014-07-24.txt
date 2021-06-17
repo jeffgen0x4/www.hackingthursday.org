@@ -1,0 +1,27 @@
+[[[ 2014-07-17 |上一週]]] || [[[ 2014-07-31 |下一週]]]
+
+[[toc]]
+
++ yuren
+
+[[code]]
+$ git fetch b2g pull/22112/head:pull/22112
+[[/code]]
+
+在 github 的 pull request 網址後面加上 .patch 就可以下載 diff 檔
+
++ peter
+Sans Noto 爲 OTF 字型，XeTeX 使用 OTF 字型需要 patch
+http://www.zhihu.com/question/24535443
+
++ yan
+debian 套件 ttf-arphic-uming 改名爲 fonts-arphic-uming
+
+DataparkSearch Engine
+http://www.dataparksearch.org/
+
+OSMTracker for Android
+https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker&hl=en
+
+City Maps 2Go Offline Maps
+https://play.google.com/store/apps/details?id=com.ulmon.android.citymaps2go

@@ -1,0 +1,37 @@
+[[[ 2014-01-09 |上一週]]] || [[[ 2014-01-23 |下一週]]]
+
+++ **1/23 TOSSUG/H4 尾牙([http://hackingthursday.kktix.cc/events/894c4bda 報名~~])，聚會暫停一次**
+++ **1/30 除夕，聚會暫停一次**
+
+projector: yes
+
+[[toc]]
+
++ honki
+ASUS Xtion PRO
+support Ubuntu Linux 32/64 bit
+http://www.asus.com/Multimedia/Xtion_PRO/#support
+
++ Philipz
+CtrlTwit - Remote control your apps via twitter
+http://ctrltwit.com/
+
++ Yuren
+Tabula - - liberating data tables trapped inside PDF files.
+http://tabula.nerdpower.org/
+
+MongoDB Hosting: Database-as-a-Service by MongoLab (500MB free)
+https://mongolab.com/welcome/
+
++ yan
+Cool.io v1.2 now supports the Windows environment.
+http://docs.fluentd.org/articles/faq#does-fluentd-run-on-windows
+
+Cppcheck - A tool for static C/C++ code analysis
+http://cppcheck.sourceforge.net/
+
+OpenBCI
+http://www.openbci.com/technology-update/
+
+VIM学习笔记 配色方案(Color Scheme)
+http://yyq123.blogspot.tw/2011/02/vim-color-scheme.html

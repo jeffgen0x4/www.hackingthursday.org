@@ -1,0 +1,13 @@
+[[[ 2016-02-18 |上一週]]] || [[[ 2016-03-03 |下一週]]]
+
+[[toc]]
+
++ qerter
+使用 Audacity 可產生特定音調的聲音
+How to generate tones in audacity
+https://www.youtube.com/watch?v=8GgGyOqgbyE
+
++ blue119
+Avahi、PulseAudio、Systemd 是同一個作者寫的
+
+yan: 相關文章 https://linuxtoy.org/archives/interview-creater-of-systemd-and-pulseaudio-lennart.html

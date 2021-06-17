@@ -1,0 +1,58 @@
+[[[ 2015-04-02 |上一週]]] || [[[ 2015-04-16 |下一週]]]
+
+[[toc]]
+
++ hychen
+NoFlo UI Beta Testing | NoFlo
+http://noflojs.org/noflo-ui/
+
+Cal-HeatMap : Calendar Heat map with d3.js
+http://kamisama.github.io/cal-heatmap/v2/
+
++ Carl
+HackMD - Collaborative notes
+http://hackmd.herokuapp.com/
+
+Messenger
+https://www.messenger.com/
+
++ yan
+Linux CPU load average 義涵
+
+[[code]]
+$ cat /proc/loadavg
+[[/code]]
+
+理解Linux系统负荷 - 阮一峰的网络日志
+http://www.ruanyifeng.com/blog/2011/07/linux_load_average_explained.html
+
+--------
+
+setting up a global gitignore file
+
+[[code]]
+$ wget https://raw.githubusercontent.com/github/gitignore/master/Python.gitignore -O ~/Python.gitignore
+$ git config --global core.excludesfile ~/Python.gitignore
+[[/code]]
+
+--------
+
+nvie/gitflow - Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
+https://github.com/nvie/gitflow
+
+--------
+
+mattharrison/poachplate - A tool for creating boilerplate for Python command line applications.     
+https://github.com/mattharrison/poachplate
+
++ Mat
+gmarik/Vundle.vim - Vundle, the plug-in manager for Vim
+https://github.com/gmarik/Vundle.vim
+
++ dlin
+Shougo/neobundle.vim - Next generation Vim package manager
+https://github.com/Shougo/neobundle.vim
+
++ Rex
+µBlock :: Firefox 附加元件
+https://addons.mozilla.org/zh-TW/firefox/addon/ublock/?src=search&hc_location=ufi

@@ -1,0 +1,64 @@
+[[[ 2013-05-16 |上一週]]] || [[[ 2013-05-30 |下一週]]]
+
+[[toc]]
+
++ peter
+
+Windows 7 建立 soft AP
+
+[[code]]
+> netsh wlan set hostednetwork mode=allow ssid=myssid key=12345678
+> netsh wlan start hostednetwork
+[[/code]]
+
+建立完再將原本無線網路界面與此界面共用
+
++ hychen
+
+web mockup tool
+Moqups
+https://moqups.com/#!/
+
++ Mat
+
+http://fafeng.blogbus.com/logs/154969025.html
+
++ johnsonkuo
+
+ufw, 設定檔在 /etc/ufw
+before6.rules
+before.rules
+用 ufw 就不用直接編輯 ufw
+
+LMDE - Linux Mint Debian Edition
+http://www.linuxmint.com/download_lmde.php
+
+Sabayon - a Gentoo-based Linux distribution
+http://www.sabayon.org/
+
+Remmina - The GTK+ Remote Desktop Client
+http://remmina.sourceforge.net/
+
+[[code]]
+$ luit -encoding big5 telnet ptt.cc
+$ ssh bbsu@ptt.cc
+[[/code]]
+
++ honki
+輻射檢測儀
+http://www.radiation-watch.org/
+
++ Amos
+D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG and CSS.
+http://d3js.org/
+
++ yan
+
+[[code]]
+$ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
+' --abbrev-commit"
+[[/code]]
+https://coderwall.com/p/euwpig
+
++ Zero
+http://caterpillar.onlyfun.net/Gossip/JUnit/JMeter.html

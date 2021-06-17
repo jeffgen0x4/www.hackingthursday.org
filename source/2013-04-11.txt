@@ -1,0 +1,47 @@
+[[[ 2013-04-04 |上一週]]] || [[[ 2013-04-18 |下一週]]]
+
+[[toc]]
+
++ Mat
+
+http://www.commandlinefu.com/commands/browse
+
+git diffall + beyond compare
+git ls-files --exclude-standard --ignored
+
+http://codicesoftware.blogspot.com/2011/09/merge-recursive-strategy.html
+
+
++ yan
+
+VPN協議比較名單
+http://tw.giganews.com/vyprvpn/compare-vpn-protocols.html
+
+php pear 自動下載相依函示庫
+$ pear config-set auto_discover 1
+
+http://jenkins-php.org/
+
+
++ Rex
+
+New Release of REMnux Linux Distro for Malware Analysis
+http://blog.zeltser.com/post/47545363323/new-release-of-remnux-linux-distro-for-malware-analysis
+
+
++ PhilipZ
+
+Real Hackers Point: Raspberry Pi VS Arduino VS BeagleBoard VS PandaBoard VS Others
+http://realhackerspoint.blogspot.tw/2013/04/raspberry-pi-vs-arduino-vs-beagleboard.html
+
+
++ ben6
+
+MIELE 德國電器公司
+
+
+
++ YuJu
+Redmine (COSCUP、HITCON)
+Trello
+Mantis

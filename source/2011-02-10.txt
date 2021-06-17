@@ -1,0 +1,30 @@
+[[[ 2011-02-03 |上一週]]] || [[[ 2011-02-17 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.ubuntu-uk.org/h4 
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
+
++ someone 
+( 外國訪客, 坐在 SAMI 的對面 )
+qtDBus 有 win32 的版本,支援 c++ 
+
+
++ kcliu:
+osx 上安裝軟體有 MacPorts, homebrew.. 等方式，自己是用 homebrew 為主
+
+homebrew 的機制類似 FreeBSD 的 ports, 或是 gentoo 的 portage.
+4$ 找到 homebrew 的 package seed ，是放在 /usr/local/Library/Formula/*.rb 的目錄下
+homebrew 的 package seed 的內容像這樣, https://github.com/mxcl/homebrew/blob/master/Library/Formula/d-bus.rb
+
++ Mat:
+過年時間聊天聽到的，是 emacs 上用來作筆記的軟體，不過我自己沒用過。
+http://orgmode.org/
+http://linuxtoy.org/archives/emacs-org-mode.html
+
+最近接觸到 SunPinyin, http://code.google.com/p/sunpinyin/

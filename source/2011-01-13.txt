@@ -1,0 +1,56 @@
+[[[ 2011-01-06 |上一週]]] || [[[ 2011-01-20 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.ubuntu-uk.org/h4 
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
+
++ honkia :
+
+Arduino Film
+
+什麼是中斷 ...
+
++ $4:
+Linux Mint, 有兩種版本，一個 base 在 Debian testing 上，一個 base 在 Ubuntu normal release 上
+
+http://grml.org/
+這個是專門 for 系統管理的 live system distrobution
+
+
+
++ Mat :
+
+以下有兩段 script，一個是固定在 terminal 下 prompt 問題。
+但手動回答很麻煩，所以可以用 expect 來讀取問題，作自動回答。
+[[code]]
+ 1 #!/usr/bin/env bash
+ 2 
+ 3 while true; do
+ 4         sleep 1
+ 5         read -p "Are you sure?[y/n]" YES_OR_NO
+ 6         echo " Your answer is ....$YES_OR_NO"
+ 7 done    
+[[/code]]
+
+自動回答
+[[code]]
+ 1 #!/usr/bin/expect
+ 2 
+ 3 spawn ./prompt.sh
+ 4 
+ 5 while 1 {
+ 6         expect  "Are you sure" { 
+ 7                 sleep 0.3
+ 8                 send "y\r" 
+ 9         } 
+10 }  
+[[/code]]
+
+( LCamel: perl 上 expect 的模組，那 python 上有沒有相同定位的模組呢? )
+pexpect : Python 上的 expect 模組

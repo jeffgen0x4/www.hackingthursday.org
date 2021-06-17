@@ -1,0 +1,11 @@
+[[[ 2016-05-19 |上一週]]] || [[[ 2016-06-02 |下一週]]]
+
+[[toc]]
+
++ Walter
+functional-koans/clojure-koans
+https://github.com/functional-koans/clojure-koans
+
+fish shell
+https://github.com/fish-shell/fish-shell
+https://fishshell.com/docs/current/tutorial.html#tut_loops

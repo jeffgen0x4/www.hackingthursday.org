@@ -1,0 +1,27 @@
+[[[ 2016-07-28 |上一週]]] || [[[ 2016-08-11 |下一週]]]
+
+[[toc]]
+
++ Ken Cotton
+ALFA NETWORK Inc.
+http://www.alfa.com.tw/download.php
+
++ Jeffery
+Torchpad - The Simplest way to make a Markdown Wiki
+https://torchpad.com/
+
++ Jay Huang
+LeetCode Online Judge
+https://leetcode.com/
+
++ Rudiger
+UVa Online Judge
+https://uva.onlinejudge.org/
+
++ Amos
+ Corona - Cross-Platform Mobile App Development for iOS, Android
+ https://coronalabs.com/
+
++ yan
+Widgets — Urwid 1.3.1
+http://urwid.org/manual/widgets.htmlKen Cotton

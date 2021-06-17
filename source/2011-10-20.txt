@@ -1,0 +1,28 @@
+[[[ 2011-10-13 |上一週]]] || [[[ 2011-10-27 |下一週]]]
+
+[[toc]]
+
+
++ LCamel:
+https://gist.github.com/1301166
+./node --prof --prof_auto p.js 
+會跑出 v8.log
+/node-v0.5.4/deps/v8$ ./tools/linux-tick-processor ../../v8.log  | vim -R -
+ [JavaScript]:
+   ticks  total  nonlib   name
+    183    4.2%   52.3%  LazyCompile: *g /home/user1/node-v0.5.4/p.js:9
+     24    0.6%    6.9%  LazyCompile: *f /home/user1/node-v0.5.4/p.js:2
+      1    0.0%    0.3%  Stub: CallFunctionStub
+      1    0.0%    0.3%  LazyCompile: ~charAt native string.js:64
+      1    0.0%    0.3%  LazyCompile: *<anonymous> /home/user1/node-v0.5.4/p.js:16
+      1    0.0%    0.3%  Function: ~Socket.write net_legacy.js:297
+      1    0.0%    0.3%  Function: Socket._writeOut net_legacy.js:392
+
++ ben:
+  - Install node
+    - detail https://github.com/joyent/node/wiki/Installation
+    $ sudo apt-get install python-software-properties
+    $ sudo add-apt-repository ppa:chris-lea/node.js
+    $ sudo apt-get update
+    $ sudo apt-get install nodejs
+    $ sudo apt-get install nodejs-dev

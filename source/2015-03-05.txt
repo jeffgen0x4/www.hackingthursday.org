@@ -1,0 +1,49 @@
+[[[ 2015-02-26 |上一週]]] || [[[ 2015-03-12 |下一週]]]
+
+[[toc]]
+
++ czchen
+
+[[code]]
+$ docker push hackingthursday/sysd
+$ docker pull hackingthursday/sysd
+[[/code]]
+
++ Sam
+Xvisor: eXtensible Versatile hypervISOR
+ARM 
+http://xhypervisor.org/
+
++ walon
+UEFI BIOS 階段
+SEC
+PEI  16bit -> 32bit 
+DXE
+BDS
+
++ gittrac
+Taiwan Air Quality Monitoring Stations 空氣品質偵測數據
+http://aqicn.org/map/china/
+
+The Dylos experiment: Real-time Air Quality readings from Beijing
+PM2.5, PM10 偵測器
+http://aqicn.org/faq/2013-09-08/dylos-air-particule-counter-experimentation-part-1/
+
+Smart Air 聰明空氣
+http://www.smartairfilters.com/zh.html
+
++ yan
+AirBeam: Share & Improve Your Air by HabitatMap — Kickstarter
+https://www.kickstarter.com/projects/741031201/airbeam-share-and-improve-your-air
+
+------
+
+O.S.G | Open Source Smart Glass
+http://www.myopenglass.com/
+
+------
+
+MySQL REGEXP operator
+[[code]]
+mysql> SELECT * FROM `users` where address REGEXP '台北市|新北市';
+[[/code]]

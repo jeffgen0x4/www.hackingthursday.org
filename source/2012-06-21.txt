@@ -1,0 +1,142 @@
+[[[ 2012-06-14 |上一週]]] || [[[ 2012-06-28 |下一週]]]
+
+
+[[toc]]
++ yan
+今天可能不會到，先分享最近整的東東
+Vim as python IDE
+.vimrc
+[[code]]
+" Flake8 (pyflakes + pep8 check)
+" 禁止PyFlakes使用QuickFix，这样在按下<F7>时会调用flake8，而有对于代码编辑时的错误仍能得到有效的提示
+let g:pyflakes_use_quickfix = 0
+ 
+" 如有需要，可设置忽略部分错误
+let g:flake8_ignore="W404"
+"pydiction 1.2 python auto complete
+filetype plugin on
+let g:pydiction_location = '~/.vim/tools/pydiction/complete-dict'
+"defalut g:pydiction_menu_height == 15
+"let g:pydiction_menu_height = 20 
+" python indent (TAB to 4 SPACE)
+filetype plugin indent on
+autocmd FileType python setlocal et sta sw=4 sts=4
+" pylint
+autocmd FileType python compiler pylint
+" don't exec Pylint on save file, use :Pylint or :make
+let g:pylint_onwrite = 0
+" remove whitespace on save file
+autocmd FileType c,cpp,python,php autocmd BufWritePre <buffer> :%s/\s\+$//e 
+[[/code]]
+Jenkins 裡的 shell script
+[[code]]
+echo "clonedigger ...."                                                                             
+clonedigger --cpd-output -o clonedigger.xml .
+echo "pep8 ...."
+pep8 --filename=*.py  . > pep8.txt
+echo "pylint ...."
+for f in `find . -name "*.py"`; do
+pylint --output-format=parseable --reports=y $f >> pylint.log
+done || :
+[[/code]]
+http://www.flickr.com/photos/a0726h77/7408785128/in/photostream
+http://www.flickr.com/photos/a0726h77/7408773646/in/photostream
+http://www.flickr.com/photos/a0726h77/7408808350/in/photostream/
+感謝 Amos 推薦這套系統, 正搭建一個 Python 開發鍵
+發現對岸也有過 Hacking Thursday
+http://h4.opensource.hk/
++ Amos
+https://codebeamer.com
++ Mat
+這週裝了 Redmine 來用 ( 好難裝啊 ... )
+[[code]]
+#!/usr/bin/env bash
+ROOT=$( dirname $( readlink -f $0 ) )
+REDMINE_DIR="$ROOT/redmine-2.0"
+aptitude install -y ruby rubygems
+aptitude install -y ruby-dev # fixed: mkmf LoadError bug
+aptitude install -y sqlite3 libsqlite3-dev
+aptitude install -y sqlite3 mercurial
+aptitude install -y make gcc
+aptitude install -y libfcgi-dev
+gem install --no-rdoc --no-ri rails -y
+gem install --no-rdoc --no-ri bundler
+gem install --no-rdoc --no-ri sqlite3-ruby
+gem install --no-rdoc --no-ri ruby-fcgi 
+if [ ! -d  "$REDMINE_DIR" ]; then
+        hg clone --updaterev 2.0-stable https://bitbucket.org/redmine/redmine-all $REDMINE_DIR
+fi
+pushd . ; cd $REDMINE_DIR
+        export RAILS_ENV=production
+        bundle install --without development test mysql postgresql rmagick
+        rake generate_secret_token
+        rake db:migrate
+        rake redmine:load_default_data
+        chown -R www-data:www-data files log tmp
+popd
+[[/code]]
+/etc/apache2/sites-available/redmine:
+[[code]]
+<VirtualHost *:80>
+        ServerAdmin webmaster@localhost
+        ServerName localhost
+        DocumentRoot /home/redmine/redmine-2.0/public/
+        RailsEnv production
+        <Directory /home/redmine/redmine/redmine-2.0/public/>
+                Options Indexes ExecCGI FollowSymLinks 
+                Order allow,deny
+                allow from all
+                AllowOverride all
+        </Directory>
+</VirtualHost>
+[[/code]]
+記得要裝 libapache2-mod-passenger，不然網站會跑超慢，記憶體被吃光光~
+grub2用 iso開機的選單範例
+[[code]]
+set default=0
+insmod tga
+background_image ($root)/boot/grub/xbmc.tga
+set color_normal=cyan/blue
+set color_highlight=white/blue
+search --no-floppy --label --set=root live-boot-usb
+menuentry "TinyCore-current.iso" {
+        loopback loop /boot/iso/TinyCore-current.iso
+        linux (loop)/boot/vmlinuz quiet cde
+        initrd (loop)/boot/core.gz
+}
+[[/code]]
+另一個看到的方法是:
+[[code]]
+menuentry "Fedora-15-i686-Live-Desktop ISO" {
+  loopback loop /Fedora-15-i686-Live-Desktop.iso
+  set root=(loop)
+  chainloader +1
+  boot
+}
+[[/code]]
+但沒有試成功，不知道有沒有人有成功過?
+另外也看到另一個用法是:
+[[code]]
+map (hdX,Y)/your.iso (hdZ)
+map --rehook
+chainloader (hdZ)+1
+rootnoverify (hdZ)
+boot
+[[/code]]
+一樣沒有試成功.
++ Ben Wei
+Dox - JavaScript documentation generator
+http://visionmedia.github.com/dox/
+easy_install sphinx
+python doc generator
+http://en.wikipedia.org/wiki/Abstract_syntax_tree
++ Kanru
+雲端主機的廣告
+http://www.lowendbox.com/
++ C.Y.J
+http://www.panticz.de/MultiBootUSB
+http://www.pendrivelinux.com/yumi-multiboot-usb-creator/
+
++ Lichain
+跟Tim請教google apps 用途
+http://www.google.com/enterprise/apps/business/

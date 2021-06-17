@@ -1,0 +1,33 @@
+[[[ 2012-05-24 |上一週]]] || [[[ 2012-06-07 |下一週]]]
+
+[[toc]]
+
+
++ Yuren
+LibreOffice 新版 3.5.4 宣稱開啟大檔速度增快 100%
+http://blog.documentfoundation.org/2012/05/30/the-document-foundation-announces-libreoffice-3-5-4/
+
++ cj
+palmislife 
+http://f.pil.tw/forum.php
+
++ Lichain
+First write in H4
+Will study : 網路爬蟲 (crawler) 
+Reference
+- http://www.starming.com/index.php?action=plugin&v=wave&tpl=t&nav=s&pg=19&gid=73&tid=3124
+- http://ccckmit.wikidot.com/code:crawler
+
++ Mat
+數控板: ramps 1.2
+arduino板: mega1280
+Arduino 的 "WProgram.h" 在 1.0 版之後，改成了 "Arduino.h", 記得將
+[[code]]
+  #include "WProgram.h"
+[[/code]]
+換成
+[[code]]  
+  #include "Arduino.h"
+[[/code]]
+  
+https://github.com/adafruit/DHT-sensor-library/issues/1https://github.com/adafruit/DHT-sensor-library/issues/1

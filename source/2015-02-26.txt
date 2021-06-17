@@ -1,0 +1,37 @@
+[[[ 2015-02-19 |上一週]]] || [[[ 2015-03-05 |下一週]]]
+
+[[toc]]
+
++ Thinker
+Profiling with the built-in profiler - Mozilla | MDN
+https://developer.mozilla.org/en-US/docs/Mozilla/Performance/Profiling_with_the_Built-in_Profiler
+# 先安裝 [https://github.com/bgirard/Gecko-Profiler-Addon/blob/master/geckoprofiler.xpi?raw=true Gecko Profiler]
+# Ctrl+Shift+1 啓動 profiler
+# Ctrl+Shift+2 使用 Cleopatra 檢視 profile 資訊
+# Ctrl+Shift+1 停止 profiler
+
+* 可以把 profile 記錄儲存下來，是一個 JSON 檔
+
++ johnsonkuo
+
+檢視電池詳細資訊
+
+[[code]]
+$ acpi -ib
+[[/code]]
+
+[[code]]
+$ cat /sys/class/power_supply/BAT0/uevent
+[[/code]]
+
++ yan
+qtcreator - lightweight integrated development environment (IDE) for Qt
+http://qt-project.org/wiki/VendorPackages
+
+qt4-designer - graphical designer for Qt 4 applications
+https://apps.ubuntu.com/cat/applications/qt4-designer/
+
+--------
+
+wxFormBuilder | SourceForge.net
+http://sourceforge.net/projects/wxformbuilder/

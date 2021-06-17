@@ -1,0 +1,16 @@
+[[[ 2016-07-14 |上一週]]] || [[[ 2016-07-28 |下一週]]]
+
+[[toc]]
+
++ Reneata
+Community Open Camp
+http://community-open-camp.azurewebsites.net/
+
+微軟最有價值專家 Microsoft MVP 台灣粉絲團
+https://www.facebook.com/twmvp
+
+Microsoft Bot Framework
+https://dev.botframework.com/
+
+Azure IoT 套件
+https://azure.microsoft.com/zh-tw/suites/iot-suite/

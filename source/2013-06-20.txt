@@ -1,0 +1,79 @@
+[[[ 2013-06-13 |上一週]]] || [[[ 2013-06-27 |下一週]]]
+
+[[toc]]
+
++ yan
+
+整理一些社群資源
+http://www.mindmeister.com/303031964/community-map
+
+Lazy Load Plugin for jQuery
+http://www.appelsiini.net/projects/lazyload
+
+Android :
+SSHelper
+http://arachnoid.com/android/SSHelper/
+AirDroid | Your Android, on the Web.
+http://www.airdroid.com/
+
+
++ pct
+
+Bootbox.js - alert, confirm and flexible dialogs for Twitter's Bootstrap framework
+http://bootboxjs.com/
+
+
++ Vincent
+
+Opt out of PRISM, the NSA’s global data surveillance program - PRISM BREAK
+http://prism-break.org/
+
+**#opPrismBreak** [*http://piratepad.net/RkxJRcRo9C http://piratepad.net/RkxJRcRo9C]
+
++ 果凍
+
+PySide - Python for Qt
+http://qt-project.org/wiki/PySide
+
++ czchen
+
+[[code]]
+git log --grep keyword
+[[/code]]
+
+
+drone.io - 除了 Travis-CI 以外的另外一套 CI
+https://drone.io/github.com/yurenju/gaia-preload-app/1
+
+
+See Translation
+
++ yuren
+
+pythond debug -> sublime plug
+http://outofmemoryblog.blogspot.tw/2012/08/python-development-with-sublime-text-2.html
+https://pypi.python.org/pypi/PdbSublimeTextSupport
+
+
++ Shelandy
+
+Mageia - Forking from Mandriva
+http://www.mageia.org/zh-cn/1/migrate/
+用magnesia 3 lived 開機可以把來源跟目的硬碟 mount 起來,比如
+
+[[code]]
+$ cd /mnt; mkdir sda1; mount /dev/sda1 /mnt/sda1 
+[[/code]]
+備份到另一硬碟
+[[code]]
+$ cd /mnt/sda1 ; tar cBf - . | (cd /mnt/sdb1; tar xBf -)
+[[/code]]
+有一些許socket 資訊無法備份，那是正常，不用擔心
+
+假如partition 大小改過,要去 /etc/blkid.tab （debain）或 /etc/blkid （mageia 或其他rpm based）
+改
+/etc/fstab （ubuntu 12.x 之後)
+跟/boot/grub/ 裡的資訊要跟著改
+要是否其他硬體有變動，要去改/etc/modprobe.conf
+或修改
+/etc/udev/rules.d/xxx.rules

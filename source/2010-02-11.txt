@@ -1,0 +1,54 @@
+[[[2010-02-04 |上一週]]] || [[[2010-02-18|下一週]]]
+
+[[toc]]
+
++ 前情提要
+這一頁會固定於前一天週三中午附加在聚會通告的 Email 裡
+若你也有想要分享的內容，也隨時歡迎你自助編輯加上你想分享的消息嘍 :-)
+
++ honkia:
+veejay 用來作影像混合的軟體，for 現場即時表演
+pinta 比 gimp 容易用的圖形編輯工具
+openshot
+omg-ubuntu
+yurenju作的 wallbox 有記者報導
+
+
++ lis186:
+http://www.lis186.com
+http://www.placeclipr.com , 作旅遊計畫的方便工具
+有 chrome extension, 有列印功能！
+一邊看部落格，一邊整理資料
+
+iSimulate, iphone app, 有 objective-c 跟 flash 的版本
+http://www.vimov.com/isimulate/
+
+作的重力小飛機的小遊戲
+
+
++ Mat:
+zenity 接受 shell script pipe 的 gtk dialog 工具
+
+[[code]]
+(for a in `seq 1 100` ;
+do
+echo $a;
+sleep 0.03;
+done) | zenity --auto-close --progress \
+--text="Slow counting from 1 to 100" \
+--title="Example Progress"
+[[/code]]
+
++ Fourdollars:
+作了 pcmanx-gtk2 的自動包 debian package 的工具
+
+
+[[code]]
+svn checkout https://pcmanx-gtk2.googlecode.com/svn/trunk pcmanx
+cd pcmanx
+./autogen.sh
+cd build
+./snapshot-deb.sh
+[[/code]]
+
+執行完後，binary 跟 source 的 deb 套件就出來了！！

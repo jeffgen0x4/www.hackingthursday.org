@@ -1,0 +1,180 @@
+[[[2009-11-05 |上一週]]] || [[[2009-11-19 |下一週]]]
+
+本周人數：15+
+
+[[toc]]
+
++ Mat:
+google 出了 javascript 的 framework : closure-library 
+http://code.google.com/closure/library/
+
+用 javascript 可以使用 gettext 
+http://code.google.com/p/gettext-js/
+
+[[code]]
+xgettext.pl -D ../js/
+[[/code]]
+
+UML 工具 :umbrello, 將 code import 之後，class 拉一拉就可以自動畫關係線
+
++ Tsung:
+http://plog.longwin.com.tw/programming/2009/03/13/gettext-mo-convert-po-php-reader-mo-2009
+http://plog.longwin.com.tw/programming/2007/09/16/gettext_php_i18n_2007
+
+多金的英文名字
+http://plog.longwin.com.tw/news-life-joke/2005/07/01/money_eng_name
+
+我不是網管，我什麼都不管。
+
++ hychen:
+用 python 的 binascii 可以處理位元字串
+
++ yan:
+把 sm 再改成自動載入模組
+
+當看一些二進制檔搞亂了你的終端機, 可以
+
+> $ tput init 或 reset
+
+fbterm 會綁住 Ctrl+Alt, 這時不能切換 tty, 可以
+> $ chvt 3
+原來在ttyN下只要Alt+F[1-9]就可以切換了
+
+++ Compromised Website
+大砲開講
+	http://rogerspeaking.com/2007/01/32
+天罣--輪迴的阿修羅                                                                    
+	http://tw.myblog.yahoo.com/edward_205_6/
+TW 網站淪陷資料庫
+	http://www.itis.tw/compromised
+XSSed
+	http://www.xssed.com/
+
++ Aki:
+紹介 [http://code.google.com/p/trayer/ Trayer]
+[[code]]trayer --transparent true --tint 0x000000 --edge top --widthtype request --align right --height 18 &[[/code]]
+
+http://maketecheasier.com/8-useful-and-interesting-bash-prompts/2009/09/04
+笑臉跟 orz 的 bash prompt
+
++ fourdollars:
+++ rumor
+聽 nmap 的作者說，用 xss 攻擊是很娘的行為 XD
+
+++ Reference in C++ Programming
+http://fourdollars.blogspot.com/2009/11/c-programming-call-by.html
+
+basic.cpp
+[[code type="Cpp"]]
+#include <iostream>
+
+void funcA(int &);
+void funcB(int);
+void funcC(int *);
+
+int main(int argc, char* argv[])
+{
+    int value = 10;
+    std::cout << value << std::endl;
+    funcA(value);
+    std::cout << value << std::endl;
+    funcB(value);
+    std::cout << value << std::endl;
+    funcC(&value);
+    std::cout << value << std::endl;
+    return 0;
+}
+
+/* Call by reference */
+void funcA(int& val)
+{
+    val = 20;
+}
+
+/* Call by value */
+void funcB(int val)
+{
+    val = 30;
+}
+
+/* Call by pointer */
+void funcC(int* val)
+{
+    *val = 40;
+}
+[[/code]]
+
+adv.cpp
+[[code type="Cpp"]]
+#include <iostream>
+
+using namespace std;
+
+void funcA(const int&);
+void funcB(int);
+void funcC(const int*);
+
+int main(int argc, char* argv[])
+{
+    const int value = 10;
+    cout << value << " " << &value << endl;
+    funcA(value);
+    cout << value << " " << &value << endl;
+    funcB(value);
+    cout << value << " " << &value << endl;
+    funcC(&value);
+    cout << value << " " << &value << endl;
+    return 0;
+}
+
+/* Call by reference */
+void funcA(const int& value)
+{
+    int &tmp = const_cast<int&>(value);
+    tmp = 20;
+    cout << "\t" << value << " " << &value << endl;
+}
+
+/* Call by value */
+void funcB(int value)
+{
+    value = 30;
+    cout << "\t" << value << " " << &value << endl;
+}
+
+/* Call by pointer/address */
+void funcC(const int* value)
+{
+    int* tmp = const_cast<int*>(value);
+    *tmp = 40;
+    cout << "\t" << *value << " " << value << endl;
+}
+[[/code]]
+
+output
+[[code]]
+$ ./main
+10 0xbfb17040
+    20 0xbfb17040
+10 0xbfb17040
+    30 0xbfb17020
+10 0xbfb17040
+    40 0xbfb17040
+10 0xbfb17040
+[[/code]]
+
+Rex's comment
+main::value 是一個 alias, compiler (g++ 4.3.4) 會替換成 integral literal，但是依然會在 Stack 中配置此變數供人使用。因此你可以對其寫入 (as memory/stack)，惟讀取時依然讀 integral literal. 若要讀改過後值應是
+[[code  type="Cpp"]]
+    std::cout << "g:" << *(int *)&value << std::endl;
+[[/code]]
+
+
+Mat: 剛剛試了一下，發現好像只要只要 pointer 設成 const 的話，那麼 pointer 跟 *pointer 都會是唯讀的。
+用 const_cast 取出來的，應該是原唯讀資料的複本。
+
+Rex: const pointer 有三種設法，見 http://yosefk.com/c++fqa/const.html#fqa-18.5
+
+$4: 實驗結果是變數值真的被改變過了~ 而不是建立複本~ 只是後來又被改回原值了~ http://fourdollars.blogspot.com/2009/11/gcc-c-compiler-const.html
+$4: GCC C++ Compiler 對 const 變數數值的還原保護僅限於直接傳入函式的變數本身，不包含該 const 變數底下的 const 變數 http://fourdollars.blogspot.com/2009/11/gcc-c-compiler-const_15.html
+$4: GCC C++ Compiler 根本沒有還原 const 變數的數值，只不過先行代換掉使用 const 變數的地方。http://fourdollars.blogspot.com/2009/11/gcc-c-compiler-const-const.html

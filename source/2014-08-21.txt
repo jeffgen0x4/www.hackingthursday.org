@@ -1,0 +1,49 @@
+[[[ 2014-08-14 |上一週]]] || [[[ 2014-08-28 |下一週]]]
+
+[[toc]]
+
+
++ frank
+slrn - threaded text-mode news reader
+newsbeuter - text mode rss feed reader with podcast support
+
++ yuren
+Boot2Docker Windows Install
+https://www.youtube.com/watch?v=oSHN8_uiZd4
+
++ philipz
+從 docker image 產生 dockerfile
+dockerfile-from-image
+https://github.com/CenturyLinkLabs/dockerfile-from-image
+
++ pct
+$ sudo do-release-upgrade
+https://help.ubuntu.com/12.04/serverguide/installing-upgrading.html
+
++ hab
+螢幕錄影 - Simple Screen Recorder
+http://www.omgubuntu.co.uk/2013/12/simple-screen-recorder-linux
+
+SimilarWeb
+http://www.similarweb.com/
+
+similarweb.com 比較競爭者網站 不同於Google Analytics網站分析
+http://dcplus.com.tw/6825/mkt_knowledge
+
+Pearltrees
+http://www.pearltrees.com/
+
++ yan
+Firefox 書籤抓取 RSS 資訊
+http://mozilla.gunnars.net/firefox_bookmarks_tutorial.html#live_bookmarks
+
+在本機連線到 OpenShift 上的 MySQL 
+
+[[code]]
+// 啓用 port forward (會將 openshift 上的 port 對應到本地)
+$rhc port-forward -a applicationName
+// 使用 show app 可以看到資料庫連線的帳號密碼 
+$ rhc show-app --app applicationName
+// 使用 TCP 連線到資料庫 
+$ mysql -u USERNAME -p -h 127.0.0.1
+[[/code]]

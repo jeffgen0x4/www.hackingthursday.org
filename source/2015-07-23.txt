@@ -1,0 +1,18 @@
+[[[ 2015-07-16 |上一週]]] || [[[ 2015-07-30 |下一週]]]
+
+[[toc]]
+
++ Carl
+iTerm2 - Mac OS Terminal Replacement
+https://www.iterm2.com/
+
+iTerm2 - Inline Images
+
+[[code]]
+$ imgls
+$ imgcat
+[[/code]]
+
++ yan
+fuhsjr00/bug.n - Tiling Window Manager for Windows
+https://github.com/fuhsjr00/bug.n

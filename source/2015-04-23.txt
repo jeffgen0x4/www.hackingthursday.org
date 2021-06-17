@@ -1,0 +1,27 @@
+[[[ 2015-04-16 |上一週]]] || [[[ 2015-04-30 |下一週]]]
+
+[[toc]]
+
++ hychen
+對岸有在 Ubuntu 上開發一套給農夫用的 神農系統
+--------
+使用四軸飛行器來趕鳥
+
++ Sam
+由 Boston Dynamics 公司開發的機器夠
+BigDog Evolution - YouTube https://www.youtube.com/watch?v=xqMVg5ixhd0
+
++ Thinker
+輔助農用機器人
+履帶
+抓蟲：使用吸的方式
+除草：夾住及旋轉
+
++ yan
+FormEmailer
+https://sites.google.com/site/formemailer/
+
+--------
+
+splitbrain/docker-phpfarm
+https://github.com/splitbrain/docker-phpfarm

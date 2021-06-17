@@ -1,0 +1,19 @@
+[[[ 2012-08-16 |上一週]]] || [[[ 2012-08-30 |下一週]]]
+
+[[toc]]
+
++ shock
+MK802 - Android Mini PC
+http://goods.ruten.com.tw/item/show?21208088089859
+
++ Mat
+目前已收集的照片
+https://www.dropbox.com/sh/ffup9zc89i4k9jl/72WObHprib
+https://www.dropbox.com/sh/ffup9zc89i4k9jl/E5dJ-j-cVr/H4%20Album
+
+這幾天偶然逛到這個網頁 http://ethercalc.tw/
+唯一一頁就將該交待的交待完，該有的都有，不該有的都沒有，同時兼顧一般用戶跟開發者，實在是太精典了！
+
++ chihchun
+Creating a Filter-Hook Driver http://msdn.microsoft.com/en-us/library/ff545404%28v=vs.85%29?
+Windows Filtering Platform http://msdn.microsoft.com/en-us/windows/hardware/gg463267.aspx?

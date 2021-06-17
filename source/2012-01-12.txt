@@ -1,0 +1,45 @@
+[[[ 2012-01-05 |上一週]]] || [[[ 2012-01-19 |下一週]]]
+
+[[toc]]
+
+[[html]]
+<iframe src='http://pad.hackingthursday.org?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=675 height=400></iframe>
+[[/html]]
+
++ LCamel
+用 Shift-Ctrl-V 來貼上，會清除格式再貼上，就不用貼到記事本再貼上了。
++ Mat
+http://blog.hashpling.org/git-as-a-general-purpose-backup-utility/
++ Thinker, LCamel, Mat
+
+用 firefox 透過 XPCOM 執行系統指令，**並取得執行結果**
+先用進 xul 的瀏覽，網址列輸入 => chrome://browser/content/browser.xul
+然後開 firebug 作 console 輸入指令
+[[code]]
+function popen_js( cmd ){
+        var result = Array();
+        Components.utils.import("resource://gre/modules/ctypes.jsm");
+        var lib = ctypes.open("libc.so.6");
+        c_str_ary = new ctypes.ArrayType( ctypes.char, 1024 );
+        var popen = lib.declare("popen", ctypes.default_abi, ctypes.void_t.ptr, ctypes.char.ptr, ctypes.char.ptr );    
+        var pclose = lib.declare("pclose", ctypes.default_abi, ctypes.void_t.ptr, ctypes.void_t.ptr );
+        var fgets = lib.declare("fgets", ctypes.default_abi, ctypes.char.ptr, c_str_ary, ctypes.int, ctypes.void_t.ptr ); 
+        fd = popen( cmd, "r" );
+        buf = new c_str_ary();
+                
+        do {    
+                output = fgets( buf, 1024, fd );
+                ret = ctypes.cast( output, ctypes.int );
+                if( ret.value == 0 ){ break; }
+                result.push( buf.readString() );
+        } while ( true )
+        pclose( fd );
+        return result;
+}
+command_output = popen_js( "ls -l /tmp/" );
+for( i=0; i<command_output.length; i++){
+    console.log( command_output[i] );
+}
+[[/code]]
+
+( Mat: Thinker 真是太威了， LCamel is , too~~ )

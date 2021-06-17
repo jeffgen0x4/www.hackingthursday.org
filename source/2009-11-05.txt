@@ -1,0 +1,104 @@
+[[[2009-10-29 |上一週]]] || [[[2009-11-12 |下一週]]]
+
++ Mat:
+vimdiff - 編輯兩個檔案, 並顯示他們的差異
+lsdiff, filterdiff, ... 這些工具包含在下列這個套件
+
+* **dev-util/patchutils** A collection of tools that operate on patch files
+
+Q: 如果 patch 上的檔案有問題, 是不是可以試試 patch -R 參數
+A: 用 patch -R 可以，大概要加一步偵測錯誤。也可以用 -N, --forward 不中斷執行。
+
+vim 可以設定成看到特殊字元的顯示
+[[code]]
+:set list
+[[/code]]
+
+* Thinker 意見: three-way merge 可以避免再次 conflict 問題，不見得需要利用 filterdiff 來避免 conflict.
+* vimdiff [mine] [base] [other]
++ Tsung:
+
+寫了一個配色調色的工具網頁
+http://color.sieasy.com/color_liner.php?min=0000ff&max=ff0000&level=5
+http://color.sieasy.com/?color=4C6277,6590A6,E6E6C0,FF8D8D,945A5A
+
+4$: http://kuler.adobe.com/
+
+Ubuntu One: 存儲、同步及分享你的文件
+
++ yan :
+作了一個 sm ( screen message ) 的 patch，加上了倒數計時的功能
+> git://github.com/a0726h77/sm.git
+小插曲：因為之前 dns server 的關係, 所以將 github ip 給設在 /etc/hosts, 結果他們系統好像轉換了, 之前那網站登入的話會變成 Read-Only Mode,  難怪我不能運作, 不過現在好了 ;-)
+
+** remote file include ** 簡稱 RFI
+
+觸發條件 php.ini：
+register_globals = On // 這樣子參數就可以亂傳
+allow_url_fopen = On // php 4.x
+allow_url_include = On // php 5.2.x
+舊的機器 by default 是舊設定
+
+
++ hychen:
+爆: 某廠牌的魔術, wifi 睡著了就醒不來了…，因為是某晶片廠的 bug.
+
++ Aki:
+日本來的友人，打個招呼~~
+
++ sinsun:
+希望文書，作 gentoo 的入門，連 CD 跟書本一起賣，籍此推廣 gentoo 
+市面有中文書，但比較舊。希望有人願意加入一起編輯。
+
++ honki:
+clyde: 糟糕三人組: aguai, clyde, honkia
+11/06-15 台北數位藝術節第4屆，**不用門票**，在台北當代藝術館， openlab.taipei
+看用科技工具來作藝術工作
+
+美好的事物總是稍蹤即逝
+
+因為 jserv 的一句話，就畫了一張 moe.android ( 萌 android )
+
++ Clyde:
+糾團去阿怪的表演: clyde, sinsun, hychen, 
+
++ Rex:
+WebTablet 
+javascript, web-based, 
+有興趣的人請跟 Thinker, Rex 聯絡~
+googlegroup://lexue ( 樂學, 不是熱血喔 )
+
++ pct:
+google chrome 外掛的寫法是純 html, javascript
+
+AUR http://aur.archlinux.org
+
+法國團隊作了一個東西 http://repo.archlinux.fr/i686
+[[code]]
+pacman -Sy
+yaourt -S ibus
+[[/code]]
+
+Rex: pacman 跟 AUR 的關係
+ ABS 是什麼
+
+yaourt 跟用紅字來提示已經有新的東西
+
+PKGBUILD => arch
+EBUILD => gentoo
+AUR 提供 source, 仿 freebsd, gentoo 等 source based distribution.
+Arch Linux 更新速度很快
+
+[[code]]
+sysupgrade
+[[/code]]
+
+可以支持 svn/cvs/hg/git 不同獨立的版本控制來源
+
+Rex: 為什麼要 fork 這個 repository?
+
+AUR 有評分系統!
+pacman 只裝 package, AUR 是從 source 開始 build
+從 gentoo 轉 arch 的理由: 希望有一個比較快的安裝方法, installer 不錯, 東西很快, 有 user comment, 
+
+什麼機制可以 share binary ?

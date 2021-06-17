@@ -1,0 +1,65 @@
+[[[ 2014-10-30 |上一週]]] || [[[ 2014-11-13 |下一週]]]
+
+[[toc]]
+
++ tsaikd
+godep
+
+[[code]]
+$ godep save ./...
+$ godep go build ./...
+$ godep go test ./...
+[[/code]]
+
++ kanru
+Debian Package Tracker
+https://tracker.debian.org/
+
++ $4
+ITP - Intent To Package
+google://debian lang golang itp
+
++ Mat
+jordansissel/fpm - Build packages for multiple platforms (deb, rpm, etc)
+https://github.com/jordansissel/fpm
+
+ubuntu - Packaging Golang application for Debian - Stack Overflow
+http://stackoverflow.com/questions/15104089/packaging-golang-application-for-debian
+
++ kfei
+Semantic Versioning 2.0.0 版本號發佈標準
+http://semver.org/
+http://semver.org/lang/zh-TW/
+
++ hab
+Google ‘Stars’ Bookmark Manager for Chrome
+http://thenextweb.com/google/2014/10/29/google-releases-new-stars-bookmark-manager-chrome/
+
++ lcamel
+heroku-ircbot/web.js at master · ronnywang/heroku-ircbot
+https://github.com/ronnywang/heroku-ircbot/blob/master/web.js
+
++ yan
+aNag - Nagios and Icinga client for android
+https://play.google.com/store/apps/details?id=info.degois.damien.android.aNag&hl=en
+
+regular expression
+greedy mode 貪婪模式
+non-greedy(lazy) mode 非貪婪模式
+
+Linux Markdown Editor (比 Retext 好用)
+MdCharm
+http://www.mdcharm.com/#screenshots
+
+Remarkable (GitHub 呈現樣式不錯)
+http://remarkableapp.net/screenshots.html
+
++ Carl Su
+Slack
+HipChat, Confluence, Jira
+http://www.gliffy.com/
+
++ Bruce
+Condition compile on golang
+http://golang.org/pkg/go/build/#hdr-Build_Constraints
+http://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool

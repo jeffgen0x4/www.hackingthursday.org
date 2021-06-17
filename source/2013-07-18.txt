@@ -1,0 +1,107 @@
+[[[ 2013-07-11 |上一週]]] || [[[ 2013-07-25 |下一週]]]
+
+[[toc]]
+
++ Johnson
+
+MobaXterm - free Xserver and tabbed SSH client for Windows
+http://mobaxterm.mobatek.net/
+
+Debian : sshfs
+Redhat : fuse-sshfs
+
+使用者需要加入 fuse 群組
+
+[[code]]
+$ sshfs user@host:remote/dir local/dir -p 22
+
+$ fusermount -u /local/dir
+[[/code]]
+
+[[code]]
+$ ps ax | grep sftp
+$ kill -15 PID
+[[/code]]
+
+Mat: 上面的2行，可以改成1行指令，方便貼上直接執行~
+[[code]]
+kill -15 `ps ax | grep sftp | grep -v grep | awk '{print $1}' | xargs echo`
+[[/code]]
+
++ yan
+SnortSam - The plugin allows for automated blocking of IP addresses on following firewalls: 
+     Checkpoint Firewall-1  
+     Cisco PIX firewalls 
+     Cisco Routers (using ACL's or Null-Routes) 
+     Former Netscreen, now Juniper firewalls 
+     IP Filter (ipf), available for various Unix-like OS'es such as FreeBSD
+     FreeBSD's ipfw2 (in 5.x) 
+     OpenBSD's Packet Filter (pf) 
+     Linux IPchains 
+     Linux IPtables 
+     Linux EBtables 
+     WatchGuard Firebox firewalls  
+     8signs firewalls for Windows 
+     MS ISA Server firewall/proxy for Windows 
+     CHX packet filter 
+     Ali Basel's Tracker SNMP through the SNMP-Interface-down plugin 
+http://www.snortsam.net/
+
+knockd - a port-knocking server
+http://www.zeroflux.org/projects/knock/
+
+[[code]]
+# mount -t ecryptfs ~/private ~/private key=passphrase,ecryptfs_cipher=aes,ecryptfs_key_bytes=24,ecryptfs_passthrough=n,ecryptfs_enable_filename_crypto=y,ecryptfs_fnek_sig=cbd6dc63028e5602
+[[/code]]
+
++ Vincent
+  GreenDAO: An Object-Relation mapping tool for Android. I am adding an annotation driven mapping + new build system using Gradle.
+  Code at https://github.com/green-coder/greenDAO (please see the wiki page for additional info)
+
++ Mat
+
+TabNavigator
+
+快速將 git mergetool with vimdiff 的 3-way 改成 left-right 比對的熱鍵組合
+
+[[code]]
+:% diffget 2
+:w
+:wincmd q
+:wincmd q
+:b1
+:wincmd =
+:wincmd k
+:wincmd q
+:wincmd w
+zR
+:wincmd l
+zR
+:wincmd h
+zR
+:wincmd l
+:set wrap
+:wincmd h
+:set wrap
+[[/code]]
+
+感謝asil提示: 可以用 vim cmdalias
+
+[[code]]
+"給 mergetool 用的熱鍵
+map <F7> :% diffget 2 <CR> :w <CR> :wincmd q <CR> :wincmd q <CR> :b1 <CR> :wincmd = <CR> :wincmd k <CR> :wincmd q <CR> :wincmd w <CR> zR <CR> :wincmd l <CR> zR <CR> :wincmd h <CR> zR <CR>
+map <F8> :% diffget 1 <CR> :w <CR> :wincmd h <CR> :wincmd q <CR> :wincmd = <CR> :wincmd k <CR> :wincmd q <CR> :wincmd w <CR> zR <CR> :wincmd l <CR> zR <CR> :wincmd h <CR> zR <CR>
+map <F9> :wincmd l <CR> :set wrap <CR> :wincmd h <CR> :set wrap <CR>   
+[[/code]]
+
++ Manuel
+
+在寫跨平台的行動裝置應用程式 Hybrid Mobile App, 目前使用 PhoneGap 2.9 (3.0 會大改版)
+
+另外介紹一個 middleware
+Rhomobile | Rhodes Application User Interface
+http://docs.rhomobile.com/rhodes/ui
+
++ honki
+108條好漢機器人 展出
+http://www.lihpao.com/?action-viewnews-itemid-131500

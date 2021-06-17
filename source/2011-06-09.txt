@@ -1,0 +1,39 @@
+[[[ 2011-06-02 |上一週]]] || [[[ 2011-06-16 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.hackingthursday.org
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
++ chihchun:
+
+    2011/06/07 記得問 Mat 關於 Ben's Own Graphics Library 跟其他 console terminals
+
+    bogl 是 debian installer 用的 library
+
+    copyright 中提到歷史悠久，http://packages.debian.org/changelogs/pool/main/b/bogl/bogl_0.1.18-4/bogl-bterm.copyright
+
+Community tasks
+* lightdm locale issue - 無顯示正體中文之 BIG5, UTF8 區別。
+* 建議整合翻譯功能轉進 libc 中。
+* X220 Ubuntu oneriric 版本之 GNOME-Shell 使用出現 No 3D support 錯誤。
++ fourdollars:
+
+    整合 BIG-5 日文延伸字集到 PCMAN X 用 Mozilla Conversion
+
+    相關資料整理及部份程式碼實作 http://www.plurk.com/p/clgk2q
+
++ Kanru:
+
+    X220 - 可用 tpcharge access battery information.
+
+    X220 Speaker (蜂鳴器) 跟 alsa master audio channel 連動，聲音放大縮小可靜音。
+
+    專查不同 Issue tracker http://bugspy.net/
+
++ eric629:
+預計今年暑假會辦一個 hacking camp

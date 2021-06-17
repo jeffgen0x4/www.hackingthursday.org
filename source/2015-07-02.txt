@@ -1,0 +1,25 @@
+[[[ 2015-06-25 |上一週]]] || [[[ 2015-07-09 |下一週]]]
+
+[[toc]]
+
++ Git Workflows Study Group
+https://hackingthursday.hackpad.com/Git-Flow-3--bC2ojd0A8dX
+
++ Ghost
+Slack API
+https://api.slack.com/
+
++ RichardWu
+LINE Developers
+https://developers.line.me/
+
++ blue119
+mosquitto - MQTT version 3.1/3.1.1 compatible message broker
+可提供 websocket 供網頁前端訂閱
+
++ yan
+Facebook Comments Plugin
+https://developers.facebook.com/docs/plugins/comments
+
+Disqus
+https://disqus.com/

@@ -1,0 +1,139 @@
+[[[2009-10-15 |上一週]]] || [[[2009-10-29 |下一週]]]
+[[toc]]
++ 聚會公告
+今日出席人數: 13 人。
+
+捷運站的小聊 
+Yahoo hacking day 心得
+http://hackingthursday.wikidot.com/yahoohackingdaythoughts
+
++ Mat :
+Mercurial 關於 Local branches
+http://mercurial.selenic.com/wiki/LocalbranchExtension
+
+印書小舖
+http://www.pressstore.com.tw
+
+看到一個網頁 "[http://bhuntr.com/ 用比賽賺賞金| 獎金獵人BHuntr]"
+
+
+MozEx 可以讓你在 Firefox 的文字輸入區，外掛 vim 來編輯文字
+http://mozex.mozdev.org/
+yan: 請問這需要gvim嗎, 另外可以試試 :) It's all text https://addons.mozilla.org/zh-TW/firefox/addon/4125
+
+[[code]]
+xterm -e vim predefine.txt
+[[/code]]
+
++ Rex :
+分享拿 force-directed graph 來作 data virtualization 的初步發想。
+
+++ 筆順教學功能
+
+* 談現有資源
+ * 教育部筆順學習網
+ * 全字庫 (目前沒有 visualized 的介面)
+ * KanjiVG
+
+現實做有一簡易 Javascript + SVG 的繪字網頁。
+有圖有真相 （討論超熱烈啊～～)
+
+++ gvim 功能插曲
+pct: split line 可以上下拖，這個是 gvim 的嗎?
+rex: 是內建的!
+
+++ BASH 技巧分享
+好用 BASH 環境參數 (請自行 man bash)
+HISTCONTROL=ignoreboth
+HISTFILESIZE=5000
+HISTIGNORE='&:rm:ls:[bf]g:exit'
+HISTSIZE=5000
+
++ Sheng-po :
+data vituralization
+we fell fine  http://www.wefeelfine.org/
+i want you to want me  http://iwantyoutowantme.org/	   
+
+用 processing 作投影片工具
+寫好段落，然後用一個 script 將文字段落 random 到畫面上
+(效果好棒啊！)
+還有畫筆功能
+可以 snapshot 一個畫面成一個 jpg
+網址 http://arrowkey.net/openCode/tagSlides/  (歡迎大家使用/修改/散佈)
+週六晚上有"共玩三號" http://www.openlabtaipei.org/2009/10/co-play-3.html
+
++ aguai :
+從大陸帶了個好東西啊 (詳情要問有來的人才知道 XD )
+
++ yan :
+calcurse: 這個是 console 的行事曆
+有 todo list, 日曆, events 
+
+manpages-dev:
+裝了這個套件後，可以用 man 3 <function> 來查函式庫
+man -k <function>
+man -wa <function>
+
+skolelinux
+
+sm ( screen-message )
+http://packages.debian.org/lenny/sm
+
+Xvfb + Firefox (偶還跑不起來)
+http://www.semicomplete.com/blog/geekery/xvfb-firefox.html
+
+note: 像是 console 上的 tomboy ，可以用來作小筆記
+
+abook: console 版的通訊錄
+
+shell 按 Ctrl-T 可以交換游標附近的兩個字元
+
+今天的部份相片(縮圖至1280 x 960)
+http://www.flickr.com/photos/7193204@N06/tags/hackingthursday091022/
+
++ Fourdollars :
+發現了 vim taiwan user group
+http://groups.google.com/group/vim-taiwan
+++ vim mksession 快講
+錄影紀錄: http://www.youtube.com/chihchun#p/c/A5EEDD8C5C327E46/0/Gj29fbGvGto
+
+vim 自從 7.0 之後，有內建一個功能 mksession ( :mks )
+
+[[code]]
+:mks vim
+然後 quit
+vim -S session.vim
+就可以全部還原至原先的編輯狀態!!
+( 路徑都會記住 )
+
+切到一個 tab
+:tab split <檔案>
+:tab help :tab
+[[/code]]
+
++ tsung :
+很想找出來為什麼 cpu loading 這麼高
+oprofile
+ 
+Ctrl-r  可以搜尋打過的命令列 ( Ctrl-R, 大寫是往回找 )
+
++ honkia :
+作了一個版本發展樹 ( shenpo: 不是火影忍者的那個... )
+http://www.flickr.com/photos/honki/4032658066/
+作小貼紙
+11/6 數位藝術節 http://www.dac.tw/daf09/call_intro.html
+
+GIMP UI brainstorm
+
++ pct :
+文件系統 sphinx , python 的官方文件就是用這個作的
+sphinx-quickstart
+填一填，按按就可以了
+設定檔在 config.py
+要 build html
+就直接打 make
+
++ sinsun :
+google reader 有印書計畫，古籍版
+
+Gentoo Linux AMD64 Handbook

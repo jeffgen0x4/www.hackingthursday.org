@@ -1,0 +1,107 @@
+[[[2009-10-01 |上一週]]] || [[[2009-10-15 |下一週]]]
+
+[[toc]]
+
++ Mat
+把 lspci -n 輸出的訊息貼上來, 就可以幫你找對應的驅動
+http://kmuto.jp/debian/hcl/
+
+參考了：Ubuntu Linux 使用 3G 做頻寬共享設置(3.5G + NAT、DHCP)
+http://plog.longwin.com.tw/my_note-unix/2009/07/08/ubuntu-linux-3g-nat-dhcp-2009
+
+今天的話是將 honki 抓錯無線網卡驅動的 X200 透過 ethernet 連上 Mat 的筆電, 透過 SNAT 從 Mat 的無線網路連出去
+> server (example: wlan0、eth0、eth0 ip 192.168.2.22)
+>> #echo 1 > /proc/sys/net/ipv4/ip_forward
+>> #iptables -t nat -A POSTROUTING -s "192.168.2.0/24" -o wlan0 -j MASQUERADE
+
+> client (example: eth0、ip 192.168.2.24)
+>> #ifconfig eth0 192.168.2.24
+>> #route add default gw 192.168.2.22 
+ 
+
+pcmanfm 好用啊！！
+
+今天提到的 A 隊要作的東西，就是去年有作的留信板， [[[Skalde]]]
+
+下面這一段是 osd 式的定時提醒器，可以在一定的時間提醒自己要休息~
+[[code]]
+ 1 echo "
+ 2 for (( x=1; \$x < 30; x++ ))                                                                      
+ 3 do
+ 4 
+ 5 DISPLAY=:0 osd_cat \\
+ 6   --pos=middle \\
+ 7   --lines=7 \\
+ 8   --align=center \\
+ 9   --font='10x20' \\
+10   --color=green \\
+11   --delay=1 <<EOF 
+12 $(date +%H:%M)
+13 
+14 Take a rest...
+15 
+16 $(date +%H:%M)
+17 EOF
+18 
+19 sleep 1
+20 
+21 done
+22 " | at now + 50min  
+
+[[/code]]
+
++ honki
+x200 學購機 wireless driver 安裝如下
+
+"I love CLI"(http://www.flickr.com/photos/honki/3986127221/) >>> 分享的文件，要記得上線啊~~
+
+幸延發現開發 console (Console UI??)的函式庫 (libncurses5-dev、libncursesw5-dev、libcdk5-dev ??)
+
+tango 很好用 ( GPL 的 ) http://tango.freedesktop.org/Tango_Icon_Gallery
+
+( 分享了一些關於 lxde 的一些介面圖心得 <-- 記得補連結 )
+
++ yan
+幸延 & 孟賢 的 vitetris 對戰 (http://www.flickr.com/photos/7193204@N06/3992515539/sizes/l/)
+幸延$ tetris listen 9999
+孟賢$ tetris connect 幸延:9999
+
++ jidanni
+ed 使用分享 (http://www.youtube.com/watch?v=Pqz7tTlNLB8)
+* ed 是 vim 的爸爸
+* 原來 grep 的名稱是來自 ed 的 manpage 啊！！
+
++ tsung
+我比較常用 gnome-commander, 長得像 mc
+http://www.nongnu.org/gcmd/
+
+下面這一段，可以自動在關閉存檔時，自動將尾端的空白去掉..
+[[code]]
+ 71 function RemoveTrailingWhitespace()                                                              
+ 72     if &ft != "diff"                                                                             
+ 73         let b:curcol = col(".")                                                                  
+ 74         let b:curline = line(".")                                                                
+ 75         silent! %s/\s\+$//                                                                       
+ 76         silent! %s/\(\s*\n\)\+\%$//                                                              
+ 77         call cursor(b:curline, b:curcol)                                                         
+ 78     endif                                                                                        
+ 79 endfunction                                                                                      
+ 80 autocmd BufWritePre * call RemoveTrailingWhitespace()  
+[[/code]]
+
+自動重啟
+http://plog.longwin.com.tw/my_note-unix/2009/03/03/linux-freebsd-lockf-install-2009
+
++ fourdollars
+http://fourdollars.blogspot.com/2009/10/vim-python.html
+folding 左邊的 block 條
+
++ joseph
+Mat: fourdollars 有作 betaradio, 他說加 mplayer 就可錄了的樣子
+http://fourdollars.blogspot.com/2008/07/betaradio-hichannelsh.html
+感謝 4$s 親自幫忙修改 hichannel.sh, 可以用了 ^^ 真棒~ 不怕睡過頭或在沒有FM訊號的時候不能聽喜愛的電台了...
+gnugo <-- 圍棋程式
+
++ Rex
+workrave, 定時提醒器
+http://www.workrave.org/welcome/

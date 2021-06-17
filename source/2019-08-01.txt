@@ -1,0 +1,7 @@
+[[[ 2019-07-25 |上一週]]] || [[[ 2019-08-08 |下一週]]]
+
+[[toc]]
+
+[[html]]
+<iframe src='http://pad.hackingthursday.org?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=675 height=400></iframe>
+[[/html]]

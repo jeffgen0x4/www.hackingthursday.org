@@ -1,0 +1,18 @@
+[[[ 2015-12-31 |上一週]]] || [[[ 2016-01-14 |下一週]]]
+
+[[toc]]
+
++ YuFu
+從健保資料庫中找出疾病的互相關連性
+
+scikit-learn: machine learning in Python
+http://scikit-learn.org/stable/index.html
+
+Rudi : 一本書 Learning From Data
+Carl : TensorFlow - an Open Source Software Library for Machine Intelligence https://www.tensorflow.org/
+Rudi : 分群演算法
+Rudi : Deep learning 適用於如人臉、文字、..
+
++ peter
+import.io - Web Data Platform & Free Web Scraping Tool
+https://import.io/

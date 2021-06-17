@@ -1,0 +1,25 @@
+[[[ 2015-08-13 |上一週]]] || [[[ 2015-08-27 |下一週]]]
+
+[[toc]]
+
+
++ tonghuix
+Beijing GNU/Linux User Group (BLUG)
+http://beijinglug.org/
+
++ yan
+
+H4 7 週年紀念簡報
+https://docs.google.com/presentation/d/1bfTbHLkfjnXKr0vi8yoYBpY_QKcSp1DMyOP1NcxaZs8/edit?usp=sharing
+
+--------
+
+kogakure/gulp-tutorial - Code examples for my Gulp.js tutorial
+https://github.com/kogakure/gulp-tutorial
+
+--------
+
+Using py2exe the right way
+http://pythontips.com/2014/03/03/using-py2exe-the-right-way/
+--------
+$ rename 's/\.htm$/\.html/' *.htm

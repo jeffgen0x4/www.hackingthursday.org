@@ -1,0 +1,41 @@
+[[[ 2012-12-20 |上一週]]] || [[[ 2013-01-03 |下一週]]]
+
+[[toc]]
+
++ Blue119
+http://libevent.org/
+http://software.schmorp.de/pkg/libev.html
+https://github.com/joyent/libuv
+
++ Yuren
+- FIrefox OS gaia bugs: http://bit.ly/TrlimF
+- Firefox OS gaia source code: https://github.com/mozilla-b2g/gaia
+- Firefox OS platform + apps source code: https://github.com/mozilla-b2g/B2G
+
++ Maxi
+http://www.wandoujia.com/
+
++ CZ
+Hosted continues integration (integrated with Github)
+http://travis-ci.org/
+
++ yan
+[[file mysql_wp_benchmarks_innodb.pdf | MySQL 5.5: Storage Engine Performance Benchmark for MyISAM and InnoDB]]
+
+Full-text search indexes in MyISAM are
+useful for many simple read-only web applications, though often users deploy MySQL and InnoDB
+with Sphinx or Lucene for fast text searches as an alternative to MyISAM.
+
+Other use cases that are potentially suitable for MyISAM include:
+• Applications demanding very high raw INSERT speeds where concurrency is not a
+consideration. Performance will always be application dependent, so benchmarking is
+necessary to determine the best solution for your own environment.
+• Caches or temporary tables.
+• Blogs / Wikis / RSS feeds.
+• Read-only tables.
+
+[http://www.wikidot.com/doc:wiki-syntax#toc58 Wiki Syntax - Wikidot - Free and Pro Wiki Hosting]
+
+
+* [http://sphinxsearch.com/ Sphinx | Open Source Search Server]
+* [http://sphinx-doc.org/# Sphinx Python Documentation Grnerator]

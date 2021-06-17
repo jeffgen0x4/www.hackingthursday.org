@@ -1,0 +1,120 @@
+[[[ 2011-12-15 |上一週]]] || [[[ 2011-12-29 |下一週]]]
+
+[[toc]]
+
++ ?
+Kindle Fire Factory Cable
+
+    http://forum.xda-developers.com/showthread.php?t=1081743
+
+    http://www.droidforums.net/forum/droid-labs/146492-how-why-make-your-own-motorola-factory-cable.html
+
+    [疑難雜症] 我的 Kindle Fire 變磚了 http://www.36kr.com/p/60536.html
+
+    [HOW TO] Unbricking/Restoring your Kindle Fire http://forum.xda-developers.com/showthread.php?t=1356257
+
++ chihchun
+
+HIME 懶人包
+- HIME INPUT METHOD EDITOR, HIME (姫) 專案，開始！http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=45446
+
+    HIME 爭執
+
+    http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=211488#forumpost211488
+
+    http://tetralet.luna.com.tw/index.php?op=ViewArticle&articleId=235&blogId=1
+
+    http://www.plurk.com/p/f1ryar
+
+    http://www.plurk.com/p/f1p6l8
+
+    gcin 改名 http://hyperrate.com/thread.php?tid=25859
+
+    http://www.plurk.com/p/f0socm
+
+    http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=210990#forumpost210990 無恥!
+
+    orphan gcin http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=630484
+
+    low popcon, can't be easily be maintained http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=652508
+
+    GCIN in Debian is seeking co-maintainer http://kanru.info/blog/archives/2011/12/18/gcin-in-debian-is-seeking-co-maintainer/
+
++ fourdollars
+Ubuntu Multi-Monitor
+
+    http://design.canonical.com/2011/12/improving-the-multi-monitor-experience-in-ubuntu/
+
+    http://www.youtube.com/watch?v=lbwNMnNUGFA
+
+    https://docs.google.com/a/canonical.com/document/d/1aHvJ-iIw-59bXTYBmIhQqEx0za2h9jpFE_RhZ2VOvJc/edit?authkey=CJO5wPkH&hl=en_GB
+
+
+
+
+Debian - Popularity contest statistics for
+
+    git, subversion,mercurial, bzr
+
+    http://qa.debian.org/popcon-graph.php?packages=git%2C+subversion%2Cmercurial%2C+bzr&show_installed=on&want_legend=on&want_ticks=on&from_date=&to_date=&hlght_date=&date_fmt=%25y%2C%25m&beenhere=1
+
+    scim, gcin, ibus, fcitx, uim
+
+    http://qa.debian.org/popcon-graph.php?packages=scim%2C+gcin%2C+ibus%2C+fcitx%2C+uim&show_installed=on&want_legend=on&want_ticks=on&from_date=&to_date=&hlght_date=&date_fmt=%25y%2C%25m&beenhere=1
+
+( Mat: popcon 啥時推出比對功能的啊，真是太酷了!! )
+
++ peter
+
+搶答題 使用 vim移除雙引號數字的逗號
+下載 CSV 檔 URL :   http://www.twse.com.tw/ch/trading/exchange/MI_INDEX/genpage/Report201112/A1122011122213.php?select2=13&chk_date=100/12/22#
+"100年12月15日每日收盤行情(電子工業)(元,,,,,股)",,,,,,"(元,,,,交易單位)"
+證券代號,證券名稱,成交股數,成交筆數,成交金額,開盤價,最高價,最低價,收盤價,漲跌(+/-),漲跌價差,最後揭示買價,最後揭示買量,最後揭示賣價,最後揭示賣量,本益比
+1437,勤益,"157,429",70,"1,959,868",12.70,12.70,12.25,12.45,－,0.25,12.30,14,12.45,1,0.00
+1471,首利,"626,080",241,"6,319,606",10.15,10.35,10.00,10.10,－,0.30,10.00,48,10.20,39,0.00
+1582,信錦,"103,010",65,"3,419,484",33.05,33.45,32.95,33.40,－,0.10,33.40,4,33.45,4,10.28
+2059,川湖,"710,855",526,"97,060,135",134.00,138.00,134.00,137.00,＋,1.00,136.50,9,137.00,14,16.67
+2301,光寶科,"5,115,211","2,436","160,263,616",32.05,32.05,30.80,30.95,－,1.25,30.95,43,31.00,11,9.02
+2302,麗正,"113,308",28,"414,011",3.69,3.69,3.64,3.65,－,0.05,3.65,2,3.66,9,0.00
+2303,聯電,"34,210,060","8,426","404,971,322",11.95,11.95,11.75,11.75,－,0.30,11.75,1965,11.80,583,9.55
+2305,全友,"20,966",12,"74,220",3.55,3.63,3.52,3.58,－,0.06,3.53,1,3.58,7,21.06
+2308,台達電,"5,524,118","2,873","354,413,478",64.60,64.70,63.90,64.00,－,1.10,64.00,328,64.10,9,12.90
+2311,日月光,"56,299,430","14,682","1,421,227,900",26.15,26.15,24.85,25.00,－,1.60,24.95,642,25.00,265,10.59
+2312,金寶,"601,063",200,"3,689,891",6.20,6.22,6.11,6.12,－,0.13,6.12,132,6.13,30,76.50
+2313,華通,"3,083,536",954,"27,422,152",9.09,9.09,8.80,8.81,－,0.31,8.81,68,8.83,9,10.49
+2314,台揚,"731,954",178,"3,640,320",4.96,5.08,4.92,4.92,－,0.11,4.92,9,4.96,15,0.00
+2315,神達,"2,986,912",744,"27,007,038",9.14,9.14,8.99,9.00,－,0.18,9.00,49,9.01,2,0.00
+2316,楠梓電,"969,582",281,"10,270,283",10.85,10.85,10.40,10.40,－,0.60,10.35,14,10.40,7,8.67
+2317,鴻海,"38,720,965","17,358","3,084,414,535",81.40,81.40,78.60,78.80,－,3.10,78.80,144,78.90,182,12.39
+2321,東訊,"57,999",17,"104,118",1.80,1.80,1.75,1.75,－,0.05,1.76,3,1.79,26,0.00
+2323,中環,"21,047,633","3,161","96,092,574",4.71,4.72,4.44,4.45,－,0.31,4.44,494,4.45,52,0.00
+2324,仁寶,"5,664,967","2,263","156,177,534",27.50,27.90,27.35,27.40,－,0.60,27.40,167,27.45,2,9.01
+2325,矽品,"16,881,929","5,067","431,944,003",26.00,26.10,24.85,25.75,－,0.65,25.75,6,25.80,10,16.83
+2327,國巨,"3,288,435","1,030","25,669,408",7.90,7.90,7.78,7.80,－,0.18,7.80,4,7.81,99,7.36
+2328,廣宇,"790,904",497,"18,236,008",23.30,23.55,22.80,22.80,－,0.95,22.80,50,22.85,1,0.00
+2329,華泰,"377,401",152,"1,541,619",4.02,4.15,4.02,4.06,－,0.06,4.06,33,4.10,5,0.00
+2330,台積電,"36,001,877","10,505","2,631,665,133",74.10,74.10,72.50,72.50,－,2.00,72.50,505,72.60,28,13.11
+2331,精英,"905,346",220,"5,478,606",6.10,6.10,6.00,6.01,－,0.17,6.01,53,6.03,5,0.00
+2332,友訊,"1,753,933",567,"35,345,603",20.30,20.45,20.00,20.00,－,0.40,20.00,31,20.05,11,11.43
+2337,旺宏,"24,760,902","6,141","288,580,617",11.90,11.90,11.30,11.40,－,0.60,11.35,750,11.40,107,12.67
+
++ ypwang
+" vim script
+let finale = []
+for i in split(content, '\n')
+    let num = 1
+    let str = ""
+    for j in split(i, '"')
+        if (num%2) == 0
+            let j = join(split(j, ","), "")
+        endif
+        let str = str . j
+        let num += 1
+    endfor
+    call add(finale, str)
+endfor
+echo finale
+ 
++ ?
+Chrome WebGL 網頁遊戲
+- http://chrome.supergiantgames.com/

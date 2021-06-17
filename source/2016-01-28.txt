@@ -1,0 +1,18 @@
+[[[ 2016-01-21 |上一週]]] || [[[ 2016-02-04 |下一週]]]
+
+[[toc]]
+
++ yan
+使用 nc 讀取 tty 訊息
+
+// 監聽一個 port
+
+[[code]]
+# nc -lvp portnumber
+[[/code]]
+
+// 將 tty 訊息導出顯示在螢幕上
+
+[[code]]
+# nc ipaddress portnumber < /dev/ttyACM0
+[[/code]]

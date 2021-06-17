@@ -1,0 +1,113 @@
+[[[ 2010-06-10 |上一週]]] || [[[ 2010-06-24 |下一週]]]
+
+[[toc]]
+
+[[code]]
+聚會期間會先用 http://pad.ubuntu-uk.org/h4 來共筆打字，稍晚即整理更新至此頁
+[[/code]]
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+[[/code]]
+
+
+
+
++ Mat:
+
+to hychen and 4$:
+openvanilla 的 sync.sh 寫好了，我用 shell script 實作了 lndir 的功能
+最新程式碼如下:
+http://github.com/matlinuxer2/openvanilla-oranje/
+
+http://www.motifzone.net/forum/developers/bitmap-ximage
+中間的一篇
+
+    * Because the bitmap you receive is not an X bitmap but a buffer, and because an XImage is basically a data structure with extra display information, you are probably best doing the conversion as a data-to-data transfer on the client side. That is, you likely will iterate over the pixels in the source and convert them to pixels in the target, using XPutPixel().
+
+    * The alternative is to render the bitmap into an X Pixmap and then to retrieve it as an Image using XGetImage(). This route uses the X server as part of the conversion, while still demanding that you get the original data displayed. 
+
+
+http://hi.baidu.com/netadabiao/blog/item/3f442006570b157902088189.html
+
+http://en.wikipedia.org/wiki/Keith_Packard
+
+to yan, 我猜得沒錯的話，wmii 的字型 api 應該是集中在 drawstring() 這個 function 上
+drawstring() 這個函式在 ./lib/libstuff/x11/drawing/drawstring.c 裡
+
+啟動另一個 X 來測試 wmii
+[[code]]
+startx -- :1
+[[/code]]
+
+? font->type 在那設定的?
+
+font 的實體主要是在 ./cmd/x11/wmii9menu.c 初始化，其他的地方主要是用 extern 來取用
+[[code]]
+160         font = loadfont(readctl("font "));                                                      
+[[/code]]
+
+loadfont  的實作在 ./lib/libstuff/x11/text/loadfont.c
+
+wmii 的字型處理主流程，似乎是:
+1. 在 wmii9menu.c  裡，用 readctl("font")  讀取 wmiirc 的設定檔的設定
+2. 將 wmiirc 的設定丟進 loadfont()，將字型的資料結構及函式實體化
+3. 將初始化的 font  交給 wmii 裡其他的地方來使用字型
+
+
+patch 成功了,  但還只是 prototype，尚有一些未完整的地方。
+
+視窗的標題列還沒能順利顯示中文，原因是因為其文字的傳遞的過程中，有經過一些函式的過處理，像是 
+
+    * utflcpy
+
+    * utfecpy
+
+
+
+[[code]]
+git commit --amend
+[[/code]]
+這個只能回溯前一份 commit message
+
++ Thinker:
+在 XPutImage時，可以設 depth，讓 pixmap知道是多少個 bit 為一個點
+[[code]]
+       Window XCreateWindow(Display *display, Window parent, int x, int y,
+              unsigned int width, unsigned int height, unsigned int bor‐
+              der_width, int depth, unsigned int class, Visual *visual, unsigned
+              long valuemask, XSetWindowAttributes *attributes);
+[[/code]]
+
++ yan:
+
+[[code]]
+#include <ft2build.h>
+#include FT_FREETYPE_H 
+#include <freetype/ftglyph.h>
+
+
+        FT_Render_Glyph( face->glyph, FT_RENDER_MODE_NORMAL );
+        FT_Glyph_To_Bitmap( &glyph, ft_render_mode_normal, 0, 1 );
+        FT_BitmapGlyph bitmap_glyph = (FT_BitmapGlyph)glyph;
+        
+        XPutImage( display, win, gc, bitmap_glyph->bitmap, 0, 0,
+                pos_x,
+                pos_y+ glyph->top),
+                glyph->width, glyph->height );
+[[/code]]
+
+建議 survey 兩個字型的格式:
+* FT_Bitmap
+    *需要指定 pixel_mode  http://www.freetype.org/freetype2/docs/reference/ft2-basic_types.html#FT_Pixel_Mode
+    
+* XImage
+
+
++ ducati:
+from Mat: 加裝 trayer 就可以有 top bar 了
+
++ $4:
+dpkg --compare-versions 1.2.3 '<' 1.2.3; echo $? # 跟你想的不一樣~
+dpkg --compare-versions 1.2.3 '<=' 1.2.3; echo $? # 才是 '<' 的意義
+dpkg --compare-versions 1.2.3 lt 1.2.3; echo $? # 官方建議使用文字的 operator
+有興趣可以到 dpkg 的 source code 裡面看 src/enquiry.c 的 cmpversions()

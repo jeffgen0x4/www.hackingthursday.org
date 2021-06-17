@@ -1,0 +1,83 @@
+[[[ 2014-09-18 |上一週]]] || [[[ 2014-10-02 |下一週]]]
+
+[[toc]]
+
++ BestSteve
+pyston - An open-source Python implementation using JIT techniques.
+https://github.com/dropbox/pyston    
+
++ philipz
+支援 Pi 和 Intel Galileo 的 WebIDE
+https://www.wyliodrin.com
+
++ Mat
+[[code]]
+$ git fetch --all -p
+-p 刪除遠端已刪除的 branch
+[[/code]]
+
+[[code]]
+Ctrl + z
+$ kill %1
+[[/code]]
+
+[[code]]
+$ php -l file    Syntax check only (lint)
+[[/code]]
+
++ Carl
+
+Web IDE 入門簡介
+Nitrous.IO registration:
+http://goo.gl/dWC6Bh
+Nitrous.IO 支援 Rails、Python、Go、PHP
+Codio
+https://codio.com/
+
+漫談 CSS 架構方法
+http://www.slideshare.net/kurotanshi/css-oocss-smacss-bem
+
+目前還有積極開發的 github comand line 工具
+https://github.com/node-gh/gh#pull-requests
+[[code]]
+# npm install -g gh
+$ gh help  # 設定帳號密碼
+$ cd project/
+$ gh is  # 列出 issue
+$ gh is -N -t 'neww issue test' -m 'created by gh'  # create new issur
+$ gh is -C 72  # close issue number 72
+$ gh pr  # 列出 pull request
+[[/code]]
+
++ ghost
+BSON - Binary JSON
+EJSON - Extended and Extensible JSON library from Meteor 
+
+Kanban 專案管理
+http://ruddyblog.wordpress.com/tag/personal-kanban/
+http://blog.darkthread.net/post-2014-09-12-techdays-2004-notes.aspx
+http://ruddyblog.wordpress.com/tag/kanban-method/
+
++ yan
+https://pypi.python.org/pypi/hub
+http://pythonhosted.org/hub/
+
+github command line integration
+
+[[code]]
+# pip install hub
+$ git hub whoami  # 設定帳號密碼
+[[/code]]
+
+[[code]]
+$ cd h4-scripts/
+$ git hub issues  # show isues
+$ git hub issue  # create new issue
+====
+first line is title
+content ...
+===
+[[/code]]
+
+GitHub 文件程式碼加亮
+https://github.com/github/linguist/blob/master/lib/linguist/languages.yml

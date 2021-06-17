@@ -1,0 +1,80 @@
+[[[ 2015-03-26 |上一週]]] || [[[ 2015-04-09 |下一週]]]
+
+[[toc]]
+
++ $4
+比較各種語言的各種 Web Framework 的 Route 寫法
+http://www.plurk.com/p/kv9ff7 
+
+一位 Debian developer 在 tune 的筆電
+InstallingDebianOn/Asus/X205TA - Debian Wiki
+https://wiki.debian.org/InstallingDebianOn/Asus/X205TA
+
++ hychen
+使用類似 PureData 的方式進行程式設計，正在實做多種語言的 binding
+hychen/iclang https://github.com/hychen/iclang
+
+ØMQ is just Sockets! - zeromq
+http://zeromq.org/topics:omq-is-just-sockets
+
+Node-RED
+http://nodered.org/
+
+Node-Machine Project | An open standard for Node.js modules & reusable JavaScript functions
+http://node-machine.org/
+
+streamtools - demos - nyc transit lost and found
+http://nytlabs.github.io/streamtools/demos/mta_lost_property.html
+
++ Mat
+Defensive BASH programming - Say what?
+http://www.kfirlavi.com/blog/2012/11/14/defensive-bash-programming/
+Writing Better Shell Scripts – Part 1 | Innovations Technology Solutions
+http://innovationsts.com/?p=1395
+Writing Better Shell Scripts – Part 2 | Innovations Technology Solutions
+http://innovationsts.com/?p=1896
+
++ yan
+手動控制風扇轉速 (Thinkpad X220)
+http://www.thinkwiki.org/wiki/How_to_control_fan_speed
+
+[[code]]
+# vi /etc/modprobe.d/thinkpad_acpi.conf
+thinkpad_acpi fan_control=1
+
+# reboot
+
+$ cat /proc/acpi/ibm/fan
+level:        auto
+
+$ echo level 0 | sudo tee /proc/acpi/ibm/fan  # fan off
+$ echo level 2 | sudo tee /proc/acpi/ibm/fan  # low speed
+$ echo level 4 | sudo tee /proc/acpi/ibm/fan  # medium speed
+$ echo level 7 | sudo tee /proc/acpi/ibm/fan  # maximum speed 
+$ echo level auto | sudo tee /proc/acpi/ibm/fan  # automatic - default
+$ echo level disengaged | sudo tee /proc/acpi/ibm/fan  # disengaged
+[[/code]]
+
+--------
+
+SSO - Single Sign On
+IdP - Identity Provider
+SP - Service Provider
+
+SAML-based products and services - Wikipedia, the free encyclopedia
+http://en.wikipedia.org/wiki/SAML-based_products_and_services
+
+OneLogin
+https://onelogin.zendesk.com/hc/en-us/articles/202361730-Introduction- 
+
+Lasso - Free Liberty Alliance Single Sign On
+http://lasso.entrouvert.org/
+
+SimpleSAMLphp
+https://simplesamlphp.org/
+
+Flask: SSO原理及实现 - 陈一回的个人页面 - 开源中国社区
+http://my.oschina.net/goal/blog/199978
+
+P3P 跨域 COOKIE 操作
+http://www.360doc.com/content/09/0611/19/56145_3859102.shtml

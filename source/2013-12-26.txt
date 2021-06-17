@@ -1,0 +1,65 @@
+[[[ 2013-12-19 |上一週]]] || [[[ 2014-01-02 |下一週]]]
+
+[[toc]]
+
+projector: yes
+
++ philipz
+
+Grunt: The JavaScript Task Runner
+http://gruntjs.com/
+
+簡訊發送 (實驗時可先用 Google Calander 做私人訊息推送)
+
+Twilio Cloud Communications - APIs for Voice, VoIP and Text Messaging
+http://www.twilio.com/
+
+Simple REST SMS API for building text messaging applications | SMSified
+http://smsified.com/
+
+Nexmo - Cloud SMS and Voice API that connects you directly to carriers
+https://www.nexmo.com/?gclid=CI3w_q31wrsCFW5IpgodwyoAfw
+
+
++ Ren-Chyan Chern
+
+Plurk Open Source 斷詞系統
+http://opensource.plurk.com/Loso_Chinese_Segmentation_System/
+
++ yan
+
+將家目錄下使用者資料夾權限改成 711
+
+[[code]]
+# find /home/ -maxdepth 1 -type d -not -path /home/ -exec chmod 711 {} \;
+[[/code]]
+
+Markdown Editor
+StackEdit
+https://stackedit.io/
+
+Icinga vs Nagios
+https://www.icinga.org/nagios/feature-comparison/
+
+SAE 中文分词服务
+http://apidoc.sinaapp.com/sae/SaeSegment.html
+
++ Vincent
+
+Ardor3D hack (adding conversion TTF-to-Mesh).
+Educative game to help children learning Chinese characters (in Java).
+
++ Carl
+docker 
+https://www.docker.io/
+
+docker image
+docket run <imagename> <command>
+docker run h4/fedora yum -y install emacs
+docker ps -l
+docker commit efc7c emacs
+docker run -i -t fedora/vim vim
+
+结巴中文分词
+fxsjy/jieba · GitHub
+https://github.com/fxsjy/jieba

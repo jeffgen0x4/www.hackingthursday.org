@@ -1,0 +1,30 @@
+[[[ 2015-07-02 |上一週]]] || [[[ 2015-07-16 |下一週]]]
+
+[[toc]]
+
++ Git Workflows Study Group
+https://hackingthursday.hackpad.com/Git-Flow-4--lz5P30ADq2C
+
++ Carl
+KORE.io - A fast SPDY capable web server for web development in C
+https://kore.io/
+
+--------
+Jasmine - Behavior-driven development framework for testing JavaScript code
+http://jasmine.github.io/
+
+-------
+git-imap-send - Send a collection of patches from stdin to an IMAP folder 
+https://kernel.org/pub/software/scm/git/docs/git-imap-send.html
+
++ yan
+reinstall grub2
+
+[[code]]
+# grub-install --root-directory=/mnt /dev/sdX
+[[/code]]
+
+--------
+Flask-Security
+整合 Flask-Login 與 Flask-Principal
+http://pythonhosted.org/Flask-Security/index.html

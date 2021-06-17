@@ -1,0 +1,27 @@
+[[[ 2012-03-15 |上一週]]] || [[[ 2012-03-29 |下一週]]]
+
+[[toc]]
+
++ Amos
+挑選適當的工具, 串成一個Python開發鍊
+
+**Editor / IDE**
+[http://www.vim.org/ Vim]
+[http://www.geany.org/ Geany] 
+
+**Code Analysis**
+[http://pychecker.sourceforge.net/ PyChecker]
+[http://www.vim.org/scripts/script.php?script_id=2914 pep8]
+
+**Version Control System, VCS**
+[http://git-scm.com/ Git]
+[http://mercurial.selenic.com/ Mercurial]
+
+**Continuous Integration Server (Unit test、Daily build)**
+[http://jenkins-ci.org/ Jenkins CI]
+
+
++ blue119
+最新的 zim 有支援輸出 markdown 語法
+http://github.github.com/github-flavored-markdown/
+還有支援自動編號轉換

@@ -1,0 +1,21 @@
+[[[ 2016-11-17 |上一週]]] || [[[ 2016-12-01 |下一週]]]
+
+[[toc]]
++ JamesChou
+yan: 四軸飛行器是怎麼流行起來的？
+James: 結構簡單，有開放的控制軟體。可以滿足飛行夢想
+固定翼續航力較佳，四軸飛行器對空拍用途來說節省很多成本
+
++ SatrNight
+Arduino 控制其他電器開關除了使用 Relay，還能選擇 BJT 或 MOS
+
+Arduino Scuola - How to use BJTs
+http://scuola.arduino.cc/lesson/qXzRKW2/How_to_use_BJTs
+
++ Carl
+Blockchain：Internet問世以來最具破壞力的發明 | Rocket Café 火箭科技評論
+https://rocket.cafe/talks/58431
+
++ Amos
+Kubernetes - an open-source system for automating deployment, scaling, and management of containerized applications.
+http://kubernetes.io/

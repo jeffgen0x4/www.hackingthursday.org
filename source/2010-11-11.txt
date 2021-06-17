@@ -1,0 +1,99 @@
+[[[ 2010-11-04 |上一週]]] || [[[ 2010-11-18 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.ubuntu-uk.org/h4 
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
+
++ Rex:
+
+最近 Wayalnd[1] 有幾則重大新聞，除了八月底時 Kristian Høgsberg 終於把 EGL_MESA_drm_image
+extension 整進 Mesa's EGL driver[2]，終於不用再麻煩的找來各種版本的 libary，可以用 mainline
+Mesa 使用 wayalnd. 十月底 Wayalnd 從個人維護專案正式成為 freedesktop 專案之一[6]。(BTW,
+olv[4] 十月底丟過 Nouveau[5] 相關的 patch[3].)
+
+月初 Mark Shuttleworth 也公告[7]，Ubuntu Unity 將使用 Wayland 作為預設 display
+management system.
+
+如果大家有興趣的話，最近幾次 h4 會議我們可以進一步討論相關的技術進展。
+
+Referneces:
+[1] http://wayland.freedesktop.org/
+[2] http://www.phoronix.com/scan.php?page=news_item&px=ODU0NQ
+[3] http://www.phoronix.com/scan.php?page=news_item&px=ODczMg
+[4] http://olvaffe.blogspot.com/
+[5] http://nouveau.freedesktop.org/wiki/
+[6] http://www.phoronix.com/scan.php?page=news_item&px=ODczNQ
+[7] http://www.markshuttleworth.com/archives/551
+
+TualatriX's overview
+http://www.ibentu.org/2008/11/04/linux-new-x-server-waylan.html
+http://www.ibentu.org/2008/12/09/wayland-news.html
+http://www.ibentu.org/2010/11/06/introduce-to-wayland-01.html
+http://www.ibentu.org/2010/11/06/introduce-to-wayland-02.html
+
+Mailing list (old and new)
+http://groups.google.com/group/wayland-display-server
+http://lists.freedesktop.org/mailman/listinfo/wayland-devel
+
+Ubunut's strategy
+http://www.markshuttleworth.com/archives/551
+https://code.launchpad.net/~gtk-wayland-team/gtk/wayland
+
+
++ Fourdollars:
+
+Tailisman,桌上遊戲
+這個就不手記了，因為已經現場分享了 :-P
+
+在 UDS看到有人作一個 lightdm 的 Light Display Manager
+
+http://www.freedesktop.org/wiki/Software/LightDM
+https://launchpad.net/lightdm
+https://launchpad.net/~robert-ancell/+archive/lightdm
+
+昨天談到 PCMan 寫的 DM 似乎就是在 LightDM 上面寫的一個 Greeter
+http://bobthegnome.blogspot.com/2010/11/lightdm-status-update.html
+
+unity => ubuntu 的新 UI 設計
+
++ Kanru:
+有編過 wayland ,但是沒有跑起來過
+
+
++ czchen :
+上次 kanru分享的 vim版
+http://vim.sourceforge.net/scripts/script.php?script_id=40
+
+
++ shawn:
+Mac上的 X server因為有作顯示跟程式執行的分離，所以可以作到 A , B 兩個 user 切換時，只需要置換顯示層，而不會像目前 XWindow 系統在登出切換使用者時，就中斷原先程式的執行。
+
++ Mat:
+感謝大家的指點！
+
+用 ob_flush() 跟 flush() 後，問題解決了，非常感謝 mic , Tsung,..！
+set_time_limit() 好像沒有影響到，可能是 system() 不計在時間裡，所以即時時間超過了還是可以跑。
+
+問題的內容簡述如下，
+
+我處理的程式性質類似下面這個:
+
+[[code]]
+<?php
+system( 'for (( x=1; x<30; x++ )) ; do ls -l /tmp/; sleep 1; done' );
+?>
+[[/code]]
+
+因為輸出是在 system() 函數，所以單純在 system 前後都加上 ob_flush(),flush()
+後，還是沒辦法分段輸出，其實還需要在進一步取得指令的分段輸出。
+
+之前我在 http://theserverpages.com/php/manual/en/function.shell-exec.php
+找到有個人寫了一個 runExternal 的方便函式，用 pipe 跟 stream_select
+的機制來取得指令輸出。不過只用這個函式，還沒有辦法分段輸出。這次和 Tsung 的 sample code 對照後，發現在這個函式裡加上
+ob_flush()/flush() 就可以了！

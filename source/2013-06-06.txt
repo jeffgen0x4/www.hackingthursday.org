@@ -1,0 +1,63 @@
+[[[ 2013-05-30 |上一週]]] || [[[ 2013-06-13 |下一週]]]
+
+[[toc]]
+
++ Shelandy
+
+artistx
+
+apodio
+
++ ShengPo
+
+birghtness indicator
+
++ $4
+
+usb-creator - Ubuntu startup disk creator transitional meta-package for GTK+
+
+// create LiveUSB from CDROM
+$ usb-creator-gtk -n -i ubuntu.iso
+
+// boot from LiveUSB
+$ qemu-system-x86_64 -hda /dev/sdb
+
+ipxe - PXE boot firmware
+
++ asil
+Codenvy IDE
+https://chrome.google.com/webstore/detail/codenvy-ide/lefigjbiimiemfhjmibbgemkpenelmag?hl=en
+
++ yan
+
+Python autoimp module
+http://www.connellybarnes.com/code/autoimp/
+
+Qubes  is an open source operating system designed to provide strong  security  for desktop computing. Qubes is based on Xen, X Window System,  and  Linux, and can run most Linux applications and utilize most of the   Linux drivers.
+http://qubes-os.org/trac/wiki
+
+HTML KickStart HTML Elements & Documentation
+http://www.99lime.com/elements/#form-example
+
+Metro UI CSS
+http://metroui.org.ua/
+
+trembits: Clipboard from the command line -- xclip versus xsel
+http://trembits.blogspot.tw/2009/09/clipboard-from-command-line-xclip.html
+
+Pyperclip – A cross-platform clipboard module for Python
+http://coffeeghost.net/2010/10/09/pyperclip-a-cross-platform-clipboard-module-for-python/
+
+python-l33t-translator - Translate normal English into l33t/leet speak.
+https://code.google.com/p/python-l33t-translator/
+
+PyZenity-0.1.7
+http://pypi.bearstech.com/PyZenity/PyZenity-0.1.7.tar.gz#md5=dcacadafafaa1d71abfec06805936aef
+
++ Gary
+
+cloudstack
+http://cloudstack.apache.org/
+
+DRBD
+http://www.drbd.org/

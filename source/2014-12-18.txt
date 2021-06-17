@@ -1,0 +1,55 @@
+[[[ 2014-12-11 |上一週]]] || [[[ 2014-12-25 |下一週]]]
+
+[[toc]]
+
++ herb
+Mockery - PHP mock object framework
+http://docs.mockery.io/en/latest/
+
++ 阿Q
+Mockito - Open Source Java Mocking Framework
+https://code.google.com/p/mockito/
+
+hafriedlander/phockito - PHP Mocking library based on Mockito
+https://github.com/hafriedlander/phockito
+
++ Carl
+Using Python 2-only dependencies on Python 3
+http://python-future.org/imports.html#using-python-2-only-dependencies-on-python-3
+
++ peter
+disable ubuntu 14.04.1 ssh default ipv6
+
+[[code]]
+# vi /etc/sysctl.conf
+net.ipv6.conf.all.disable_ipv6 = 1
+net.ipv6.conf.default.disable_ipv6 = 1
+net.ipv6.conf.lo.disable_ipv6 = 1
+
+# sysctl -p
+
+# vi /etc/ssh/ssh_config
+AddressFamily inet
+[[/code]]
+
++ yan
+send key from command line
+[[code]]
+$ xdotool search --class iceweasel key --window %@ 'Ctrl+r'
+[[/code]]
+
+Elasticsearch.org Kibana 4 Beta 3: Now More Filtery
+http://www.elasticsearch.org/blog/kibana-4-beta-3-now-more-filtery/
+
+Quick 'n' Dirty Git Deployment
+https://benjeffrey.com/quick-n-dirty-git-deployment
+
+OpenNMS event severities
+http://www.opennms.org/wiki/Event_Configuration_How-To#Severities
+Critical (dark red) 
+Major (light red) 
+Minor (orange) 
+Warning (yellow) 
+Normal (green) 
+Cleared (light grey) 
+Indeterminate (yellow-green)

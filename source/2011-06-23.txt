@@ -1,0 +1,71 @@
+[[[ 2011-06-16 |上一週]]] || [[[ 2011-06-30 |下一週]]]
+
+[[toc]]
+
+[[code]]
+**這個頁面不需註冊/登入也可以直接編輯的內容喔**
+聚會期間會先用 
+http://pad.hackingthursday.org
+來共筆打字，過一陣子後再整理更新至此頁
+[[/code]]
+
++ chihchun:
+
+    問誰有 紅軸鍵盤
+
+    考古台灣開放源碼社群歷史  http://wiki.debian.org.tw/index.php/%E5%8F%B0%E7%81%A3%E9%96%8B%E6%94%BE%E6%BA%90%E7%A2%BC%E7%A4%BE%E7%BE%A4
+
+    Ubuntu TW Karma - http://bit.ly/iVMdnp 
+
+    check status of ibus-pinyin bopobomo
+
+    NUM rules - http://www.debian.org/doc/manuals/developers-reference/pkgs.html#nmu
+
+    八卦 Android TV - http://www.geek.com/articles/gadgets/google-tv-2-0-a-look-into-the-android-3-1-fishtank-20110622/
+
++ 魏藥:
+
+    怎麼考 DD OwO
+
+    華為的 EM770 網卡會把系統 freeze 一陣子
+
+    如果可以的話，與 ofono 打電話的問題也順便問一下 OwO
+
++ fourdollars:
+
+    先成為一些 Debian package 的 maintainer (找現任的 Debian Developer 幫助你上傳 Debian package)
+
+    申請 Debian Maintainer (找一些 Debian Developer 幫你背書一下)
+
+    六個月後 (這段時間盡量學習跟認識新的 Debian Developer 交換 GnuPG)
+
+    申請 Debian Developer (也是找一些 Debian Developer 來幫你背書)
+
+    經過一年多後成為新任 Debian Developer (這段時間會有 Debian Developer 來考試)
+
+    http://www.debian.org/devel/join/newmaint
+
+buildd - Daemon for automatically building Debian binary packages from Debian sources
+wanna-build - Database to track building of Debian binary packages from Debian sources
+http://buildd.debian.org/
+http://buildd.net/
+http://www.debian.org/devel/buildd/
+Live Build => Debian Live CD for buildd
+http://dsa.debian.org/
+
++ yurenju:
+MeeGo devkit: http://www.developer.nokia.com/Devices/MeeGo/
+http://swipe.nokia.com/
+
++ Aki.K:
+N9 rocks! I hope we have devices in 台北 soon!
+(Kanru: I want one!)
+(Mat: looking forward new devices~~!)
+
++ Mat:
+
+週二聽 wuman 提到的新作 dogfan
+http://www.appbrain.com/app/dogfan/com.wuman.dogfan
+http://dogfan.heroku.com/index.html
+
+http://blog.gauner.org/blog/2010/07/07/mini-buildd-and-linux-vserver/

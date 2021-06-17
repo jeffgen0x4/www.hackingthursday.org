@@ -1,0 +1,127 @@
+[[[ 2013-09-26 |上一週]]] || [[[ 2013-10-10 |下一週]]]
+
+[[toc]]
+
+projector: yes
+
++ BestSteve
+自己假設流媒體伺服器，有帳號管理功能，可建立個人播放清單，有手機 APP
+[*http://www.subsonic.org/pages/index.jsp Subsonic » Free Music Streamer]
+
+* 查詢 wine 支援的軟體 google://winehq appdb
+* playonlinux - front-end for Wine
+
+
+開源、低延遲的語音軟體
+[*http://mumble.sourceforge.net/ Mumble - Open source voice communication software for Windows, Mac, and Linux in both server and client.]
+# 比 skype 還快 (mumble : 0.5s | skype 3/4s) 
+# 支援遊戲裏的方位，若是朋友在你左後方，從喇叭發出的聲音也會有這種效果
+# Mumble TTS 會把對話文字轉成語音念出來 (Windows : text-to-speech | Linux : espeak ??)
+# 使用的 codec 是 opus, 壓縮率比 AAC 更佳
+
+
+[*http://ffmpeg.org/mailman/listinfo/ ffmpeg.org Mailing Lists]
+
+Peter : ffmpeg 有沒有支援 AVCHD 格式?
+Steve: decode ok; cannot encode.
+
+
++ Carl
+* Arch Linux 臺灣社群
+http://archlinux.tw/
+http://arch.linux.org.tw/
+
+* RWD - Responsive Web Design
+
+* 選擇適合您的發行版本——TuxRadar Distro Picker
+http://www.tuxradar.com/content/tuxradar-distro-picker-0
+
+[[code]]
+# jekyll serve --watch
+# compass watch
+[[/code]]
+
++ 果凍
+Python Sprint
+#1 10/05 http://registrano.com/events/9691cb
+#2 10/19 http://registrano.com/events/petneed-me
+
++ $4
+HTML Presentations 
+
+* io-2012-slides - HTML5 slide template for Google I/O 2012
+https://code.google.com/p/io-2012-slides/
+
+* bartaz/impress.js · GitHub
+https://github.com/bartaz/impress.js
+
+* reveal.js - The HTML Presentation Framework
+http://lab.hakim.se/reveal-js/#/
+
+====
+
+* Prezi - Ideas matter.
+http://prezi.com/
+bmark -title="Prezi - 讓人目瞪口呆的簡報軟體" http://meinews.cc/techknowledge/148-prezi
+
+* Sozi 
+http://sozi.baierouge.fr/wiki/en:welcome
+
+[[code]]
+# apt-get install sozi
+[[/code]]
+
++ yan
+
+* 使用 pdfpc 做簡報，可以預先看到下一張投影片內容
+
+[[code]]
+# apt-get install pdf-presenter-console
+$ xrandr --output LVDS --auto --output VGA-0 --auto --primary --left-of LVDS
+$ pdfpc xxx.pdf
+[[/code]]
+
+* PHP UTF-8 BOMB
+http://linux.cn/portal.php?mod=view&aid=759
+
+* 要看 Linux 開機訊息可用 Ctrl+s 暫停, Ctrl+q 恢復
+
+* python get function parameter
+[[code]]
+>>> help('func')
+寫在函式裏的註解說明會被顯示出來
+>>> inspect.getargspec(func) 
+Get the names and default values of a Python function’s arguments.
+[[/code]]
+
+* qtile widget 位置
+/usr/local/lib/python2.7/dist-packages/qtile-0.5-py2.7.egg/libqtile/widget
+
+* Bash
+Alt + b    Back (left) one word
+Alt + f    Forward (right) one word
+
+[[code]]
+$ echo 10 > /sys/class/backlight/acpi_video0/brightness
+bash: /sys/class/backlight/acpi_video0/brightness: 拒絕不符權限的操作
+
+# 使用 tee 然後直接輸入數值
+$ sudo tee /sys/class/backlight/acpi_video0/brightness
+[[/code]]
+
+[[code]]
+powertop - Linux tool to find out what is using power on a laptop
+thinkfan - simple and lightweight fan control program
+xinput - Runtime configuration and test of XInput devices
+evtest - utility to monitor Linux input device events
+showkeys
+xbindkeys - Associate a combination of keys or mouse buttons with a shell command
+[[/code]]
+
+* bitbucket 支援的 README 格式
+If your repository contains a README file at the root level, Bitbucket displays its contents below on the repository's Overview page. Bitbucket can parse and display Markdown, reStructuredText, Textile, and plain text README files. 
+https://confluence.atlassian.com/display/BITBUCKET/Display+README+text+on+the+overview
+
+[[code]]
+$ grep -rH 'start' /etc/
+[[/code]]

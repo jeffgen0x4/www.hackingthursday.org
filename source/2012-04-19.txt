@@ -1,0 +1,38 @@
+[[[ 2012-04-12 |上一週]]] || [[[ 2012-04-26 |下一週]]]
+
+[[toc]]
+
+
++ Anson
+http://zh.wikipedia.org/wiki/%E5%8A%89%E5%85%B6%E5%81%89
+http://www1.ntmofa.gov.tw/maxliu/Treasure/4.html
+
++ peter
+請問在 Ubuntu 下如何正常顯示 Java plugin ? 下列這兩個網站都無法正常顯示其 Java 網頁
+http://goldprice.org/live-gold-price.html
+http://www.pmf.com.tw
+
++ wayling
+sudo add-apt-repository ppa:ferramroberto/java
+sudo apt-get install updata
+sudo apt-get install sun-java6-plugin
+要裝這個plugin
+
++ YChao
+Java 看到方塊字的話，是字型路徑的問題。如果看到亂碼的話，需要設定default_encoding的環境變數。
+OpenJDK的我還沒有找到該設在哪裡。
+
++ kanru
+debsums, 用來 check deb package 
+
++ Amos
+rkhunter, 一款 check rootkit 的軟體
+
++ czchen
+https://lkml.org/lkml/2011/9/30/425
+安全的部分:
+掃 eval 
+掃 setuid, capability ( getcap ) 相關的部分
+netstat -ltp
+有的人會將 .php -> .php.bak,　然後變成可以下載就搞笑了
+aide, integrit, samhain, tripware

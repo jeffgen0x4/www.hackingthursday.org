@@ -1,0 +1,18 @@
+[[[ 2016-12-08 |上一週]]] || [[[ 2016-12-22 |下一週]]]
+
+[[toc]]
+
++ czchen
+mutt
+msmtp
+signing-party
+
+https://github.com/czchen/dotfiles
+
++ Vincent
+HOUR of CODE
+https://code.org/learn
+
++ kobeyu
+The Complete Smart Weather Camera System
+https://www.kickstarter.com/projects/907431954/worlds-first-and-only-complete-weather-camera-syst

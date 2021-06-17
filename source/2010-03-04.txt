@@ -1,0 +1,85 @@
+[[[2010-02-25 |上一週]]] || [[[2010-03-11|下一週]]]
+
+[[toc]]
+
+
++ Fourdollars:
+http://www.youtube.com/watch?v=f_ETSvTAo4A
+google android 手機的開箱宣傳片
+
+Google sites 的版面客製化程度更高了
+
++ gittrac:
+別以為你是鬼我就不敢打你(裝女鬼嚇人的影片 )
+http://www.youtube.com/watch?v=JgbynPucBqY
+
++ yan:
+chsdir (http://code.google.com/p/easyscripts/wiki/chsdir) 
+--$ cd 軟體--
+$ cd rt<TAB>
+
+unzip 可以指定 charset
+
+$ unzip -I CHARSET xxx.zip
+$ unzip -O CHARSET xxx.zip
+
+
++ kcliu:
+sudo pm-suspend 可以指令休眠
+wicd-curses => CLI 的網路設定界面
+
+
++ honkia :
+開發一個簡單好用的 c++ framework 給視覺設計的人
+http://www.openframeworks.cc/
+下週六在 openlab.taipei 舉行
+4 月北美獎得主的作者
+
++ Rex:
+
+關於 CNNIC 憑證的安全問題
+* 之前 CNNIC 推廣中文網址，但以 ROOTKIT 的技術來作
+* 個人域名，突然實名制政策更改，收回原先發放網域名稱，導致網路自由受到擠壓
+
+寫成一個外掛來方便移除這個憑證。 https://addons.mozilla.org/zh-TW/firefox/addon/83154
+測試方式: 安裝成功的話，在連這個網址時，就會出現警告 https://tns-fsverify.cnnic.cn/
+
+相關文章: http://people.debian.org.tw/~chihchun/tag/cnnic/
+
++ blue119:
+scapy, packet generator
+
+http://www.dirk-loss.de/scapy-doc/index.html
+
+[[code]]
+pkts = sniff( filter="icmp", count =3, iface = "wlan0" )
+pkts.show()
+pkts[0].show()
+[[/code]]
+
+[[code]]
+Ether()/IP()/ICMP()
+Ether( src = "00:11:22:33:44:55", dst="" )/IP()/ICMP()
+[[/code]]
+
+[[code]]
+IP.route
+IP.post_build
+
+pkt_hex = Ether( import_hexcap() )
+IP.extract_padding
+[[/code]]
+
+[[code]]
+Ether()/Dot1Q( vlan = 10 )/Dot1Q( vlan = 1000 )
+kk = Ether()/Dot1Q( vlan = 10 )/Dot1Q( vlan = 1000 )/IP()
+wireshark( kk )
+[[/code]]
+
+
++ Mat:
+以 xulrunner + xpcom + html + javascript 作簡單的 home screen 選單
+https://developer.mozilla.org/en/Code_snippets/Running_applications
+( 目前只有單向執行外部程式，但還沒有辦法拿到外部程式的輸入 )
+
+用 pdsh, dsh 可以一次下指令給多台電腦。

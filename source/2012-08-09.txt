@@ -1,0 +1,8 @@
+[[[ 2012-08-02 |上一週]]] || [[[ 2012-08-16 |下一週]]]
+
+[[toc]]
+
++ Peter
+去日本搭乘地鐵必備的 Android APP, 能詳細的列出時間&金額，自由行坐地鐵就不用怕了！
+https://play.google.com/store/apps/details?id=jp.co.yahoo.android.apps.transit
+https://play.google.com/store/apps/details?id=jp.co.yahoo.android.apps.map

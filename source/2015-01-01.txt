@@ -1,0 +1,94 @@
+[[[ 2014-12-25 |上一週]]] || [[[ 2015-01-08 |下一週]]]
+
+[[toc]]
+
++ Rex
+shorewall - Shoreline Firewall, netfilter configurator
+http://shorewall.net/
+
+------
+
+htop
+
+F4 - 可用關鍵字篩選 process
+l - 用 lsof 觀察 process 開啓的檔案
+
++ peter
+merge  PDF files
+pdftk file1.pdf file2.pdf cat output filename.pdf
+
+LayoutIt! - Interface Builder for Bootstrap
+http://www.layoutit.com/
+
++ yan
+TodoMVC
+http://todomvc.com/
+
+------
+
+// show go environment 
+
+[[code]]
+$ go env
+[[/code]]
+
+// set go temp dir
+
+[[code]]
+$ export TMPDIR=/data/local/tmp
+[[/code]]
+
+// 6g(X86-64)、8g(X86)、5g(arm) (及其支援工具，總稱為 gc)用 C 寫成，使用 yacc/Bison 作為解析器。Gccgo 是一個使用標準GCC作為後端的Go編譯器
+// GOARCH=amd64 GOCHAR="6" (GOARCH="arm" GOCHAR="5" => 5g、5l)
+
+[[code]]
+$ ./go/pkg/tool/linux_amd64/6g hello.go
+$ ./go/pkg/tool/linux_amd64/6l hello.6
+$ ./6.out
+[[/code]]
+
+Golang 安裝 (linux, mac, windows) « 網站後端的工作筆記
+http://jex.logdown.com/posts/176591-golang-installation-ubuntu-mac-windows
+
+Go 1.4 正式支援 Android
+Go 1.4 Release Notes - The Go Programming Language
+https://golang.org/doc/go1.4
+https://docs.google.com/document/d/1N3XyVkAP8nmWjASz8L_OjjnjVKxgeVBjIsTr5qIUcA4/edit
+https://godoc.org/golang.org/x/mobile
+
+------
+
+FAN - Fully Automated Nagios
+http://www.fullyautomatednagios.org/
+
+OMD - Open Monitoring Distribution
+http://omdistro.org/
+
+Thruk - multibackend monitoring webinterface which currently supports Naemon, Nagios, Icinga and Shinken
+http://www.thruk.org/documentation.html#_introduction
+
+------
+
+Gearman Web UI (net-gearman)
+gaspaio/gearmanui (界面比較新，使用 PHP, Silex, AngularJS, Bootstrap)
+https://github.com/gaspaio/gearmanui
+yugene/Gearman-Monitor
+https://github.com/yugene/Gearman-Monitor
+
+------
+
+Composer - PHP Dependency Manager
+https://getcomposer.org/
+
+安裝 Composer
+
+[[code]]
+$ curl -sS https://getcomposer.org/installer | php
+[[/code]]
+
+安裝 Composer 管理的專案
+Composer 會讀取 composer.json 設定檔，並將函式庫安裝在 vendor/ 資料夾
+
+[[code]]
+$ php composer.phar install
+[[/code]]

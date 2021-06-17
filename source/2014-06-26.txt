@@ -1,0 +1,70 @@
+[[[ 2014-06-19 |上一週]]] || [[[ 2014-07-03 |下一週]]]
+
+[[toc]]
+
++ qerter
+Configuring OpenSSH with OATH and public keys (2 factor authentication) | insecure.ws
+https://www.insecure.ws/2013/09/27/2-factors-authentication-openssh-and-public-keys/https://www.insecure.ws/2013/09/27/2-factors-authentication-openssh-and-public-keys/
+
+Use Google Authenticator For Two-Factor SSH Authentication in Linux | scottlinux.com | Linux Blog
+https://scottlinux.com/2013/06/02/use-google-authenticator-for-two-factor-ssh-authentication-in-linux/
+
+
+
++ Carl
+pwgen - Automatic Password generation
+
+
++ yan
+
+slapd - OpenLDAP server
+slurpd - 獨立的程式，監控 master ldap 的更動並記錄在 log，然後對 slave 做相同動作 (新版本 slapd 已不包含 slurpd)
+syncrepl - 介於 ldap 核心與資料庫中間，當對 master 資料庫寫入資料時，同時寫入到 slave
+
+
+MySQL :: Quickpoll Results
+http://dev.mysql.com/tech-resources/quickpolls/index.php?pollname=mysql-proxy
+
+[[code]]
+# apt-get install mysql-proxy 
+
+$ mysql-proxy -V
+mysql-proxy 0.8.1
+  chassis: mysql-proxy 0.8.1
+  glib2: 2.30.2
+  libevent: 2.0.21-stable
+  LUA: Lua 5.1.4
+    package.path: /usr/lib/mysql-proxy/lua/?.lua
+    package.cpath: /usr/lib/mysql-proxy/lua/?.so
+-- modules
+  admin: 0.8.1
+  proxy: 0.8.1$ mkdir mysql-proxy
+
+$ mkdir mysql-proxy
+
+$ cd mysql-proxy
+
+$ wget https://raw.githubusercontent.com/cwarden/mysql-proxy/master/examples/tutorial-query-time.lua
+
+$ vi mysql-proxy.cnl-proxy.log
+log-level = debug
+admin-username = 1 
+admin-password = 1 
+admin-lua-script = /usr/share/mysql-proxy/admin.lua
+proxy-address = 0.0.0.0:3306
+proxy-backend-addresses = 192.168.10.4:3306
+proxy-lua-script = /home/user/mysql-proxy/tutorial-query-time.lua
+$ chmod 660 mysql-proxy.cnf
+
+$ mysql-proxy --defaults-file=mysql-proxy.cnfl-proxy.log
+log-level = debug
+admin-username = 1 
+admin-password = 1 
+admin-lua-script = /usr/share/mysql-proxy/admin.lua
+proxy-address = 0.0.0.0:3306
+proxy-backend-addresses = 192.168.10.4:3306
+proxy-lua-script = /home/user/mysql-proxy/tutorial-query-time.lua
+$ chmod 660 mysql-proxy.cnf
+
+$ mysql-proxy --defaults-file=mysql-proxy.cnf
+[[/code]]
