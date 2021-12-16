@@ -1,5 +1,9 @@
 remote_theme: chrisrhymes/bulma-clean-theme
+livereload: true
 defaults:
   -
-    show_sidebar: false
-    menubar: menu
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      show_sidebar: false
+      menubar: menu
