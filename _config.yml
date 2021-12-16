@@ -1,5 +1,5 @@
 remote_theme: chrisrhymes/bulma-clean-theme
 defaults:
--
-  show_sidebar: false
-  menubar: menu
+  -
+    show_sidebar: false
+    menubar: menu
