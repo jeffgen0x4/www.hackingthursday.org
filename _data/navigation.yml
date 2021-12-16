@@ -1,0 +1,13 @@
+- name: 首頁
+  link: /
+- name: 聚會通告
+  link: /invite
+- name: 舉辦活動
+  link: /#
+  dropdown: 
+    - name: 主題分享
+      link: /speech
+    - name: 尾牙聚餐
+      link: /years-end-party
+- name: 聚會手記
+  link: /#
