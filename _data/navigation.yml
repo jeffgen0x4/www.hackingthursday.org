@@ -29,7 +29,7 @@
     - name:  誰來晚餐
       link: /whoscoming2dinner
     - name: 主題分享
-      link: /Speech 
+      link: /speech 
     - name:  聯合聚會
       link: /cross-meetup
     - name:  工作坊
@@ -43,15 +43,15 @@
     - name:  週年慶
       link: /b-day-patry
 - name: 聚會手記
-  link: /#
+  link: /weeklynote
   dropdown:
   - name: 2017
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2017-01-05
         link: /converted/2017-01-05
   - name: 2016
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2016-12-29
         link: /converted/2016-12-29
@@ -158,7 +158,7 @@
       - name: 2016-01-07
         link: /converted/2016-01-07
   - name: 2015
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2015-12-31
         link: /converted/2015-12-31
@@ -267,7 +267,7 @@
       - name: 2015-01-01
         link: /converted/2015-01-01
   - name: 2014
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2014-12-25
         link: /converted/2014-12-25
@@ -372,7 +372,7 @@
       - name: 2014-01-02
         link: /converted/2014-01-02
   - name: 2013
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2013-12-26
         link: /converted/2013-12-26
@@ -479,7 +479,7 @@
       - name: 2013-01-03
         link: /converted/2013-01-03
   - name: 2012
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2012-12-27
         link: /converted/2012-12-27
@@ -584,7 +584,7 @@
       - name: 2012-01-05
         link: /converted/2012-01-05
   - name: 2011
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2011-12-29
         link: /converted/2011-12-29
@@ -691,7 +691,7 @@
       - name: 2011-01-06
         link: /converted/2011-01-06
   - name: 2010
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2010-12-30
         link: /converted/2010-12-30
@@ -796,7 +796,7 @@
       - name: 2010-01-07
         link: /converted/2010-01-07
   - name: 2009
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2009-12-24
         link: /converted/2009-12-24
@@ -831,7 +831,7 @@
       - name: 2009-01-01
         link: /converted/2009-01-01
   - name: 2008 (前身、草創期)
-    link: /#
+    link: /weeklynote
     dropdown:
       - name: 2008-12-25
         link: /converted/2008-12-25
