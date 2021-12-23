@@ -939,19 +939,19 @@
 - name: 友站
   link: /*
   dropdown:
-    - name:  http://www.tossug.org/
-      link:  Taipei Open Source Software User Group
-    - name:  http://www.shlug.org/
-      link:  上海Linux用户组 | Shanghai Linux User Group
-    - name:  http://opensource.hk/
-      link:  Open Source Hong Kong
-    - name:  http://www.gzlug.org/
-      link:  广州Linux用户组
-    - name:  http://hzlug.org/
-      link:  杭州Linux用户组 | Hangzhou Linux User Group
-    - name:  http://tc.hackingthursday.org/
-      link:  Hacking Thursday - Taichung 台中社群
-    - name:  http://lug.cf.sjtu.edu.cn/
-      link:  SJTUG
+    - name:  Taipei Open Source Software User Group
+      link:  http://www.tossug.org/
+    - name:  上海Linux用户组 | Shanghai Linux User Group
+      link:  http://www.shlug.org/
+    - name:  Open Source Hong Kong
+      link:  http://opensource.hk/
+    - name:  广州Linux用户组
+      link:  http://www.gzlug.org/
+    - name:  杭州Linux用户组 | Hangzhou Linux User Group
+      link:  http://hzlug.org/
+    - name:  Hacking Thursday - Taichung 台中社群
+      link:  http://tc.hackingthursday.org/
+    - name:  SJTUG
+      link:  http://lug.cf.sjtu.edu.cn/
 - name: FAQ
   link: /faq
