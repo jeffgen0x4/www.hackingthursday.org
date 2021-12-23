@@ -3,7 +3,7 @@ livereload: true
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "weeklynote/*" # an empty string here means all files in the project
     values:
       show_sidebar: false
       menubar: menu
