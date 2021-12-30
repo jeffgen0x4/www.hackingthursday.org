@@ -1,7 +1,11 @@
+# Console 應用程式工具整理
+
+[source](http://hackingthursday.wikidot.com/consoleenterprise)
+
 ## AudioVideo：音效與視訊
 
-    
-* alsamixer - soundcard mixer for ALSA soundcard driver 
+
+* alsamixer - soundcard mixer for ALSA soundcard driver
 * cmmusic - Console Mplayer Music
 * mocp - console audio player
 * cmus - ncurses based music player
@@ -20,7 +24,7 @@
 * aewan - An ascii-art editor
 * Linux_Logo - Color ANSI penguin logo w/ system information
 * cowsay -
- 
+
 
 ## Network：網際網路
 
@@ -44,10 +48,10 @@
 
 * clex- command line file manager
 * dvtm - dynamic virtual terminal manager
-* [screen](screen) - screen manager with VT100/ANSI terminal emulation
+* screen - screen manager with VT100/ANSI terminal emulation
 * byobu - Byobu includes an enhanced profile and configuration utilities for the GNU screen window manager
-* htop - interactive process viewer 
-* [tmux](tmux)
+* htop - interactive process viewer
+* tmux
 
 ## SystemSetup：系統設定
 
@@ -64,29 +68,29 @@
 未分類
 開發函式庫
 * libncurses5-dev
-* libcdk5-dev 
+* libcdk5-dev
 
 
 其他為圖形介面
 * terminator - Multiple GNOME terminals in one window
 
 視窗管理器
-* awesome
-* web:<http://awesome.naquadah.org/>  
-* 中文介紹：<http://linuxtoy.org/archives/awesome.html>  
-* 中文教學：<http://hyperrate.com/topic-files-dir/40/6140-qJtcP3Odzi/awesome.html>  
-* ion
-* 中文介紹：<http://linuxtoy.org/archives/ion-2.html>  
-* web:<http://modeemi.fi/~tuomov/ion/>  
-* dwm
-* web:<http://dwm.suckless.org/>  
-* wmii
-* web:<http://wmii.suckless.org/>  
-* xmonad
+- awesome
+  - web:<http://awesome.naquadah.org/>
+  - 中文介紹：<http://linuxtoy.org/archives/awesome.html>
+  - 中文教學：<http://hyperrate.com/topic-files-dir/40/6140-qJtcP3Odzi/awesome.html>
+- ion
+  - 中文介紹：<http://linuxtoy.org/archives/ion-2.html>
+  - web:<http://modeemi.fi/~tuomov/ion/>
+- dwm
+  - web:<http://dwm.suckless.org/>
+- wmii
+  - web:<http://wmii.suckless.org/>
+- xmonad
 
 編輯器
-* Emacs
-* 中文教學：<http://homepage.mac.com/yenlung/WebWiki/EmacsNotes.html>  
+- Emacs
+  - 中文教學：<http://homepage.mac.com/yenlung/WebWiki/EmacsNotes.html>
 
 另外還喜歡這個
-* <http://www.youtube.com/watch?v=0EAYmlVWHNs&feature=player_embedded>  
+* <http://www.youtube.com/watch?v=0EAYmlVWHNs&feature=player_embedded>
