@@ -677,7 +677,7 @@ h4ckers 可以提出建議，運用基金來購買書籍、開發板等。
 ## 基金運用狀況
 
 
-<!-- <iframe src='https://docs.google.com/spreadsheet/lv?key=0AiJfcAhLrSTMdDh3MGFMdGRkU0NLT3YxTmdYdHdLWGc&rm=full#gid=0' width=675 height=400></iframe> -->
+<iframe src='https://docs.google.com/spreadsheet/lv?key=0AiJfcAhLrSTMdDh3MGFMdGRkU0NLT3YxTmdYdHdLWGc&rm=full#gid=0' width=675 height=400></iframe>
 
 
 ## 資源流動、贊助
