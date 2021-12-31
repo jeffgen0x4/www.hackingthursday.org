@@ -1,33 +1,35 @@
+# Yahoo! Tech Conference (YTC)
 
+## Introduce
 
-# Introduce
+Yahoo! Tech Conference(YTC)是為了促進網路開發團隊的技術交流舉辦的技術分享會。暨6月頗受好評的分享會後，Yahoo! 將在9月12日(四)舉行第二次的 YTC，9月的主題鎖定在今年很熱門的Big Data話題上。Yahoo! 將邀請Yahoo! E-Commerce engineering, Data team的Director, Wennie Hwang來分享Dance with Big Data – Ecommerce Yahoo!  Taiwan主題；並特地從Big Data 界最頂尖的美國Berkeley AMP Lab 邀請到Shark 的作者，同時也是 Spark 核心開發者的Reynold Xin前來分享最新的技術Spark and Shark.
 
-Yahoo! Tech Conference(YTC)是為了促進網路開發團隊的技術交流舉辦的技術分享會。暨6月頗受好評的分享會後，Yahoo! 將在9月12日(四)舉行第二次的 YTC，9月的主題鎖定在今年很熱門的Big Data話題上。Yahoo! 將邀請Yahoo! E-Commerce engineering, Data team的Director, Wennie Hwang來分享Dance with Big Data – Ecommerce Yahoo!  Taiwan主題；並特地從Big Data 界最頂尖的美國Berkeley AMP Lab 邀請到Shark 的作者，同時也是 Spark 核心開發者的Reynold Xin前來分享最新的技術Spark and Shark. 
-
-# Schedule (細節會於近期公告)
+## Schedule (細節會於近期公告)
 
 台北市南港區三重路66號14樓 (Yahoo! Taiwan office)
-|| **9月12日(四)** || ||
-|| 18:45-19:15 || 報到與交流 ||
-|| 19:15-21:30 || Yahoo! Tech Conference ||
-|| 21:30- || 會後討論與交流 ||
+|                 |                        |
+| --------------- | ---------------------- |
+| **9月12日(四)** |                        |
+| 18:45-19:15     | 報到與交流             |
+| 19:15-21:30     | Yahoo! Tech Conference |
+| 21:30-          | 會後討論與交流         |
 
-# Talks
+## Talks
 
-## 1. **Dance with Big Data** – Ecommerce Yahoo!  Taiwan
-
-等候公告.
-### Speaker : Wennie Hwang (E-Commerce Engineering Director, Yahoo!)
-
-
-## 2. **Spark and Shark**
+### 1. **Dance with Big Data** – Ecommerce Yahoo!  Taiwan
 
 等候公告.
-### Speaker : Reynold Xin (PhD Candidate, UC  Berkeley)
+**Speaker : Wennie Hwang (E-Commerce Engineering Director, Yahoo!)**
+
+
+### 2. **Spark and Shark**
+
+等候公告.
+**Speaker : Reynold Xin (PhD Candidate, UC  Berkeley)**
 
 Reynold Xin 是 Big Data 界最頂尖的  UC Berkeley AMP Lab 的學生，他是 Shark 的作者以及 Spark 的核心開發者。他所主導的 Shark Project 是 SQL on Spark 的一個 Open Source 的實現，在相容於 Hive 的狀況下，性能最高可以達到 Hive 的一百倍。也因為這樣的突破，Shark 獲得了SIGMOD 2012 的 Best Demo Award。在就讀 Berkeley之前，他曾經在 Google 跟 IBM 任職過，他的興趣是資料管理系統，分散式系統，以及大規模資料處理的演算法設計。
 
-# Registration
+## Registration
 
 此活動將以技術分享和開發人員交流為主，Yahoo! 將保留 20 個名額給 HackingThursday 的朋友們，歡迎對於雲端運算、Big Data 程式開發有興趣的朋友報名參加。
 
@@ -35,9 +37,9 @@ Reynold Xin 是 Big Data 界最頂尖的  UC Berkeley AMP Lab 的學生，他是
 
 (註：此報名名單不會公開做為其他用途；報名完成將由 Yahoo! 負責人員發送正式邀請信件。)
 
-### 報名已結束，感謝各位參與
+**報名已結束，感謝各位參與**
 
 
-# Thanks
+## Thanks
 
-### 感謝 Yahoo! 的 HR 及 RD 朋友邀請參與活動。
+**感謝 Yahoo! 的 HR 及 RD 朋友邀請參與活動。**
