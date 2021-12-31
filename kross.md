@@ -1,22 +1,26 @@
-# kross (project for keep rock open simple smile!)
+# Kross
+
+## kross (project for keep rock open simple smile!)
 
 
-[[image flickr:5041402134]]
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/honki/5041402134/" title="kross os"><img src="https://live.staticflickr.com/4109/5041402134_03e9fa3851_c.jpg" width="800" height="329" alt="kross os"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 logo暫定
 
 針對創作藝術家所客製化的 ubuntu 延伸版本。
 
 ### 專案位置
 
-<https://launchpad.net/~kro55>  
-<https://launchpad.net/kro55>  
+<https://launchpad.net/~kro55>
+
+<https://launchpad.net/kro55>
 
 ### 討論
 
-* <http://www.plurk.com/p/76f15y>  
-* <http://www.plurk.com/p/76hon1>  
-* live-build 測試 - <http://www.plurk.com/p/7c6ho1>  
-* 套件來源的討論 - <http://www.plurk.com/p/7fgrtr>  
+* <https://www.plurk.com/p/76f15y>
+* <https://www.plurk.com/p/76hon1>
+* live-build 測試 - <https://www.plurk.com/p/7c6ho1>
+* 套件來源的討論 - <https://www.plurk.com/p/7fgrtr>
 
 ## 基本需求軟體
 
@@ -24,30 +28,31 @@ logo暫定
 * Real time linux kernel
 * gimp
 * inscape
-* fluxus (<http://www.pawfal.org/fluxus/packages/>  ) (初次安裝易有問題)
+* fluxus (<https://www.pawfal.org/fluxus/packages/>  ) (初次安裝易有問題)
 * PiTiVi
-* Toonloop (<http://toonloop.com/?q=download>  ) (目前積極開發中, 可能變動頻率大)
+* Toonloop (<https://toonloop.com/?q=download>  ) (目前積極開發中, 可能變動頻率大)
 * Blender
 * Audacity
-* SuperCollider (<http://supercollider.sourceforge.net/downloads/>  )
+* SuperCollider (<https://supercollider.sourceforge.net/downloads/>  )
 * OpenOffice
 * JDK
 * browser with flash player
 * ...請補充，特別是初次安裝容易產生問題或調整設定的軟體...
-* <https://docs.google.com/Doc?docid=0ASnXkH5Lna6iZGRoNTN0MmdfNDZoc2Y1NThnYw&hl=zh_TW>  
+* <https://docs.google.com/Doc?docid=0ASnXkH5Lna6iZGRoNTN0MmdfNDZoc2Y1NThnYw&hl=zh_TW>
 
 ### Menu
 
-* <https://launchpad.net/cardapio>  
+* <https://launchpad.net/cardapio>
 
 ## 版本目標
 
 
 0.1: 只要做出重灌時方便用的就好啦  XD
 
-||~ 事情||~ 校長/撞鐘||~ 目標||~ 時限||~ 目前狀況||
-||軟體 || *all* || 從大家提供的軟體清單中縮減，找出第一個版本要放的軟體，並蒐集其應有預設值 || TBD ||  [processing](http://processing.org/) [purdata](http://puredata.info/) [openFrameworks](http://www.openframeworks.cc/) [arduino](http://arduino.cc/) ||
-||目標|| *all*|| 請大家補完第一版目標 || TBD || 因為沒有時限所以也不知道進度怎樣 orz ||
+| 事情 | 校長/撞鐘 | 目標                                                                     | 時限 | 目前狀況                                                                                                                                                |
+| ---- | --------- | ------------------------------------------------------------------------ | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 軟體 | *all*     | 從大家提供的軟體清單中縮減，找出第一個版本要放的軟體，並蒐集其應有預設值 | TBD  | [processing](https://processing.org/) [purdata](https://puredata.info/) [openFrameworks](https://www.openframeworks.cc/) [arduino](https://arduino.cc/) |
+| 目標 | *all*     | 請大家補完第一版目標                                                     | TBD  | 因為沒有時限所以也不知道進度怎樣 orz                                                                                                                    |
 
 還沒列進版本目標中的可能項目:
 * Theme 的圖像，有沒有人有興趣做？要的話，什麼時候做？
