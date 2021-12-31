@@ -1,13 +1,15 @@
+# H4 六週年黑客松
 
+[source](http://hackingthursday.wikidot.com/6thanniversaryhackathon)
 
-# 公告：
+## 公告：
 
-# 13 號早上 7:40 前於臺北車站 B2 臺鐵高鐵售票處會合、購票，預計搭 8:00 的高鐵從台北出發
+**13 號早上 7:40 前於臺北車站 B2 臺鐵高鐵售票處會合、購票，預計搭 8:00 的高鐵從台北出發**
 
 
 ## 發展歷史
 
-[*<http://timemap.kuansim.com/hychen/hackingthursday->   H4 發展]
+[H4 發展](http://timemap.kuansim.com/hychen/hackingthursday-)
 
 ## 活動簡介
 
@@ -20,26 +22,28 @@
 
 ## 時間
 
-9/13, 14
- ([*<http://doodle.com/v3zciugtw6nz8kic>   投票結果])
+9/13, 14 [投票結果](http://doodle.com/v3zciugtw6nz8kic)
 
 13 號早上 7:40 前於臺北車站 B2 臺鐵高鐵售票處會合+購票，搭 8:00 的高鐵從台北出發
+
 14 號下午離開民宿
 
 ## 地點
 
-* [*<http://izzyhouse.okgo.tw/>   台南‧安平奕居izzy house]
+* [台南‧安平奕居izzy house](http://izzyhouse.okgo.tw/)
 
 ## 住宿金額
 
 $13000 平分
 
+
 ## 活動時程
 
-# 臺北集合前往民宿 (預計搭 9/13 8:00 高鐵)
-# 白天時間在民宿寫 code，中午外出用餐，傍晚及晚上時間尋訪臺南
+1. 臺北集合前往民宿 (預計搭 9/13 8:00 高鐵)
+2. 白天時間在民宿寫 code，中午外出用餐，傍晚及晚上時間尋訪臺南
 
-## ** 報名網址 **
+## 報名網址
 
 請直接留下姓名、及想發起或加入的專案
-# [*<<https://hackingthursday.hackpad.com/h4--MvbTICGq6kx>  >   https://hackingthursday.hackpad.com/h4--MvbTICGq6kx]
+
+<https://hackingthursday.hackpad.com/h4--MvbTICGq6kx>
