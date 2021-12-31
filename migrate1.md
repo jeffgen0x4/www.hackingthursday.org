@@ -1,3 +1,5 @@
+# Migration check table for pages
+
 | 頁面                     | 原有 wikidot                                                          | 新站 github                        | 確認 `o`/`x` | Checked by who |
 | ------------------------ | --------------------------------------------------------------------- | ---------------------------------- | ------------ | -------------- |
 | /2013-years-end-party    | [wikidot](http://hackingthursday.wikidot.com/2013-years-end-party)    | [github](/2013-years-end-party)    |              |                |
