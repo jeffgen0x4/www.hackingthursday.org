@@ -1,5 +1,11 @@
+# H4 名片
+
+[sourcce](http://hackingthursday.wikidot.com/namecard)
+
 正面
-|| [[image h4%E5%90%8D%E7%89%87%E6%AD%A3%E9%9D%A2.jpg size="medium"]] ||
+
+![](./files/h4名片正面.jpg)
 
 背面
-|| [[image h4%E5%90%8D%E7%89%87%E8%83%8C%E9%9D%A2.jpg size="medium"]] ||
+
+![](./files/h4名片背面.jpg)
