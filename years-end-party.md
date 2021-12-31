@@ -1,10 +1,10 @@
 # 尾牙聚餐
 
-## 2021
+## 2020
 
 | 時間 Date | 主題 Subject                                                                                    | 參與夥伴 Communities              |
 | --------- | ----------------------------------------------------------------------------------------------- | --------------------------------- |
-| 2/9       | [2021 TOSSUG x H4 聯合春酒聚餐](https://hackingthursday.kktix.cc/events/2484fe2e-36e50c-copy-3) | [TOSSUG](https://www.tossug.org/) |
+| 2/9       | [2020 TOSSUG x H4 聯合春酒聚餐](https://hackingthursday.kktix.cc/events/2484fe2e-36e50c-copy-3) | [TOSSUG](https://www.tossug.org/) |
 
 ## 2016
 
