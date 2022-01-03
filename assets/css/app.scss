@@ -1,0 +1,6 @@
+// Import Main CSS file from theme
+@import "main";
+
+div.hero-body {
+	background: no-repeat center/cover url("/files/banner.jpg");
+}
