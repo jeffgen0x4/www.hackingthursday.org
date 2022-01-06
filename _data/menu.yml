@@ -2,14 +2,90 @@
   items:
 - label: 2021
   items:
+    - name: 2021-12-23
+      link: "/weeklynote/2021-12-23"
+    - name: 2021-12-16
+      link: "/weeklynote/2021-12-16"
+    - name: 2021-12-02
+      link: "/weeklynote/2021-12-02"
+    - name: 2021-11-27
+      link: "/weeklynote/2021-11-27"
+    - name: 2021-11-25
+      link: "/weeklynote/2021-11-25"
+    - name: 2021-11-11
+      link: "/weeklynote/2021-11-11"
+    - name: 2021-11-04
+      link: "/weeklynote/2021-11-04"
+    - name: 2021-10-28
+      link: "/weeklynote/2021-10-28"
+    - name: 2021-10-21
+      link: "/weeklynote/2021-10-21"
+    - name: 2021-10-14
+      link: "/weeklynote/2021-10-14"
+    - name: 2021-10-07
+      link: "/weeklynote/2021-10-07"
+    - name: 2021-09-30
+      link: "/weeklynote/2021-09-30"
+    - name: 2021-09-23
+      link: "/weeklynote/2021-09-23"
+    - name: 2021-09-16
+      link: "/weeklynote/2021-09-16"
+    - name: 2021-08-12
+      link: "/weeklynote/2021-08-12"
+    - name: 2021-08-05
+      link: "/weeklynote/2021-08-05"
     - name: 2021-07-08
       link: "/weeklynote/2021-07-08"
+    - name: 2021-07-01
+      link: "/weeklynote/2021-07-01"
+    - name: 2021-06-24
+      link: "/weeklynote/2021-06-24"
+    - name: 2021-06-17
+      link: "/weeklynote/2021-06-17"
+    - name: 2021-06-10
+      link: "/weeklynote/2021-06-10"
     - name: 2021-05-27
       link: "/weeklynote/2021-05-27"
+    - name: 2021-05-06
+      link: "/weeklynote/2021-05-06"
+    - name: 2021-04-29
+      link: "/weeklynote/2021-04-29"
+    - name: 2021-04-22
+      link: "/weeklynote/2021-04-22"
     - name: 2021-04-15
       link: "/weeklynote/2021-04-15"
+    - name: 2021-04-08
+      link: "/weeklynote/2021-04-08"
+    - name: 2021-04-01
+      link: "/weeklynote/2021-04-01"
+    - name: 2021-03-18
+      link: "/weeklynote/2021-03-18"
+    - name: 2021-03-11
+      link: "/weeklynote/2021-03-11"
+    - name: 2021-03-04
+      link: "/weeklynote/2021-03-04"
+    - name: 2021-02-25
+      link: "/weeklynote/2021-02-25"
+    - name: 2021-02-04
+      link: "/weeklynote/2021-02-04"
+    - name: 2021-01-21
+      link: "/weeklynote/2021-01-21"
+    - name: 2021-01-14
+      link: "/weeklynote/2021-01-14"
+    - name: 2021-01-07
+      link: "/weeklynote/2021-01-07"
 - label: 2020
   items:
+    - name: 2020-12-31
+      link: "/weeklynote/2020-12-31"
+    - name: 2020-12-24
+      link: "/weeklynote/2020-12-24"
+    - name: 2020-12-17
+      link: "/weeklynote/2020-12-17"
+    - name: 2020-12-10
+      link: "/weeklynote/2020-12-10"
+    - name: 2020-12-03
+      link: "/weeklynote/2020-12-03"
     - name: 2020-11-19
       link: "/weeklynote/2020-11-19"
     - name: 2020-11-12
