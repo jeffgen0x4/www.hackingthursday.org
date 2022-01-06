@@ -1,7 +1,11 @@
 - label: 2022
   items:
+    - name: 2022-01-06
+      link: "/weeklynote/2022-01-06"
 - label: 2021
   items:
+    - name: 2021-12-30
+      link: "/weeklynote/2021-12-30"
     - name: 2021-12-23
       link: "/weeklynote/2021-12-23"
     - name: 2021-12-16
