@@ -1,7 +1,0 @@
-[[[ 2019-09-05 |上一週]]] || [[[ 2019-09-19 |下一週]]]
-
-[[toc]]
-
-[[html]]
-<iframe src='http://pad.hackingthursday.org?showControls=true&showChat=true&showLineNumbers=true&useMonospaceFont=false' width=675 height=400></iframe>
-[[/html]]

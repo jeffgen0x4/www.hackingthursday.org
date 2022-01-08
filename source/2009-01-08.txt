@@ -1,7 +1,0 @@
-agaui 雖然歌債纏身，但仍然堅持參與此次聚會，並在聚會中表達對「以色列轟炸加薩走廊」立場。 Fourdollars 則缺席。
-
-工具分享
-
-coding 討論
-
-hychen 向 yurenju, billy3321 說明自己為什麼用 git 做 lazyscript 的 script 散佈取得架構。

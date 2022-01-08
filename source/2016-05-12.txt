@@ -1,7 +1,0 @@
-[[[ 2016-05-05 |上一週]]] || [[[ 2016-05-19 |下一週]]]
-
-[[toc]]
-
-+ 18z
-dictd - a dictionary database server
-http://linuxcommand.org/man_pages/dictd8.html
