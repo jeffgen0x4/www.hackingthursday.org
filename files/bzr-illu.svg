@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="398.52982"
+   height="228.26257"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   inkscape:export-filename="/tmp/bzr-illu.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="bzr-illu.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path3632"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.834386"
+     inkscape:cx="187.80963"
+     inkscape:cy="75.974588"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="915"
+     inkscape:window-height="580"
+     inkscape:window-x="45"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(59.713806,-817.82001)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000"
+       id="rect2816"
+       width="57.627117"
+       height="43.220341"
+       x="50"
+       y="875.24359" />
+    <rect
+       y="966.76904"
+       x="50"
+       height="43.220341"
+       width="57.627117"
+       id="rect2818"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000" />
+    <rect
+       style="fill:#c0c0c0;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect2820"
+       width="55.932205"
+       height="56.779659"
+       x="222.88136"
+       y="865.92157" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 24.576271,945.58258 277.966109,0"
+       id="path2822" />
+    <g
+       id="g2832"
+       transform="translate(-16.949153,17.79661)">
+      <path
+         transform="translate(0,857.48034)"
+         d="m 155.93221,133.01749 c 0,3.7443 -3.22507,6.77966 -7.20339,6.77966 -3.97832,0 -7.20339,-3.03536 -7.20339,-6.77966 0,-3.74431 3.22507,-6.77966 7.20339,-6.77966 3.97832,0 7.20339,3.03535 7.20339,6.77966 z"
+         sodipodi:ry="6.7796612"
+         sodipodi:rx="7.2033896"
+         sodipodi:cy="133.01749"
+         sodipodi:cx="148.72882"
+         id="path2824"
+         style="fill:#c0c0c0;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(0,857.48034)"
+         id="path2826"
+         d="m 138.13559,148.27173 23.72882,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         transform="translate(0,857.48034)"
+         id="path2828"
+         d="m 148.30508,141.49207 0,16.94915 -9.32203,9.32203"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         transform="translate(0,857.48034)"
+         id="path2830"
+         d="m 148.30508,160.13613 10.1695,10.1695"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="127.11864"
+       y="933.71814"
+       id="text2838"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2840"
+         x="127.11864"
+         y="933.71814">LaunchPad</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="20.338984"
+       y="983.71814"
+       id="text2842"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2844"
+         x="20.338984"
+         y="983.71814">PC</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:#f4a460;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path2846"
+       sodipodi:cx="81.779663"
+       sodipodi:cy="131.32257"
+       sodipodi:rx="8.0508471"
+       sodipodi:ry="6.7796612"
+       d="m 89.83051,131.32257 c 0,3.7443 -3.604487,6.77966 -8.050847,6.77966 -4.44636,0 -8.050847,-3.03536 -8.050847,-6.77966 0,-3.7443 3.604487,-6.77966 8.050847,-6.77966 4.44636,0 8.050847,3.03536 8.050847,6.77966 z"
+       transform="translate(0,857.48034)" />
+    <path
+       transform="translate(169.49153,765.10746)"
+       d="m 89.83051,131.32257 c 0,3.7443 -3.604487,6.77966 -8.050847,6.77966 -4.44636,0 -8.050847,-3.03536 -8.050847,-6.77966 0,-3.7443 3.604487,-6.77966 8.050847,-6.77966 4.44636,0 8.050847,3.03536 8.050847,6.77966 z"
+       sodipodi:ry="6.7796612"
+       sodipodi:rx="8.0508471"
+       sodipodi:cy="131.32257"
+       sodipodi:cx="81.779663"
+       id="path2848"
+       style="fill:#f4a460;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       transform="translate(0,765.10746)"
+       d="m 89.83051,131.32257 c 0,3.7443 -3.604487,6.77966 -8.050847,6.77966 -4.44636,0 -8.050847,-3.03536 -8.050847,-6.77966 0,-3.7443 3.604487,-6.77966 8.050847,-6.77966 4.44636,0 8.050847,3.03536 8.050847,6.77966 z"
+       sodipodi:ry="6.7796612"
+       sodipodi:rx="8.0508471"
+       sodipodi:cy="131.32257"
+       sodipodi:cx="81.779663"
+       id="path2850"
+       style="fill:#f4a460;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       sodipodi:type="arc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow1Lend)"
+       d="m 244.91525,41.492066 c 0,0 -72.88135,9.322034 -86.44067,49.152543 -13.55933,39.830511 -59.322038,33.898301 -59.322038,33.898301"
+       id="path2852"
+       transform="translate(0,857.48034)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 87.288136,122.848 0,-69.491527"
+       id="path4442"
+       transform="translate(0,857.48034)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:8, 8;stroke-dashoffset:0;marker-end:url(#Arrow1Lend)"
+       d="m 95.762712,33.01749 c 0,0 11.864408,-19.491525 61.016948,-22.033898 49.15254,-2.542373 84.74576,22.033898 84.74576,22.033898"
+       id="path4628"
+       transform="translate(0,857.48034)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="141.35507"
+       y="985.79944"
+       id="text4814"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4816"
+         x="141.35507"
+         y="985.79944">(1) bzr branch lp:~PROJ/BRANCH </tspan><tspan
+         sodipodi:role="line"
+         x="141.35507"
+         y="1000.7937"
+         id="tspan4818">從遠端下載程式到本機</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4820"
+       y="939.44476"
+       x="-60.651306"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       xml:space="preserve"><tspan
+         y="939.44476"
+         x="-60.651306"
+         id="tspan4822"
+         sodipodi:role="line">(2) bzr push lp:~MY/BRANCH2 </tspan><tspan
+         id="tspan4824"
+         y="954.43903"
+         x="-60.651306"
+         sodipodi:role="line">上傳我的修改到遠端</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
+       x="92.237816"
+       y="827.57001"
+       id="text4826"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="92.237816"
+         y="827.57001"
+         id="tspan4834">(3) 在自已的 commit 網頁上</tspan><tspan
+         sodipodi:role="line"
+         x="92.237816"
+         y="842.57574"
+         id="tspan4838">，按 &quot;propose merge&quot; 通知對方</tspan><tspan
+         sodipodi:role="line"
+         x="92.237816"
+         y="857.58154"
+         id="tspan4840">，看對方要不要來 merge</tspan></text>
+  </g>
+</svg>
