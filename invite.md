@@ -3,6 +3,10 @@
 
 聚會通告: <http://www.hackingthursday.org/invite>
 
+**2022-02-03(四) 適逢農曆新年假期，休息一次。**  
+**2022-02-03(THU) Skip one week for the Chinese New Year**
+
+<!--
 
 ## 線上直播
 
@@ -54,6 +58,7 @@
 * Consumption : Follow restaurant menu.
 * NOTE: The place has speedy WiFi, and few electrical plug call h4 crew if need one, no reservations and please just  pick a seat you like.
 
+-->
 
 ## Links
 
