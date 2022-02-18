@@ -9,10 +9,6 @@
       link: http://www.meetup.com/h4-taiwan/
     - name: 線上共筆(每周聚會分享)
       link: http://pad.hackingthursday.org
-    - name: HackPad(長期討論主題)
-      link: https://hackingthursday.hackpad.com/
-    - name: IRC
-      link: http://webchat.freenode.net/?channels=h4
     - name: Telegram
       link: https://t.me/hackingday
     - name: 加入 H4 通訊錄
@@ -44,27 +40,6 @@
       link: /b-day-patry
 - name: 聚會手記
   link: /weeklynote
-  dropdown:
-  - name: 2017
-    link: /weeklynote
-  - name: 2016
-    link: /weeklynote
-  - name: 2015
-    link: /weeklynote
-  - name: 2014
-    link: /weeklynote
-  - name: 2013
-    link: /weeklynote
-  - name: 2012
-    link: /weeklynote
-  - name: 2011
-    link: /weeklynote
-  - name: 2010
-    link: /weeklynote
-  - name: 2009
-    link: /weeklynote
-  - name: 2008 (前身、草創期)
-    link: /weeklynote
 - name: 聚會照片 
   link: /photoandvideo 
   dropdown:
@@ -148,18 +123,18 @@
   link: /*
   dropdown:
     - name:  Taipei Open Source Software User Group
-      link:  http://www.tossug.org/
+      link:  https://www.tossug.net/
     - name:  上海Linux用户组 | Shanghai Linux User Group
-      link:  http://www.shlug.org/
+      link:  https://www.shlug.org/
     - name:  Open Source Hong Kong
-      link:  http://opensource.hk/
+      link:  https://opensource.hk/zh/
     - name:  广州Linux用户组
-      link:  http://www.gzlug.org/
+      link:  https://guangzhoulug.org/
     - name:  杭州Linux用户组 | Hangzhou Linux User Group
-      link:  http://hzlug.org/
+      link:  https://hzlug.org/
     - name:  Hacking Thursday - Taichung 台中社群
-      link:  http://tc.hackingthursday.org/
+      link:  /#
     - name:  SJTUG
-      link:  http://lug.cf.sjtu.edu.cn/
+      link:  https://sjtug.org/
 - name: FAQ
   link: /faq
