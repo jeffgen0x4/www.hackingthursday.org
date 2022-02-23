@@ -3,6 +3,9 @@
 
 聚會通告: <http://www.hackingthursday.org/invite>
 
+註:
+ - 02/24 有 Rust 讀書會, 主題為如何安裝 Rust
+ - 03/10 邀請 yurenju 來作年後的首場主題分享(smart contract)
 
 ## 線上直播
 
