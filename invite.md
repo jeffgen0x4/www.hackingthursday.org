@@ -1,20 +1,8 @@
 
 # HackingThursday 固定聚會通告
 
-2022-03-10 本週四晚上為主題分享活動喔!   
-地點在"摩茲工寮"(近捷運忠孝新生站)
-活動細節請參考下列網址:
-
-<https://hackmd.io/@h4/topic-2022-03-10>
-
-註: 有意前來參加的朋友，請至網頁下方註記，以方便統計人數跟聯絡。(點上方"編輯"，即可進入編輯模式)
-
-<!--
-
 聚會通告: <http://www.hackingthursday.org/invite>
 
-註:
- - 03/10 邀請 yurenju 來作年後的首場主題分享(smart contract)
 
 ## 線上直播
 
@@ -65,8 +53,6 @@
 * Address : No. 117-2, Beixin Road, Tamsui District, New Taipei City, 251 (Google Map)
 * Consumption : Follow restaurant menu.
 * NOTE: The place has speedy WiFi, and few electrical plug call h4 crew if need one, no reservations and please just  pick a seat you like.
-
--->
 
 ## Links
 
