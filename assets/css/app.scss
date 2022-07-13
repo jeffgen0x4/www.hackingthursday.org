@@ -19,3 +19,7 @@ div.hero-body {
 		overflow: auto;
 	}
 }
+
+.navbar-start > a:nth-child(1){ 
+	display: none; 
+}
