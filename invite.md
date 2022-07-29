@@ -4,49 +4,30 @@
 聚會通告: <http://www.hackingthursday.org/invite>
 
 
-## 線上直播
+## 台北 (Taipei)
 
-* 時間: 每週四晚上 20:00 至 22:00 (不定時上線)
-* 地點: Hacking Thursday discord 伺服器
-* 連結: <https://discord.gg/7gpSktcbJQ>
-* 地址: 你家、辦公室、其他演討會理，有網路的地方你開心就好
-* 費用: 無，但歡迎贊助
+* 時間(Time): 每週四晚上 19:30 至 22:00 (every Thursday, GMT+8)
+* 地點(Location): O'tree Cafe 歐樹咖啡（中山區） 
+    * Google Map: <https://goo.gl/maps/MhyaQMXXaE2YHKud6>
+* 地址: 台北市中山區民權東路一段56號 
+* 費用: 最低消費為一杯飲料 (Minimum charge one drink per pserson)
+* 設施: 有 WiFi ，電源插座。
+* 備註: 自行點餐入座，跟店員說是"參加H4聚會"即可 
 
-## 台北場
+歡迎來訪的朋友加入 Discord/Telegram (連結如下), 若有路上有遇到問題都歡迎即時在線上發問。  
 
-* 時間: 每週四晚上 19:30 至 22:00 
-* 地點: LAVAZZA 老咖啡館敦南店 <https://goo.gl/maps/TgS1Si7XSfNG2qkn9>
-* 地址: 台北市敦化南路1段228號2樓
-* 費用: 無，須配合場地低消
-* 註: 有訂位，跟店員是"參加H4聚會"即可。少數座位有電源插座 
+Welcome new friends to join our Discord/Telegram (link below), feel free to ask anything on the way to attend the meetup.
 
-## 淡水場
+
+## 淡水 (Tamsui)
 
 * 時間: 每週四晚上 18:00 至 21:00 (店家營業時間至 21:00)
 * 地點: 安迪艾倫咖啡小館
 * 地址: 新北市淡水區北新路117-2號(Google Map)
 * 費用: 無，須配合場地低消
 * 註: 場地有提供無線上網，電源插座較少，如有需要請通知工作人員，無訂位請自行入座 。
- 
 
-## Online discord venue 
-
-* Time : 20:00~22:00 GMT+8 on every Thursday
-* Location : Hacking Thursday discord server voice channel 
-* Server Link: <https://discord.gg/7gpSktcbJQ>
-* Address : 127.0.0.1 not local? ok
-* Physical address?: ```arp -a ```to find .. no? 
-* Place: your home, working office, other conference, wherever you like with internet connection.
-* Consumption : none 
-
-## Taipei venue
-
-* Time : 19:30 ~ 22:00 GMT+8 on every Thursday
-* Location : Lavazza Cafe <https://goo.gl/maps/TgS1Si7XSfNG2qkn9>
-* Address : 106, Taipei City, Da’an District, Taipei,Taiwan
-* Consumption : non , but usual follow the code of venue.
-
-## Tamsui venue
+English:
 
 * Time : 18:00~2100 GMT+8 on every Thursday
 * Place : Andy Ellen I Cafe
@@ -56,7 +37,7 @@
 
 ## Links
 
-- Meetup: <https://www.meetup.com/hackingthursday/>
+- Discord: <https://discord.gg/s6sKDcEB95>
+- Telegram: <https://t.me/hackingday>
 - Facebook: <https://www.facebook.com/groups/hackingday>
-- Discord: <https://discord.gg/7gpSktcbJQ>
-- Source: <https://hackmd.io/@h4/HyrCTdLg_>
+- Meetup: <https://www.meetup.com/hackingthursday/>
