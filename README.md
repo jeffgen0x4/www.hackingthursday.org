@@ -8,3 +8,14 @@ Hacking Thursday 是由幾位居住於台北地區的自由軟體/開放原碼�
 3. 八卦
 
 聚會與會者都是聽眾，但同時也可能是 lighting talk 講者。
+
+nedd read me read me and put intro other place 
+
+如何參與？
+連結入口？社群連結 
+
+聯絡資訊 
+
+test link 
+./weeklynote 
+[markdown link](/weeklynote)
